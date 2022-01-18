@@ -1,2 +1,3 @@
 # Site-Dr-Valentin-Vue
-	Git bootrapping OK
+	- Git bootrapping OK
+	- Vue Bootstrapping OK
