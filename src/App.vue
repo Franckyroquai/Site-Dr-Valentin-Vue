@@ -1,5 +1,8 @@
 <template>
   <HeaderComponent></HeaderComponent>
+  <Navbar-Component></Navbar-Component>
+  <CarouselComponent></CarouselComponent>
+  <MainComponent></MainComponent>
   <img alt="Vue logo" src="./assets/logo.png">
   
   
@@ -7,12 +10,18 @@
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
+import NavbarComponent from './components/NavbarComponent.vue'
+import CarouselComponent from './components/CarouselComponent.vue'
+import MainComponent from './components/MainComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
+    NavbarComponent,
+    CarouselComponent,
+    MainComponent,
   }
 }
 </script>
