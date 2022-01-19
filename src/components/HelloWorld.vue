@@ -36,6 +36,11 @@
 import BaduBadiBedu from './BaduBadiBedu.vue'
 // let blabu = "une variable";
 export default {
+  data(){
+    return {
+    blabu: "booby dan dao"
+    }
+  },
   components: { BaduBadiBedu },
   name: 'HelloWorld',
   props: {
