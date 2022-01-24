@@ -11,16 +11,22 @@
       <a href="">Téléconsultation</a>
       <a href="">Blog</a>
       <a href="">Contact</a>
+      <!-- <link-component Link="wwww.google.fr" linkName="le nom du lien"></link-component> -->
    </div>
 </template>
 
 <script>
+// import LinkComponent from './LinkComponent.vue'
 export default {
-  name: 'NavbarComponent', /*
+  name: 'NavbarComponent',
+   /*
   le nom du composant
   dans le html du parent il se "source" de la maniere suivante : <default-component>
   dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
   */
+ components: {
+    //  LinkComponent
+ },
   props: {
       variable1: String // type de variable (string,integer,...)
   },
