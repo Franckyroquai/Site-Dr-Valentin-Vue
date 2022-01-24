@@ -2,7 +2,7 @@
   <HeaderComponent></HeaderComponent>
   <Navbar-Component></Navbar-Component>
   <CarouselComponent></CarouselComponent>
-  <MainComponent></MainComponent>
+  <AccueilComponent></AccueilComponent>
   <img alt="Vue logo" src="./assets/logo.png">
   
   
@@ -12,7 +12,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
 import CarouselComponent from './components/CarouselComponent.vue'
-import MainComponent from './components/MainComponent.vue'
+import AccueilComponent from './components/AccueilComponent.vue'
 
 
 export default {
@@ -21,7 +21,7 @@ export default {
     HeaderComponent,
     NavbarComponent,
     CarouselComponent,
-    MainComponent,
+    AccueilComponent,
   }
 }
 </script>
