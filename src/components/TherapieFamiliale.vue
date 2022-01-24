@@ -1,0 +1,66 @@
+<template>
+    <main>
+        
+        <h1>Thérapie Familiale</h1>
+        <article>
+
+         <p>- Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats scolaires ou décroche, se perd dans les écrans ou dans une addiction, vous envoie balader ou au contraire devient inaccessible …</p> 
+
+        <p>
+          - Vos enfants se disputent, l’un d’eux est jaloux ou se montre violent et vous en avez peut -être assez des conflits à répétition 
+        </p>
+        <p>
+           - Vous ne vous sentez pas ou plus soutenu(e) par votre « moitié » dans votre rôle de parent… 
+        </p>
+        <p>
+         - Votre famille est fragilisée par un deuil, une maladie, un handicap…
+        </p>
+        <p>
+          - Vous vivez une période délicate de séparation…ou   de recomposition familiale
+        </p>
+        <p>
+          La famille est une entité qui vit, qui évolue et qui est amenée à rencontrer des situations d’inconfort
+et de souffrance comme celles-ci … ou d’autres encore. 
+
+        </p>
+        <h2>
+            "On ne résout pas un problème avec les modes de pensées qui l'ont engendré."
+Albert Einstein
+
+        </h2>
+        <p>
+          En place de thérapeute systémicienne, l'espace de parole qui vous sera proposé, mettra au travail cette dynamique au sein de votre famille. Chacun pourra s’y exprimer, dans sa souffrance, dans ses besoins et ses souhaits aussi. Tout en amenant une nouvelle grille de lecture du problème, ce sera l'occasion pour chacun et tous ensemble de vivre une expérience relationnelle différente, progressivement plus claire, et dégagée, à terme, d’un symptôme qui n’a plus lieu d’être.
+        </p>
+        <p>
+          Je vous accompagnerai dans ce voyage pour qu’ensemble, vous puissiez trouver vos propres solutions, celles qui vous ressemblent. Car telle est la clé de l’approche systémique.
+        </p>
+          </article>
+    
+    
+      </main>
+</template>
+
+<script>
+export default {
+  name: 'TherapieFamilialeComponent', /*
+  le nom du composant
+  dans le html du parent il se "source" de la maniere suivante : <default-component>
+  dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
+  */
+  props: {
+      variable1: String // type de variable (string,integer,...)
+  },
+  data() {
+      return {
+          variable2: "ceci est une variable du composant (passable aux composants enfants)"
+      }
+  } 
+}
+</script>
+
+<style>
+   main{
+margin: 10px 50px;
+}
+</style>
+
