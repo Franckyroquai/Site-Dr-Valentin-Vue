@@ -1,5 +1,6 @@
 <template>
     <main>
+      <carousel-component></carousel-component>
         <p>« J’ouvrirai une école de vie intérieure, et j’écrirai sur la porte : école d’art. » Max Jacob</p>
         <h1>V. Valentin Psychologue Conseil</h1>
         <article>
@@ -40,7 +41,9 @@
 </template>
 
 <script>
+import CarouselComponent from './CarouselComponent.vue'
 export default {
+  components: { CarouselComponent },
   name: 'AccueilComponent', /*
   le nom du composant
   dans le html du parent il se "source" de la maniere suivante : <default-component>
