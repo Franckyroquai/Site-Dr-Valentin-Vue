@@ -1,18 +1,13 @@
 <template>
   <HeaderComponent></HeaderComponent>
-  <Navbar-Component></Navbar-Component>
-  <CarouselComponent></CarouselComponent>
-  <AccueilComponent></AccueilComponent>
-  <img alt="Vue logo" src="./assets/logo.png">
-  
-  
+  <Navbar-Component></Navbar-Component>  
+  <router-view></router-view>
+  <!-- <footer-component> -->
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
-import CarouselComponent from './components/CarouselComponent.vue'
-import AccueilComponent from './components/AccueilComponent.vue'
 
 
 export default {
@@ -20,8 +15,6 @@ export default {
   components: {
     HeaderComponent,
     NavbarComponent,
-    CarouselComponent,
-    AccueilComponent,
   }
 }
 </script>
@@ -30,7 +23,7 @@ export default {
 #app {
   margin: 0;
   padding: 0;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: verdana, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
