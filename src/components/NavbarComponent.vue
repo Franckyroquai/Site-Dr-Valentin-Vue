@@ -1,18 +1,26 @@
 <template>
      <!-- Barre de navigation-->
     <div class="navbar">
-      <a href="">Accueil</a>
-      <a href="">Rencontre</a>
-      <a href="">Qui suis-je ?</a>
-      <a href="">Méthodes</a>
-      <a href="">Points éthiques</a>
-      <a href="">Liens vidéos</a>
-      <a href="">Modalités pratiques et tarifs</a>
-      <a href="">Téléconsultation</a>
-      <a href="">Blog</a>
-      <a href="">Contact</a>
+      <!-- <a href="">Accueil</a> -->
+      <router-link to="/">Accueil</router-link>
+      <!-- <a href="">Rencontre</a> -->
+      <router-link to="/about">A Propos</router-link>
+      <router-link to="/approche-systemique">Approche Systémique</router-link>
+      <router-link to="/emdr-brainspotting">EMDR-Brainspotting</router-link>
+      <router-link to="/emdr">EMDR</router-link>
+      <router-link to="/brainspotting">Brainspotting</router-link>
+      <router-link to="/therapie-familiale">Thérapie Familiale</router-link>
+      <router-link to="/therapie-de-couple">Thérapie de couple</router-link>
+      <router-link to="/therapie-psychocorporelle">Thérapie PsychoCorporelle</router-link>
+      <router-link to="/points-ethiques">Points Ethiques</router-link>
+      <router-link to="/diplomes">Diplômes</router-link>
+      <router-link to="/teleconsultation">Téléconsultation</router-link>
+      <router-link to="/contact">Contact</router-link>
+      
+
       <!-- <link-component Link="wwww.google.fr" linkName="le nom du lien"></link-component> -->
    </div>
+   <!-- <router-view></router-view> -->
 </template>
 
 <script>
