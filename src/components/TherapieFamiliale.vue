@@ -1,6 +1,6 @@
 <template>
     <main>
-        
+        <carousel-component></carousel-component>
         <h1>Thérapie Familiale</h1>
         <article>
 
@@ -49,7 +49,9 @@ Albert Einstein
 </template>
 
 <script>
+import CarouselComponent from './CarouselComponent.vue'
 export default {
+  components: { CarouselComponent },
   name: 'TherapieFamilialeComponent', /*
   le nom du composant
   dans le html du parent il se "source" de la maniere suivante : <default-component>
