@@ -1,7 +1,7 @@
 <template>
     <main>
         
-        <h1>V.Thérapie de couple</h1>
+        <h1>Thérapie de couple</h1>
         <article>
 
          <p>« Le bonheur n'est pas quelque chose qui nous arrive, mais une compétence que nous développons. »
