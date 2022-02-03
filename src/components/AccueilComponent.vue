@@ -44,6 +44,7 @@
 import CarouselComponent from './CarouselComponent.vue'
 export default {
   components: { CarouselComponent },
+              
   name: 'AccueilComponent', /*
   le nom du composant
   dans le html du parent il se "source" de la maniere suivante : <default-component>
