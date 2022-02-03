@@ -4,6 +4,8 @@
         <h1>Brainspotting</h1>
         <article>
 
+          <img src="../assets/Images/Brainspotting.jpg" alt="Image de cerveau">
+
          <p>Le brainspotting est une nouvelle thérapie neurobiologique développée par David Grand en 2003.</p> 
 
         <p>
