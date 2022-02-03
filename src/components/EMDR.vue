@@ -2,6 +2,9 @@
     <main>
         
         <h1>QU'EST-CE QUE L'EMDR ?</h1>
+
+      <img src="../assets/Images/EMDR.jpg" alt="Image d'oeil">
+
         <article>
 
          <p>Les initiales EMDR viennent de son appellation anglo-saxonne : Eye Movement Desensitization and Reprocessing qui signifie " Désensibilisation et Retraitement par les Mouvements Oculaires.
