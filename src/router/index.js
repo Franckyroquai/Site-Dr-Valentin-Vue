@@ -10,6 +10,7 @@ import TherapieFamilialeComponent from '../components/TherapieFamiliale.vue';
 import TherapieDeCoupleComponent from '../components/Therapiedecouple.vue';
 import TherapiePsychoCorporelleComponent from '../components/TherapiePsychoCorporelle.vue';
 import PointsEthiquesComponent from '../components/PointsEthiques.vue';
+import LiensVideosComponent from '../components/LiensVideosComponent.vue';
 import DiplomesComponent from '../components/Diplomes.vue';
 import TeleconsultationComponent from '../components/Teleconsultation.vue';
 import ContactComponent from '../components/Contact.vue';
@@ -64,6 +65,11 @@ const routes = [
      path: "/therapie-psychocorporelle",
      name: "Thérapie PsychoCorporelle",
      component: TherapiePsychoCorporelleComponent,
+   },
+  {
+     path: "/liens-videos",
+     name: "Liens Videos",
+     component: LiensVideosComponent,
    },
   {
      path: "/points-ethiques",
