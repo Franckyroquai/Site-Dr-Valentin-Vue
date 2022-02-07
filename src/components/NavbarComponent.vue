@@ -13,6 +13,7 @@
       <router-link to="/therapie-de-couple">Thérapie de couple</router-link>
       <router-link to="/therapie-psychocorporelle">Thérapie PsychoCorporelle</router-link>
       <router-link to="/points-ethiques">Points Ethiques</router-link>
+      <router-link to="/liens-videos">Liens Vidéos</router-link>
       <router-link to="/diplomes">Diplômes</router-link>
       <router-link to="/teleconsultation">Téléconsultation</router-link>
       <router-link to="/contact">Contact</router-link>
