@@ -1,7 +1,7 @@
 <template>
     <h1>Erreur 404</h1>
     <div class="image-404">
-            <img src="../assets/Images/Page-Erreur-404.jpg" class="d-block w-100" alt="Erreur 404">
+            <img src="../assets/Images/404image.png" class="d-block w-100" alt="Erreur 404">
     </div>
     <!-- ici ta structure Html -->
 </template>
