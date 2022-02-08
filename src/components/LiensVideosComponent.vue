@@ -1,12 +1,16 @@
 <template>
-    <h1>Liens Viédos</h1>    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/87sNeRTYdPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/omfpbqDMDN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/weAQzjtxNPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PDIJb2emVDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EXtIEgOq4Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <!-- ici ta structure Html -->
+  <h1>Liens Viédos</h1>
+  <div v-for="video in videos" :key="video.id">
+    <iframe
+      :width="video.width || 560"
+      :height="video.height || 315"
+      :src="video.url"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </template>
 
 <script>
@@ -19,15 +23,25 @@ export default {
   props: {
       variable1: String // type de variable (string,integer,...)
   },
+  setup() {
+      const videos = [
+          {url:"https://www.youtube.com/embed/87sNeRTYdPA"},
+          {url:"https://www.youtube.com/embed/omfpbqDMDN4"},
+          {url:"https://www.youtube.com/embed/weAQzjtxNPE"},
+          {url:"https://www.youtube.com/embed/PDIJb2emVDY"},
+          {url:"https://www.youtube.com/embed/EXtIEgOq4Xc"},
+          {url:"https://www.youtube.com/embed/0tOs7lde-sk"},
+          ]
+          return {videos};
+  },
   data() {
       return {
           variable2: "ceci est une variable du composant (passable aux composants enfants)"
       }
-  } 
+  }
 }
 </script>
 
 <style>
-    /* ici le css */
+/* ici le css */
 </style>
-
