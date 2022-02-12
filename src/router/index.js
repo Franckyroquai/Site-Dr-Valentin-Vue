@@ -6,6 +6,7 @@ import ApprocheSystemiqueComponent from '../components/ApprocheSystemique.vue';
 import EMDRBrainspottingComponent from '../components/EMDR-Brainspotting.vue';
 import EMDRComponent from '../components/EMDR.vue';
 import BrainspottingComponent from '../components/Brainspotting.vue';
+import TherapieEnfantComponent from '../components/TherapieEnfant.vue';
 import TherapieFamilialeComponent from '../components/TherapieFamiliale.vue';
 import TherapieDeCoupleComponent from '../components/Therapiedecouple.vue';
 import TherapiePsychoCorporelleComponent from '../components/TherapiePsychoCorporelle.vue';
@@ -50,6 +51,11 @@ const routes = [
     path: "/brainspotting",
     name: "Brainspotting",
     component: BrainspottingComponent,
+  },
+  {
+    path: "/therapie-enfant",
+    name: "Thérapie Enfant",
+    component: TherapieEnfantComponent,
   },
   {
     path: "/therapie-familiale",
