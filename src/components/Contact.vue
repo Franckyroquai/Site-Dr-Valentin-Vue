@@ -1,58 +1,48 @@
 <template>
     <main>
         
-        <h1>Les mesures sanitaires liées au COVID</h1>
+        <h1>ME CONTACTER</h1>
         <article>
-
-         <p>L’aération de la pièce et de la salle d’attente est assurée après chaque consultation, parfois aussi en cours de consultation.</p> 
-
-        <p>
-          •	La disposition des fauteuils permet de respecter la distance de 2 mètres entre vous et moi.
-        </p>
-        <p>
-          •	Gel hydroalcoolique et savon de Marseille sont à disposition dans le cabinet.
-        </p>
-        <p>
-          Tout sera mis en œuvre pour vous accueillir dans les meilleures conditions possibles.
-        </p>
-        <h2>
-            ME CONTACTER
-        </h2>
         <p>
           Les consultations se font sur RDV.
         </p>
         <p>
-          Pour un complément d'information ou si vous souhaitez prendre un rendez-vous, il est indispensable de m’appeler sur mon portable au 06 86 97 86 13.
+          Pour un complément d'information ou si vous souhaitez prendre un rendez-vous, il est indispensable de m’appeler sur mon portable au <a href="tel:+33686978613">06 86 97 86 13</a>.
         </p>
-        <p>
-           Merci d'avance et à bientôt !
-        </p>
+         
         <h2>
-            Comment accéder à mon cabinet
+            L’ACCES à mon cabinet
         </h2>
-        <p>
-          Mes coordonnées
+        <img src="../assets/Images/CabinetExterieur.jpg" width="300 em" alt="Cabinet extérieur">
+        <img src="../assets/Images/CabinetInterieur.jpg" width="300 em" alt="Salle de thérapir du cabinet">
+        <h3>
+          Mes coordonnées :
+        </h3>
+        
+        <p>Téléphone: 
+          <a href="tel:+33686978613">06 86 97 86 13</a> 
         </p>
         <p>
-         0686978613
-        </p>
-        <p>
-          Immeuble La roseraie 2
+          Immeuble La Roseraie 2
         </p>
         <p>
             Rez de chaussée porte à droite (Vous pouvez entrer sans sonner)
         </p>
+        <img src="../assets/Images/SalleAttente.jpg" width="300" alt="Accueil salle s'attente">
+        <h3>
+            Stationnement et accès :
+        </h3>
         <p>
-            Stationnement et accès : Parking Gambetta (à l’arrière du cabinet)
+          - Parking Gambetta (à l’arrière du cabinet)
         </p>
         <p>
-            Places de stationnement dans la rue (horodateur : une heure gratuite)
+          - Places de stationnement dans la rue (horodateur : une heure gratuite)
         </p>
         <p>
-            Navette gratuite : arrêt Avenue Gambetta à 150 m du cabinet.
+          - Navette gratuite : arrêt Avenue Gambetta à 150 m du cabinet.
         </p>
         <p>
-            Arrêt de bus : face au cinéma OLBIA à 100 m du cabinet.
+          - Arrêt de bus : face au cinéma OLBIA à 100 m du cabinet.
         </p>
           </article>
     
