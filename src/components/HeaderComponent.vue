@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="header-left">
-            <p id="veronique">Dr Véronique Valentin</p>
+            <p id="veronique">Véronique Valentin</p>
         </div>
         <div class="header-center">
             <p>7rue alexandre Castueil</p>
