@@ -5,6 +5,8 @@
         <h2>
             Une approche corporelle douce 
         </h2>
+        <img src="../assets/Images/CorpsAccord.jpg" width="300" alt="Femme qui écarte les bras face au soleil">
+
         <article>
 
          <p> Pour un « CORPS ACCORD »</p> 
