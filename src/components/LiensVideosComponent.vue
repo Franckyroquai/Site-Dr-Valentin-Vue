@@ -30,7 +30,6 @@ export default {
           {url:"https://www.youtube.com/embed/weAQzjtxNPE"},
           {url:"https://www.youtube.com/embed/PDIJb2emVDY"},
           {url:"https://www.youtube.com/embed/EXtIEgOq4Xc"},
-          {url:"https://www.youtube.com/embed/0tOs7lde-sk"},
           ]
           return {videos};
   },
