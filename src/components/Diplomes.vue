@@ -15,29 +15,29 @@
           CERTIFICAT Européen de thérapeute familial (Réseau /Famille)
         </p>
         <p>
-          CERTIFICAT Européen de praticien EMDR (EMDR France)
-                       + Dissociation et traumas complexes (H. Dellucci)
-                   + Traitement des phobies par l’EMDR (Ad. De Jong)
-
+          CERTIFICAT Européen de praticien EMDR (EMDR France)<br>
+          + Dissociation et traumas complexes (H. Dellucci)<br>
+          + Traitement des phobies par l’EMDR (Ad. De Jong)
         </p>
         <p>
           CERTIFICATION Brainspotting  niv 1-2-3 (Grand D.)
         </p>
         <p>
-          CERTIFICATS - Thérapie par l’image (IMTT)-IETSP Paris
-                       -TIPI ( Marseille)
-                       -Méthode des 2 points (R.Bartlett-F.Kinslow)
-                       - Langue des Signes  (IVT Paris) 
+          CERTIFICATS : <br>
+          - Thérapie par l’image (IMTT)-IETSP Paris <br>
+          -TIPI ( Marseille) <br>
+          -Méthode des 2 points (R.Bartlett-F.Kinslow) <br>
+          - Langue des Signes  (IVT Paris) 
 
         </p>
         <h2>
             Orientation
         </h2>
         <p>
-          •	Approche humaniste, intégrative, systémique .
+          •	Approche humaniste, intégrative, systémique.
         </p>
         <h2>
-            Public
+            Pour Quel public ?
         </h2>
         <p>
           Enfants / Adolescents, Adultes / séniors, Couples / familles
@@ -52,13 +52,16 @@
             Supervision-Analyse des pratiques : Associations médico-sociales, Mairies, Services hospitaliers
         </p>
         <p>
+          Formatrice : professionnels auprès des séniors (maisons de retraite, EHPAD, services d’aide à domicile)
+        </p>
+        <p>
             Membre de l’ Association EMDR-France
         </p>
         <p>
             Membre de l’ IETSP ( Institut Européen des Thérapies Somato-Psychiques)
         </p>
         <p>
-            « Je suis venu en ce monde sans rien, et je le quitterai avec ma conscience. » Dr Garth Alfred Taylor
+            « Je suis venu en ce monde sans rien, et je le quitterai avec ma conscience. » <br>Dr Garth Alfred Taylor
         </p>
           </article>
     
