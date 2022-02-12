@@ -1,16 +1,15 @@
 <template>
     <main>
         <carousel-component></carousel-component>
-        <h1>Thérapie Familiale</h1>
+        <h1>La famille</h1>
         <article>
 
-         <p>- Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats scolaires ou décroche, se perd dans les écrans ou dans une addiction, vous envoie balader ou au contraire devient inaccessible …</p> 
+        <p>- Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous envoie balader ou au contraire devient inaccessible …
+        </p> 
 
-        <p>
-          -Vos enfants se disputent, l’un d’eux est jaloux ou se montre violent et vous en avez peut-être assez des conflits à répétition 
+        <p>-Vos enfants se disputent, l’un d’eux est jaloux ou se montre violent et vous en avez peut -être assez des conflits à répétition 
         </p>
-        <p>
-           - Vous ne vous sentez pas ou plus soutenu(e) par votre « moitié » dans votre rôle de parent… 
+        <p>- Vous ne vous sentez pas ou plus soutenu(e) par votre « moitié » dans votre rôle de parent… 
         </p>
         <p>
          - Votre famille est fragilisée par un deuil, une maladie, un handicap…
@@ -19,8 +18,7 @@
           - Vous vivez une période délicate de séparation… ou de recomposition familiale
         </p>
         <p>
-          La famille est une entité qui vit, qui évolue et qui est amenée à rencontrer des situations d’inconfort
-et de souffrance comme celles-ci … ou d’autres encore. 
+          La famille est une entité qui vit, qui évolue et qui est amenée à rencontrer des situations d’inconfort et de souffrance comme celles-ci … ou d’autres encore. 
         </p>
         <p>
           Ces évènements qui viennent bousculer l’équilibre établi sont le signe qu'un changement dans les échanges au sein de la famille devient nécessaire. 
@@ -31,16 +29,14 @@ et de souffrance comme celles-ci … ou d’autres encore.
         <p>
           Au contraire, le moment est venu de vous mettre tous ensemble au travail, pour changer un système relationnel inopérant voire nocif et trouver un mode de communication plus satisfaisant pour l’ensemble du groupe et plus épanouissant pour chacun.
         </p>
-        <h2>
-            "On ne résout pas un problème avec les modes de pensées qui l'ont engendré."
-Albert Einstein
-
-        </h2>
         <p>
-          En place de thérapeute systémicienne, l'espace de parole qui vous sera proposé, mettra au travail cette dynamique au sein de votre famille. Chacun pourra s’y exprimer, dans sa souffrance, dans ses besoins et ses souhaits aussi. Tout en amenant une nouvelle grille de lecture du problème, ce sera l'occasion pour chacun et tous ensemble de vivre une expérience relationnelle différente, progressivement plus claire, et dégagée, à terme, d’un symptôme qui n’a plus lieu d’être.
+            En place de thérapeute systémicienne, l'espace de parole qui vous sera proposé, mettra au travail cette dynamique au sein de votre famille. Chacun pourra s’y exprimer, dans sa souffrance, dans ses besoins et ses souhaits aussi. Tout en amenant une nouvelle grille de lecture du problème, ce sera l'occasion pour chacun et tous ensemble de vivre une expérience relationnelle différente, progressivement plus claire, et dégagée, à terme, d’un symptôme qui n’a plus lieu d’être.
         </p>
         <p>
-          Je vous accompagnerai dans ce voyage pour qu’ensemble, vous puissiez trouver vos propres solutions, celles qui vous ressemblent. Car telle est la clé de l’approche systémique.
+          Je vous accompagnerai dans ce voyage pour qu’ensemble, vous puissiez trouver vos propres solutions, celles qui vous ressemblent. 
+        </p>
+        <p>
+          Un accompagnement systémique familial se déroule sur une moyenne de 6 à 12 séances de 1h 15 à 1h30 avec un espacement de 2 à 3 semaines entre les séances.
         </p>
           </article>
     
