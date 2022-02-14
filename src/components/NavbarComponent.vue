@@ -6,18 +6,19 @@
       <!-- <a href="">Rencontre</a> -->
       <router-link to="/about">A Propos</router-link>
       <router-link to="/approche-systemique">Approche Systémique</router-link>
-      <router-link to="/emdr-brainspotting">EMDR-Brainspotting</router-link>
+      <router-link to="/approche-therapeutique">Approche Thérapeutique</router-link>
       <router-link to="/emdr">EMDR</router-link>
       <router-link to="/brainspotting">Brainspotting</router-link>
       <router-link to="/therapie-enfant">Thérapie de l'Enfant</router-link>
       <router-link to="/therapie-adolescent">Thérapie de l'Adolescent</router-link>
+      <router-link to="/therapie-adulte">Thérapie de l'Adulte</router-link>
       <router-link to="/therapie-familiale">Thérapie Familiale</router-link>
       <router-link to="/therapie-de-couple">Thérapie de couple</router-link>
       <router-link to="/therapie-psychocorporelle">Thérapie PsychoCorporelle</router-link>
       <router-link to="/points-ethiques">Points Ethiques</router-link>
       <router-link to="/liens-videos">Liens Vidéos</router-link>
       <router-link to="/diplomes">Diplômes et Certifications</router-link>
-      <router-link to="/teleconsultation">Téléconsultation</router-link>
+      <router-link to="/modalites-pratiques">Modalités Pratiques</router-link>
       <router-link to="/contact">Contact</router-link>
       
 
