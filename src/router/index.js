@@ -3,18 +3,19 @@ import Accueil from "../components/AccueilComponent.vue";
 import CarouselComponent from "../components/CarouselComponent.vue";
 import About from '../components/Apropos.vue';
 import ApprocheSystemiqueComponent from '../components/ApprocheSystemique.vue';
-import EMDRBrainspottingComponent from '../components/EMDR-Brainspotting.vue';
+import ApprocheTherapeutiqueComponent from '../components/ApprocheTherapeutique.vue';
 import EMDRComponent from '../components/EMDR.vue';
 import BrainspottingComponent from '../components/Brainspotting.vue';
 import TherapieEnfantComponent from '../components/TherapieEnfant.vue';
 import TherapieAdolescentComponent from '../components/TherapieAdolescent.vue';
+import TherapieAdulteComponent from '../components/TherapieAdulte.vue';
 import TherapieFamilialeComponent from '../components/TherapieFamiliale.vue';
 import TherapieDeCoupleComponent from '../components/Therapiedecouple.vue';
 import TherapiePsychoCorporelleComponent from '../components/TherapiePsychoCorporelle.vue';
 import PointsEthiquesComponent from '../components/PointsEthiques.vue';
 import LiensVideosComponent from '../components/LiensVideosComponent.vue';
 import DiplomesComponent from '../components/Diplomes.vue';
-import TeleconsultationComponent from '../components/Teleconsultation.vue';
+import ModalitesPratiquesComponent from '../components/ModalitesPratiques.vue';
 import ContactComponent from '../components/Contact.vue';
 
 const routes = [
@@ -39,9 +40,9 @@ const routes = [
     component: ApprocheSystemiqueComponent,
   },
   {
-    path: "/emdr-brainspotting",
-    name: "EMDR-Brainspotting",
-    component: EMDRBrainspottingComponent,
+    path: "/approche-therapeutique",
+    name: "Approche Thérapeutique",
+    component: ApprocheTherapeutiqueComponent,
   },
   {
     path: "/emdr",
@@ -62,6 +63,11 @@ const routes = [
     path: "/therapie-adolescent",
     name: "Thérapie Adolescent",
     component: TherapieAdolescentComponent,
+  },
+  {
+    path: "/therapie-adulte",
+    name: "Thérapie Adulte",
+    component: TherapieAdulteComponent,
   },
   {
     path: "/therapie-familiale",
@@ -94,9 +100,9 @@ const routes = [
      component: DiplomesComponent,
    },
   {
-     path: "/teleconsultation",
-     name: "Téléconsultation",
-     component: TeleconsultationComponent,
+     path: "/modalites-pratiques",
+     name: "Modalités Pratiques",
+     component: ModalitesPratiquesComponent,
    },
   {
      path: "/contact",
