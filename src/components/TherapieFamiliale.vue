@@ -1,7 +1,9 @@
 <template>
     <main>
-        <carousel-component></carousel-component>
+        <!-- <carousel-component></carousel-component> -->
         <h1>La famille</h1>
+                <img src="../assets/Images/DisputeFamiliale.jpg"   alt="Adolescents qui regardent leur téléphones">
+
         <article>
 
         <p>- Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous envoie balader ou au contraire devient inaccessible …
@@ -45,9 +47,9 @@
 </template>
 
 <script>
-import CarouselComponent from './CarouselComponent.vue'
+// import CarouselComponent from './CarouselComponent.vue'
 export default {
-  components: { CarouselComponent },
+  // components: { CarouselComponent },
   name: 'TherapieFamilialeComponent', /*
   le nom du composant
   dans le html du parent il se "source" de la maniere suivante : <default-component>
