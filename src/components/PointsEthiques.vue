@@ -25,7 +25,7 @@
           - Supervision établie: Il est   tenu  de disposer d’un lieu  de supervision par un pair ou un tiers compétent.
         </p>
         <p>
-          - Intégrité́ et probité : Il a pour obligation de ne pas exploiter une relation professionnelle à des fins personnelles, religieuses, sectaires, politiques, ou en vue de tout autre intérêt idéologique.
+          - Intégrité et probité : Il a pour obligation de ne pas exploiter une relation professionnelle à des fins personnelles, religieuses, sectaires, politiques, ou en vue de tout autre intérêt idéologique.
         </p>
         <p>
           – Responsabilité des décisions : La personne reste maitre d’œuvre dans le processus. Elle en a la responsabilité et reste libre de ses décisions et actions.
