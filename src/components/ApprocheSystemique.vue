@@ -1,8 +1,9 @@
 <template>
     <main>
-        
+        <h1>
+            L'approche systémique
+          </h1>
         <article>
-
          <p>L’approche systémique  qui vient de l’école de Palo Alto , s’appuie sur le postulat que l’individu est influencé dans sa façon d’être, par le contexte dans lequel il vit ,ce qui est vécu par l'un a forcément des répercussions sur les autres. Toute la puissance de cette approche consiste à débusquer les blocages enfouis au sein du système et retisser les liens endommagés.</p> 
 
         <p>
