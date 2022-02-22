@@ -77,7 +77,6 @@ Le praticien pratique alors des séries de stimulations bilatérales alternées 
         </p>
           </article>
     
-    
       </main>
 </template>
 
