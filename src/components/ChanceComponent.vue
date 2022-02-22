@@ -25,13 +25,20 @@ export default {
       return {
           quote : "",
           author: "",
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
+          variable2: "ceci est une variable du composant (passable aux composants enfants)",
+          biduarr: [
+              "bob",
+              "barbu",
+          ],
       }
   },
 
   methods: {
       async getQuote() {
           try {
+              array.forEach(currentItem => {
+                  
+              });
               const response = await axios.get(`http://localhost:3006/pepo`)
               console.log(response.data.quote);
               this.quote = response.data.quote;
