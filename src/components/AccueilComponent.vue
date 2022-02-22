@@ -1,6 +1,7 @@
 <template>
     <main>
-      <carousel-component></carousel-component>
+      <!-- <carousel-component></carousel-component> -->
+      <chance-component></chance-component>
         
         <article>
         <h1>
@@ -16,9 +17,9 @@
         <p>
           Quelques soient les difficultés que vous rencontrez, les questions que vous vous posez, germe peut-être au fond de vous, le désir de transformer votre horizon personnel pour aller vers un mieux-être, ou mieux, vers un plus d’Etre.
         </p>
-        <p>
+        <h2>
          « Un voyage de mille lieux commence toujours par un premier pas »<br>Lao Tseu
-        </p>
+        </h2>
         <p>
           Aussi je vous propose de faire le point avec vous.
         </p>
@@ -38,9 +39,13 @@
 </template>
 
 <script>
-import CarouselComponent from './CarouselComponent.vue'
+// import CarouselComponent from './CarouselComponent.vue'
+import ChanceComponent from './ChanceComponent.vue'
 export default {
-  components: { CarouselComponent },
+  components: { 
+    // CarouselComponent, 
+    ChanceComponent 
+    },
               
   name: 'AccueilComponent', /*
   le nom du composant
@@ -60,7 +65,16 @@ export default {
 
 <style>
    main{
-margin: 10px 50px;
+  margin: 10px 50px;
+  font-size: 17px;
+  line-height: 1.6;
 }
+/* body{
+    background-image: url("../assets/Images/PontBrume.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+
+} */
 </style>
 
