@@ -1,5 +1,9 @@
 <template>
   <h1>Liens Viédos</h1>
+  <article>
+    Voici quelques vidéos qui vous aiderons à comprendre mon approche.
+  </article>
+  <br>
   <div v-for="video in videos" :key="video.id">
     <iframe
       :width="video.width || 560"
