@@ -1,19 +1,19 @@
 <template>
-  <HeaderComponent></HeaderComponent>
+  <!-- <HeaderComponent></HeaderComponent> -->
   <Navbar-Component></Navbar-Component>  
   <router-view></router-view>
   <!-- <footer-component> -->
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent.vue'
+// import HeaderComponent from './components/HeaderComponent.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent,
+    //HeaderComponent,
     NavbarComponent,
     // CarouselComponent,
     // AccueilComponent,
@@ -27,7 +27,7 @@ export default {
   padding: 0;
   font-family: Georgia;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
   margin-top: 0px;
 }
 </style>
