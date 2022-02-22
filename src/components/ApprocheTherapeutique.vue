@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>Approche Thérapeutique</h1>
+        <h1>L'approche Thérapeutique</h1>
         <article>
 
          <p>
