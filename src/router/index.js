@@ -17,6 +17,7 @@ import LiensVideosComponent from '../components/LiensVideosComponent.vue';
 import DiplomesComponent from '../components/Diplomes.vue';
 import ModalitesPratiquesComponent from '../components/ModalitesPratiques.vue';
 import ContactComponent from '../components/Contact.vue';
+import Error404Component from '../components/Error404Component.vue';
 
 const routes = [
   {
@@ -108,6 +109,11 @@ const routes = [
      path: "/contact",
      name: "Contact",
      component: ContactComponent,
+   },
+  {
+     path: "/:pathMatch(.*)*",
+     name: "Error404",
+     component: Error404Component,
    },
 ];
 
