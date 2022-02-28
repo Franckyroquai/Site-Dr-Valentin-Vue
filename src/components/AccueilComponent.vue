@@ -4,10 +4,11 @@
       <chance-component></chance-component>
         
         <article>
-        <h1>
+        <h1 class="i">
           Bienvenue
         </h1>
-        <h2>
+        <br>
+        <h2 class="i">
           « J’ouvrirai une école de vie intérieure, et j’écrirai sur la porte : école d’art. »<br>Max Jacob
         </h2>
         <p>
@@ -17,7 +18,7 @@
         <p>
           Quelques soient les difficultés que vous rencontrez, les questions que vous vous posez, germe peut-être au fond de vous, le désir de transformer votre horizon personnel pour aller vers un mieux-être, ou mieux, vers un plus d’Etre.
         </p>
-        <h2>
+        <h2 class="i">
          « Un voyage de mille lieux commence toujours par un premier pas »<br>Lao Tseu
         </h2>
         <p>
@@ -29,7 +30,7 @@
         <p>
          Je pratique essentiellement la psychothérapie EMDR, le Brainspotting, diverses approches en thérapie psychocorporelle et la pratique Systémique.
         </p>
-        <h2>
+        <h2 class="i">
          « Le possible est juste un tout petit peu après l’impossible, un seul pas peut suffire pour le rencontrer »<br>J. Salomé
         </h2>
           </article>
@@ -51,15 +52,7 @@ export default {
   le nom du composant
   dans le html du parent il se "source" de la maniere suivante : <default-component>
   dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
-  */
-  props: {
-      variable1: String // type de variable (string,integer,...)
-  },
-  data() {
-      return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
-      }
-  } 
+  */ 
 }
 </script>
 
@@ -68,6 +61,28 @@ export default {
   margin: 10px 50px;
   font-size: 17px;
   line-height: 1.6;
+}
+.i{
+  font-style: italic;
+}
+.g{
+  font-weight: bold;
+}
+.s{
+  text-decoration: underline;
+}
+.is{
+  font-style: italic;
+  text-decoration: underline;
+}
+.ig{
+  font-style: italic;
+  font-weight: bold;
+}
+.igs{
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
 }
 /* body{
     background-image: url("../assets/Images/PontBrume.jpg");
