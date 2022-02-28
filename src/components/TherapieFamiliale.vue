@@ -1,11 +1,12 @@
 <template>
     <main>
         <!-- <carousel-component></carousel-component> -->
-        <h1>La famille</h1>
+        <h1 class="i">La thérapie familiale</h1>
+        <br>
                 <img src="../assets/Images/DisputeFamiliale.jpg"   alt="Adolescents qui regardent leur téléphones">
 
         <article>
-
+          <br>
         <p>- Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous envoie balader ou au contraire devient inaccessible …
         </p> 
 
@@ -38,7 +39,8 @@
           Je vous accompagnerai dans ce voyage pour qu’ensemble, vous puissiez trouver vos propres solutions, celles qui vous ressemblent. 
         </p>
         <p>
-          Un accompagnement systémique familial se déroule sur une moyenne de 6 à 12 séances de 1h 15 à 1h30 avec un espacement de 2 à 3 semaines entre les séances.
+          Un <router-link to="/approche-systemique"><span class="g">accompagnement systémique</span></router-link>
+           familial se déroule sur une moyenne de 6 à 12 séances de 1h 15 à 1h30 avec un espacement de 2 à 3 semaines entre les séances.
         </p>
           </article>
     
