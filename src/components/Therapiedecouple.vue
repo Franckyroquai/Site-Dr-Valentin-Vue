@@ -1,13 +1,16 @@
 <template>
     <main>
         
-        <h1>Le couple</h1>
+        <h1 class="i">La thérapie de couple</h1>
+        <br>
         <article>
                   <img src="../assets/Images/TherapieCouple.jpg" width="300" alt="Image de couple">
 
-        <h2>"Dans un couple, l’important n'est pas de vouloir rendre l'autre heureux, mais c'est de se rendre heureux et d'offrir ce bonheur à l'autre."
+        <h2 class="i">
+          <br>
+          "Dans un couple, l’important n'est pas de vouloir rendre l'autre heureux, mais c'est de se rendre heureux et d'offrir ce bonheur à l'autre."
         </h2> 
-
+        <br>
         <p>
           Un couple qui va bien n’est pas un couple sans problème, c’est un couple qui sait traverser les crises et parvient à les transmuter.
         </p>
@@ -42,7 +45,8 @@
           Mais c’est bien dans cet entre-deux, que je vous propose de vous accompagner : pour écouter vos difficultés, pour vous aider aussi à reconnaître les ressources et compétences qui vous portent et viendront redonner du « peps » à ce que vous avez créé à ce jour.
         </p>
         <p>
-          À partir de la thérapie systémique, nous aurons, à disposition, des outils pour vous permettre de transformer l’essai.
+          À partir de la 
+          <router-link to="/approche-systemique"><span class="g">thérapie systémique</span></router-link>, nous aurons, à disposition, des outils pour vous permettre de transformer l’essai.
         </p>
         <p>
           Un accompagnement systémique se déroule sur une moyenne de 6 à 15 séances de 1h 15 à 1h30 avec un espacement de 2 semaines entre les séances en fonction de la situation et des disponibilités de chacun.
