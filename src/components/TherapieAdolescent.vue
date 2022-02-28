@@ -1,20 +1,22 @@
 <template>
     <main>
         
-        <h1>L’adolescent</h1>
+        <h1 class="i">La thérapie de l’adolescent</h1>
+        <br>
         <img src="../assets/Images/Ado.jpg"   alt="Adolescents qui regardent leur téléphones">
         <h2>
+            <br>
            « Si tout se prépare dans l’enfance, tout se joue à l’adolescence » <br>Kesemberg.
-
         </h2>
         
 
         <article>
 
         <p>
+            <br>
             La période de l’adolescence est une période particulièrement mouvementée, entre l’évolution psychique nécessaire pour sortir de l’enfance et les grandes transformations physiques vécues de manière plus ou moins facile. Nos « grands enfants » vivent cette étape avec beaucoup d’intensité…et donnent parfois du fil à retordre aux parents!
         </p>
-        <h3>
+        <h3 class="is">
             Les principaux motifs de consultation :
         </h3>
         <p>
