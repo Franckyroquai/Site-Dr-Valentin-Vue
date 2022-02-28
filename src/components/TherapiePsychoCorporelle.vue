@@ -1,10 +1,12 @@
 <template>
     <main>
         
-        <h1>La thérapie psycho-corporelle</h1>
+        <h1 class="i">La thérapie psycho-corporelle</h1>
+        <br>
         <h2>
             Une approche corporelle douce 
         </h2>
+        <br>
         <img src="../assets/Images/CorpsAccord.jpg" width="300" alt="Femme qui écarte les bras face au soleil">
 
         <article>
@@ -12,7 +14,7 @@
          <p> Pour un « CORPS ACCORD »</p> 
 
         <p>
-          Notre corps est une mémoire vivante qui porte en lui les traces de notre vécu, de notre histoire émotionnelle et affective depuis notre conception, de notre héritage familial.
+          Notre corps est une <span class="g">mémoire vivante</span> qui porte en lui les traces de notre vécu, de notre histoire émotionnelle et affective depuis notre conception, de notre héritage familial.
 C'est par et avec notre corps que nous sommes présents au monde et que nous l'habitons. C’est par notre corps que nous agissons, c’est dans et par notre corps que nous souffrons.
 
         </p>
@@ -28,12 +30,12 @@ C'est par et avec notre corps que nous sommes présents au monde et que nous l'h
         <p>
          Il est certainement temps de vous mettre à son écoute.
         </p>
-        <h2>
+        <h2 class="i">
             Pour en savoir plus
         </h2>
-        <p>
-          « L’inconscient est structuré comme un langage » (J. LACAN) … et le corps en est son creuset.
-        </p>
+        <h3 class="i">
+          « L’inconscient est structuré comme un langage » <br> (J. LACAN) … et le corps en est son creuset.
+        </h3>
         <p>
              Toute thérapie passant par le corps s’appuie sur un principe cher à Wilhelm Reich, selon lequel les souvenirs douloureux sont refoulés dans l’inconscient et enregistrés dans le corps, formant une véritable cuirasse. 
         </p>
@@ -53,7 +55,7 @@ C'est par et avec notre corps que nous sommes présents au monde et que nous l'h
           Il peut s’agir d’exercices de relaxation, de respiration, de postures ou de toucher du corps par exemple, ce toucher thérapeutique si précieux car il vient en point d’appui pour permettre à la personne de se connecter à elle-même, en premier lieu afin de retrouver une base de sécurité et bien au-delà, apaiser ses parts blessées.
         </p>
         <p>
-          Bien sûr, il n'est pas toujours nécessaire de toucher directement au corps pour travailler avec le corps. L'accueil des ressentis et des émotions ainsi que l’accès à leur contenu affectif permet cette reconnection et un « plus de conscience » sur l’expérience en cours afin de contacter votre réalité et votre vérité intérieure. EMDR ou BRAINSPOTTING entrent dans ce cadre-là, d’autres outils tels que TIPI ou NERTI également. 
+          Bien sûr, il n'est pas toujours nécessaire de toucher directement au corps pour <span class="g">travailler avec le corps</span>. L'accueil des <span class="g">ressentis</span> et des <span class="g">émotions</span> ainsi que l’accès à leur contenu affectif permet cette reconnection et un « plus de conscience » sur l’expérience en cours afin de contacter votre réalité et votre vérité intérieure. EMDR ou BRAINSPOTTING entrent dans ce cadre-là, d’autres outils tels que TIPI ou NERTI également. 
         </p>
         <p>
           Et, la cerise sur le gâteau, vous sera à coup sûr proposé en accompagnement des séances, en autonomie donc, quelques pratiques simples telles que la respiration consciente, la cohérence cardiaque, L’EFT…, participant toutes, de ce que j’ai envie d’appeler une écologie de l’Etre, car synonymes de bien-être, de paix intérieure, d’un prendre soin de soi- donc de  vous- « en corps » et toujours .
