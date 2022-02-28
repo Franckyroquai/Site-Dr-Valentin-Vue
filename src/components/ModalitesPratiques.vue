@@ -1,16 +1,19 @@
 <template>
     <main>
         
-        <h1>Modalités pratiques</h1>
+        <h1 class="i">Modalités pratiques</h1>
+        <br>
         <article>
-        <h2>
+        <h2 class="s">
           Consultations
         </h2>
+        <br>
         <p>Elles durent environ 60 minutes (parfois plus avec l’EMDR ou le Brainspotting).
         </p> 
-        <h2>
-          Les honoraires
+        <h2 class="s">
+          Honoraires
         </h2>
+        <br>
         <p>
          Séance individuelle d’une heure environ (adulte) : 70 euros 
         </p>
@@ -21,7 +24,7 @@
           Séance d’une heure 15 ou 30 (couples / famille) : de 90 à 120 euros
         </p>
         <p>
-         Le règlement des honoraires s’effectue à la fin de chaque séance, par chèque ou par espèces, par virement pour les consultations en ligne.
+         Le règlement des honoraires s’effectue <span class="g">à la fin de chaque séance</span>, par <span class="g">chèque</span> ou par <span class="g">espèces</span>, par <span class="g">virement</span> pour les consultations en ligne.
         </p>
         <p>
           Dans certaines situations, étudiants, personnes en situation de handicap, demandeurs d’emploi, les tarifs pourront être adaptés. Nous verrons cela ensemble. 
@@ -33,11 +36,12 @@
          Par contre, votre mutuelle rembourse peut-être une partie des consultations, souvent sous forme de forfait. Pensez à la contacter.  
         </p>
         <p>
-          Un rendez-vous non annulé 48 heures avant, sera dû.
+          Un rendez-vous non annulé <span class="g">48 heures avant, sera dû.</span>
         </p>
-        <h2>
+        <h2 class="s">
           Consultations à distance
         </h2>
+        <br>
         <p>
           Les consultations peuvent également se faire en VISIO (en passant par Gmail, Zoom, Skype…)
         </p>
