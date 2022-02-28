@@ -1,7 +1,10 @@
 <template>
-  <h1>Liens Viédos</h1>
+  <h1 class="is">
+    Liens Viédos
+  </h1>
+  <br>
   <article>
-    Voici quelques vidéos qui vous aiderons à comprendre mon approche.
+    Voici quelques vidéos qui vous aiderons à comprendre mon approche :
   </article>
   <br>
   <div v-for="video in videos" :key="video.id">
@@ -24,9 +27,7 @@ export default {
   dans le html du parent il se "source" de la maniere suivante : <liensvideos-component>
   dans le scripting (JS) du parent il se declare avec LiensVideosComponent et doit etre importé
   */
-  props: {
-      variable1: String // type de variable (string,integer,...)
-  },
+  
   setup() {
       const videos = [
           {url:"https://www.youtube.com/embed/87sNeRTYdPA"},
@@ -37,11 +38,6 @@ export default {
           ]
           return {videos};
   },
-  data() {
-      return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
-      }
-  }
 }
 </script>
 
