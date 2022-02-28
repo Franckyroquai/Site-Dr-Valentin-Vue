@@ -1,16 +1,19 @@
 <template>
     <main>
         
-        <h1>L’enfant</h1>
+        <h1 class="i">La Thérapie de l’enfant</h1>
+        <br>
         <img src="../assets/Images/Enfant.jpg"  alt="Petite fille avec de la peinture sur les mains">
-        <h2>
+        <h2 class="i">
+          <br>
             « Vous lui demandez de se calmer mais cette crise est sa manière de se calmer » <br>Isabelle FILLIOSAT
         </h2>
         
 
         <article>
-
+        
         <p>
+          <br>
              Grandir, nous le savons tous, ne va pas de soi.</p> 
         <p>
             Si l’enfant fait preuve d’une grande adaptabilité face aux aléas de la vie, lorsqu’il traverse une épreuve trop lourde pour ses petites épaules, une réelle souffrance peut s’installer et s’aggraver si elle n’est pas entendue … au bon endroit.
