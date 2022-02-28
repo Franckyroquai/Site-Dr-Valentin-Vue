@@ -1,7 +1,10 @@
 <template>
     <main>
         
-        <h1>Bonjour et bienvenue à vous, qui pouvez légitimement avoir quelques interrogations sur mon parcours et ma pratique. </h1>
+        <h1 class="i">
+          Bonjour et bienvenue à vous, qui pouvez légitimement avoir quelques interrogations sur mon parcours et ma pratique.
+        </h1>
+        <br>
         <article>
 
          <p>Psychologue clinicienne depuis bientôt 30 ans, j’ai goûté à mes débuts, à la profession de psychomotricienne. Cette formation initiale, déjà très engagée à l’époque dans la mouvance psychanalytique, fut un ancrage précieux à ces premières racines qui m’ont attirées en terre freudienne puis lacanienne, curiosité oblige, et enfin jungienne. L’apport des notions d’Archétype et d’Inconscient collectif de Carl Gustav Jung furent, pour moi, une révélation. 
@@ -24,7 +27,7 @@ Cette voie est celle de la psychologie positive qui donne une bouffée d’air v
 
         </p>
         <p>
-          D ailleurs, une courte intrusion dans le monde du sport de haut niveau dans le passé, m’a permis de toucher de très près aux problématiques liées à l’anxiété de performance et être amenée à proposer un coaching thérapeutique pour toute personne confrontée à un challenge (artiste, sportif…), en préparation de concours ou examen…
+          D'ailleurs, une courte intrusion dans le monde du sport de haut niveau dans le passé, m’a permis de toucher de très près aux problématiques liées à l’anxiété de performance et être amenée à proposer un coaching thérapeutique pour toute personne confrontée à un challenge (artiste, sportif…), en préparation de concours ou examen…
 Se sentir bloqué(e) dans des situations d’échec, en impossibilité d’assumer sa place voire même à se sentir légitime dans la réussite, le BRAINSPOTTING est un outil des plus appropriés pour switcher sur ces situations-là.
 
         </p>
@@ -46,9 +49,9 @@ Se sentir bloqué(e) dans des situations d’échec, en impossibilité d’assum
         <p>
             Où trouvons-vous une limite à notre Etre, puisque Tout est en nous.  Et si nous acceptons de plonger dans ce vaste Océan de la conscience, nous ne pouvons que vivre un élargissement de notre être. 
         </p>
-        <p>
-            Djalâl Al-Dîn Rûmi ne disait-il pas" Vous n'êtes pas une goutte dans l'océan. Vous êtes l'océan tout entier dans une goutte d'eau. "
-        </p>
+        <h2 class="i">
+            <span class="g">Djalâl Al-Dîn Rûmi</span> ne disait-il pas : " Vous n'êtes pas une goutte dans l'océan. Vous êtes l'océan tout entier dans une goutte d'eau."
+        </h2>
           </article>
     
     
@@ -57,25 +60,11 @@ Se sentir bloqué(e) dans des situations d’échec, en impossibilité d’assum
 
 <script>
 export default {
-  name: 'AproposComponent', /*
-  le nom du composant
-  dans le html du parent il se "source" de la maniere suivante : <default-component>
-  dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
-  */
-  props: {
-      variable1: String // type de variable (string,integer,...)
-  },
-  data() {
-      return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
-      }
-  } 
+  name: 'AproposComponent',
 }
 </script>
 
 <style>
-   main{
-margin: 10px 50px;
-}
+  
 </style>
 
