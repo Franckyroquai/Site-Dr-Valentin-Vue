@@ -1,7 +1,8 @@
 <template>
     <main>
         
-        <h1>ME CONTACTER</h1>
+        <h1 class="i">Me contacter</h1>
+        <br>
         <article>
         <p>
           Les consultations se font sur RDV.
@@ -10,15 +11,17 @@
           Pour un complément d'information ou si vous souhaitez prendre un rendez-vous, il est indispensable de m’appeler sur mon portable au <a href="tel:+33686978613">06 86 97 86 13</a>.
         </p>
          
-        <h2>
-            L’ACCES à mon cabinet
+        <h2 class="i">
+            L'accès à mon cabinet
         </h2>
-        <img src="../assets/Images/CabinetExterieur.jpg" width="300 em" alt="Cabinet extérieur">
-        <img src="../assets/Images/CabinetInterieur.jpg" width="300 em" alt="Salle de thérapir du cabinet">
-        <h3>
+        <p>
+        <img src="../assets/Images/CabinetExterieur.jpg" width="300" alt="Cabinet extérieur">
+        <img src="../assets/Images/CabinetInterieur.jpg" width="300" alt="Salle de thérapie du cabinet">
+        </p>
+        <h3 class="s">
           Mes coordonnées :
         </h3>
-        
+        <br>
         <p>Téléphone: 
           <a href="tel:+33686978613">06 86 97 86 13</a> 
         </p>
@@ -29,9 +32,12 @@
             Rez de chaussée porte à droite (Vous pouvez entrer sans sonner)
         </p>
         <img src="../assets/Images/SalleAttente.jpg" width="300" alt="Accueil salle s'attente">
-        <h3>
+        
+        <h3 class="s">
+          <br>
             Stationnement et accès :
         </h3>
+        <br>
         <p>
           - Parking Gambetta (à l’arrière du cabinet)
         </p>
