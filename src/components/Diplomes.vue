@@ -1,6 +1,9 @@
 <template>
     <main>
-        <h1>Diplômes et Certifications</h1>
+        <h1 class="is">
+          Diplômes et Certifications
+        </h1>
+        <br>
         <article>
 
          <p>Master2 -Psychologie Clinique et psychopathologie (Université Aix-Marseille)</p> 
@@ -30,13 +33,13 @@
           - Langue des Signes  (IVT Paris) 
 
         </p>
-        <h2>
+        <h2 class="s">
             Orientation
         </h2>
         <p>
           •	Approche humaniste, intégrative, systémique.
         </p>
-        <h2>
+        <h2 class="s">
             Pour Quel public ?
         </h2>
         <p>
@@ -60,9 +63,9 @@
         <p>
             Membre de l’ IETSP ( Institut Européen des Thérapies Somato-Psychiques)
         </p>
-        <p>
+        <h2 class="i">
             « Je suis venu en ce monde sans rien, et je le quitterai avec ma conscience. » <br>Dr Garth Alfred Taylor
-        </p>
+        </h2>
           </article>
     
     
