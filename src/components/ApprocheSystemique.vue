@@ -1,10 +1,11 @@
 <template>
     <main>
-        <h1>
+        <h1 class="i">
             L'approche systémique
           </h1>
+          <br>
         <article>
-         <p>L’approche systémique  qui vient de l’école de Palo Alto , s’appuie sur le postulat que l’individu est influencé dans sa façon d’être, par le contexte dans lequel il vit ,ce qui est vécu par l'un a forcément des répercussions sur les autres. Toute la puissance de cette approche consiste à débusquer les blocages enfouis au sein du système et retisser les liens endommagés.</p> 
+         <p><span class="ig">L’approche systémique</span>  qui vient de <span class="g">l’école de Palo Alto</span>, s’appuie sur le postulat que l’individu est influencé dans sa façon d’être, par le contexte dans lequel il vit ,ce qui est vécu par l'un a forcément des répercussions sur les autres. Toute la puissance de cette approche consiste à débusquer les blocages enfouis au sein du système et retisser les liens endommagés.</p> 
 
         <p>
           En thérapie de couple et de famille, l’approche systémique met en avant l’idée que le système concerné s’organise, fonctionne, se régule en fonction des interactions et à partir des règles, explicites et implicites, qui s’y créent. 
@@ -53,20 +54,10 @@ export default {
   dans le html du parent il se "source" de la maniere suivante : <default-component>
   dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
   */
-  props: {
-      variable1: String // type de variable (string,integer,...)
-  },
-  data() {
-      return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
-      }
-  } 
 }
 </script>
 
 <style>
-   main{
-margin: 10px 50px;
-}
+   
 </style>
 
