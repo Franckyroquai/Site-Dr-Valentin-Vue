@@ -2,7 +2,7 @@
     <main>
         
         <h1 class="i">
-          Bonjour et bienvenue à vous, qui pouvez légitimement avoir quelques interrogations sur mon parcours et ma pratique.
+          Bonjour et bienvenue à vous, qui pouvez légitimement avoir quelques interrogations sur mon parcours et ma pratique...
         </h1>
         <br>
         <article>
