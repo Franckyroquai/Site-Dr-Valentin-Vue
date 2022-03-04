@@ -18,6 +18,7 @@ import DiplomesComponent from '../components/Diplomes.vue';
 import ModalitesPratiquesComponent from '../components/ModalitesPratiques.vue';
 import ContactComponent from '../components/Contact.vue';
 import Error404Component from '../components/Error404Component.vue';
+import MentionsLegalesComponent from '../components/MentionsLegalesComponent.vue';
 
 const routes = [
   {
@@ -114,6 +115,11 @@ const routes = [
      path: "/:pathMatch(.*)*",
      name: "Error404",
      component: Error404Component,
+   },
+  {
+     path: "/mentions-legales",
+     name: "Mentions Légales",
+     component: MentionsLegalesComponent,
    },
 ];
 
