@@ -2,12 +2,13 @@
   <!-- <HeaderComponent></HeaderComponent> -->
   <Navbar-Component></Navbar-Component>  
   <router-view></router-view>
-  <!-- <footer-component> -->
+  <footer-component></footer-component>
 </template>
 
 <script>
 // import HeaderComponent from './components/HeaderComponent.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 
 export default {
@@ -15,6 +16,7 @@ export default {
   components: {
     //HeaderComponent,
     NavbarComponent,
+    FooterComponent,
     // CarouselComponent,
     // AccueilComponent,
   }
