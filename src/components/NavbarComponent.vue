@@ -29,7 +29,7 @@
             Méthodes
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><router-link to="/approche-therapeutique" class="dropdown-item">Approche Thérapeutique</router-link></li>
+            <!-- <li><router-link to="/approche-therapeutique" class="dropdown-item">Approche Thérapeutique</router-link></li> -->
             <li><router-link to="/approche-systemique" class="dropdown-item">Approche Systémique</router-link></li>
             <li><router-link to="/emdr" class="dropdown-item">EMDR</router-link></li>
             <li><router-link to="/brainspotting" class="dropdown-item">Brainspotting</router-link></li>
