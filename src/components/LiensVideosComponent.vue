@@ -1,6 +1,6 @@
 <template>
   <h1 class="is">
-    Liens Viédos
+    Liens Vidéos
   </h1>
   <br>
   <article>
