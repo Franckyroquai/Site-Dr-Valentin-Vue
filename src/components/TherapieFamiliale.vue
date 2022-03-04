@@ -3,7 +3,7 @@
         <!-- <carousel-component></carousel-component> -->
         <h1 class="i">La thérapie familiale</h1>
         <br>
-                <img src="../assets/Images/DisputeFamiliale.jpg"   alt="Adolescents qui regardent leur téléphones">
+                <!-- <img src="../assets/Images/DisputeFamiliale.jpg"   alt="Adolescents qui regardent leur téléphones"> -->
 
         <article>
           <br>
