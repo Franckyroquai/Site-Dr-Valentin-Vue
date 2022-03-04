@@ -15,7 +15,7 @@
             L'accès à mon cabinet
         </h2>
         <p>
-        <img src="../assets/Images/CabinetExterieur.jpg" width="300" alt="Cabinet extérieur">
+        <img src="../assets/Images/SalleAttente.jpg" width="300" alt="Accueil salle s'attente">
         <img src="../assets/Images/CabinetInterieur.jpg" width="300" alt="Salle de thérapie du cabinet">
         </p>
         <h3 class="s">
@@ -31,8 +31,7 @@
         <p>
             Rez de chaussée porte à droite (Vous pouvez entrer sans sonner)
         </p>
-        <img src="../assets/Images/SalleAttente.jpg" width="300" alt="Accueil salle s'attente">
-        
+        <img src="../assets/Images/CabinetExterieur.jpg" width="300" alt="Cabinet extérieur">
         <h3 class="s">
           <br>
             Stationnement et accès :
