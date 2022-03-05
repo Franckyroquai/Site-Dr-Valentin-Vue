@@ -16,7 +16,7 @@
                 <p class="mb-0">7 rue Alexandre Castueil</p>
                 <p class="mb-0">Rez rez-de-chaussée</p>
                 <p class="mb-0">83400 Hyères</p>
-                <p class="mb-0">Tél : <a href="tel:+33686978613">06 86 97 86 13</a></p>
+                <p class="mb-0">Tél : <a href="tel:+33686978613" style="font-family: arial,sans-serif">06 86 97 86 13</a></p>
               </div>
             </div>
           </div>
