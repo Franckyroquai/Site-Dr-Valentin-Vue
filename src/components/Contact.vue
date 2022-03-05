@@ -8,7 +8,7 @@
           Les consultations se font sur RDV.
         </p>
         <p>
-          Pour un complément d'information ou si vous souhaitez prendre un rendez-vous, il est indispensable de m’appeler sur mon portable au <a href="tel:+33686978613">06 86 97 86 13</a>.
+          Pour un complément d'information ou si vous souhaitez prendre un rendez-vous, il est indispensable de m’appeler sur mon portable au <a href="tel:+33686978613" style="font-family: arial,sans-serif">06 86 97 86 13</a>.
         </p>
          
         <h2 class="i">
@@ -23,7 +23,7 @@
         </h3>
         <br>
         <p>Téléphone: 
-          <a href="tel:+33686978613">06 86 97 86 13</a> 
+          <a href="tel:+33686978613" style="font-family: arial,sans-serif">06 86 97 86 13</a> 
         </p>
         <p>
           Immeuble La Roseraie 2
