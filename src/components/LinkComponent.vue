@@ -4,11 +4,7 @@
 
 <script>
 export default {
-  name: 'LinkComponent', /*
-  le nom du composant
-  dans le html du parent il se "source" de la maniere suivante : <default-component>
-  dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
-  */
+  name: 'LinkComponent',
   props: {
       variable1: String, // type de variable (string,integer,...)
       linkName: String,
@@ -16,7 +12,6 @@ export default {
   },
   data() {
       return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
       }
   } 
 }
