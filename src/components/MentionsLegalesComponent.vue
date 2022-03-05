@@ -11,11 +11,10 @@ export default {
   dans le scripting (JS) du parent il se declare avec MentionsLegalesComponent et doit etre importé
   */
   props: {
-      variable1: String // type de variable (string,integer,...)
+
   },
   data() {
       return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
       }
   } 
 }
