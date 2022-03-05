@@ -19,6 +19,8 @@ import ModalitesPratiquesComponent from '../components/ModalitesPratiques.vue';
 import ContactComponent from '../components/Contact.vue';
 import Error404Component from '../components/Error404Component.vue';
 import MentionsLegalesComponent from '../components/MentionsLegalesComponent.vue';
+import LoginComponent from '../components/Login.vue';
+import RegisterComponent from '../components/RegisterComponent.vue';
 
 const routes = [
   {
@@ -121,11 +123,29 @@ const routes = [
      name: "Mentions Légales",
      component: MentionsLegalesComponent,
    },
+  {
+     path: "/login",
+     name: "Login",
+     component: LoginComponent,
+   },
+  {
+     path: "/register",
+     name: "Register",
+     component: RegisterComponent,
+   },
 ];
 
 const Router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      console.log('saved pos', savedPosition);
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  },
 });
 
 export default Router;
