@@ -92,17 +92,12 @@ Le praticien pratique alors des séries de stimulations bilatérales alternées 
 
 <script>
 export default {
-  name: 'EMDRComponent', /*
-  le nom du composant
-  dans le html du parent il se "source" de la maniere suivante : <default-component>
-  dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
-  */
+  name: 'EMDRComponent',
   props: {
-      variable1: String // type de variable (string,integer,...)
+
   },
   data() {
       return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
       }
   } 
 }
