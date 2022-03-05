@@ -15,7 +15,7 @@
               <div class="adress-text mb-5">
                 <p class="mb-0">7 rue Alexandre Castueil</p>
                 <p class="mb-0">Rez rez-de-chaussée</p>
-                <p class="mb-0">83400 Hyères</p>
+                <p class="mb-0" >83400 Hyères</p>
                 <p class="mb-0">Tél : <a href="tel:+33686978613" style="font-family: arial,sans-serif">06 86 97 86 13</a></p>
               </div>
             </div>
@@ -30,7 +30,7 @@
               <div class="footer_menu">
                 <ul>
                   <li><router-link to="/mentions-legales">Mentions Légales</router-link></li>
-                  <li><a href="#">Espace administrateur</a></li>
+                  <li><router-link to="/login">Espace administrateur</router-link></li>
                 </ul>
               </div>
             </div>
@@ -48,11 +48,10 @@ export default {
   dans le scripting (JS) du parent il se declare avec FooterComponent et doit etre importé
   */
   props: {
-      variable1: String // type de variable (string,integer,...)
+
   },
   data() {
       return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
       }
   } 
 }
