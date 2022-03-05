@@ -36,9 +36,6 @@ export default {
   methods: {
       async getQuote() {
           try {
-              array.forEach(currentItem => {
-                  
-              });
               const response = await axios.get(`http://localhost:3006/pepo`)
               console.log(response.data.quote);
               this.quote = response.data.quote;
