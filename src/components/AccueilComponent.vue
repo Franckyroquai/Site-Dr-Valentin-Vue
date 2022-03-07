@@ -77,7 +77,11 @@ export default {
     ChanceComponent 
     },
               
-  name: 'AccueilComponent', 
+  name: 'AccueilComponent', /*
+  le nom du composant
+  dans le html du parent il se "source" de la maniere suivante : <default-component>
+  dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
+  */ 
 }
 </script>
 
