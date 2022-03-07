@@ -1,4 +1,5 @@
 <template>
+<main>
   <h1>Connexion</h1>
   <form>
     <div class="form-group">
@@ -26,6 +27,7 @@
     <button type="submit" class="btn btn-primary">Envoyer</button>
   </form>
   <router-link to="/register">Pas encore inscrit ? cliquez ici !</router-link>
+</main>
   <!-- ici ta structure Html -->
 </template>
 
