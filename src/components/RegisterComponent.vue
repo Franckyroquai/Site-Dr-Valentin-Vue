@@ -20,9 +20,10 @@
   </div>
   <button type="submit" class="btn btn-primary">Envoyer</button>
 </form> -->
-
+<main>
+  <h2>Create an Account</h2>
   <div class="root">
-    <h2>Create an Account</h2>
+    
     <p>
       <input type="text" placeholder="Email" v-model="state.email" />
       <span v-if="v$.email.$error">
@@ -47,6 +48,7 @@
     </p>
     <button @click="submitForm">Submit</button>
   </div>
+</main>
 </template>
 
 <script>
