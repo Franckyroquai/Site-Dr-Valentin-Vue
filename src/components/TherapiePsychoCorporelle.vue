@@ -30,9 +30,9 @@ C'est par et avec notre corps que nous sommes présents au monde et que nous l'h
         <p>
          Il est certainement temps de vous mettre à son écoute.
         </p>
-        <h2 class="i">
-            Pour en savoir plus
-        </h2>
+        <button class="i btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">Pour en Savoir plus</button>
+      <section v-if="isMoreInfo">
+        <br>
         <h3 class="i">
           « L’inconscient est structuré comme un langage » <br> (J. LACAN) … et le corps en est son creuset.
         </h3>
@@ -60,6 +60,7 @@ C'est par et avec notre corps que nous sommes présents au monde et que nous l'h
         <p>
           Et, la cerise sur le gâteau, vous sera à coup sûr proposé en accompagnement des séances, en autonomie donc, quelques pratiques simples telles que la respiration consciente, la cohérence cardiaque, L’EFT…, participant toutes, de ce que j’ai envie d’appeler une écologie de l’Etre, car synonymes de bien-être, de paix intérieure, d’un prendre soin de soi- donc de  vous- « en corps » et toujours .
         </p>
+      </section>
           </article>
     
     
@@ -78,8 +79,8 @@ export default {
   },
   data() {
       return {
-          variable2: "ceci est une variable du composant (passable aux composants enfants)"
-      }
+      isMoreInfo: false,
+    };
   } 
 }
 </script>
