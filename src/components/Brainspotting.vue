@@ -39,7 +39,9 @@
         peuvent alors se présenter au patient et lui permettre de libérer des
         ressources auto-thérapeutiques.
       </p>
-      <h2 class="i">En savoir plus</h2>
+      <button class="i btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">Pour en Savoir plus</button>
+      <section v-if="isMoreInfo">
+        <br>
       <p>
         Il s’agit là d’une Méthode puissante et pointue, son action est directe,
         tout en restant contenante.
@@ -128,6 +130,7 @@
         traumatismes. Dans d’autres cas, il peut accompagner un traitement
         médicamenteux.
       </p>
+      </section>
     </article>
   </main>
 </template>
@@ -143,9 +146,8 @@ export default {
     variable1: String, // type de variable (string,integer,...)
   },
   data() {
-    return {
-      variable2:
-        "ceci est une variable du composant (passable aux composants enfants)",
+     return {
+      isMoreInfo: false,
     };
   },
 };
