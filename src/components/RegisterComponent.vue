@@ -21,7 +21,7 @@
   <button type="submit" class="btn btn-primary">Envoyer</button>
 </form> -->
 <main>
-  <h2>Create an Account</h2>
+  <h2>Créez un compte</h2>
   <div class="root">
     
     <p>
@@ -46,7 +46,7 @@
         {{ v$.password.confirm.$errors[0].$message }}
       </span>
     </p>
-    <button @click="submitForm">Submit</button>
+    <button @click="submitForm">Envoyer</button>
   </div>
 </main>
 </template>
