@@ -7,7 +7,7 @@ export async function securedRequest (url, verb, payload) {
       "Authorization": `Bearer ${localStorage.getItem("token")}`
     }
   };
-  console.debug("axios payload: ", payload)
+  // console.debug("axios payload: ", payload)
   if (payload && typeof payload === "object") {
     configObject = Object.assign(configObject, {data: payload})
   }
@@ -15,6 +15,5 @@ export async function securedRequest (url, verb, payload) {
     configObject = Object.assign(configObject, {method: verb})
   }
   configObject = Object.assign(configObject, {url})
-  console.debug("axios config object ", configObject)
-  return axios.request(configObject)
+  return axios.request(configObject);
 }
