@@ -1,41 +1,30 @@
 <template>
-<main>
-  <h1>Connexion</h1>
-  <div class="root">
-    
-    <p>
-      <input type="text" placeholder="Email" v-model="state.email" />
-      <span v-if="v$.email.$error">
-        {{ v$.email.$errors[0].$message }}
-      </span>
-    </p>
-    <p>
-      <input type="password" placeholder="Password" v-model="state.password.value" />
-      <span v-if="v$.password.value.$error">
-        {{ v$.password.value.$errors[0].$message }}
-      </span>
-    </p>
-    <p>
-      <input
-        type="password"
-        placeholder="Confirm Password"
-        v-model="state.password.confirm"
-      />
-      <span v-if="v$.password.confirm.$error">
-        {{ v$.password.confirm.$errors[0].$message }}
-      </span>
-    </p>
-    <button @click="submitForm">Envoyer</button>
-  </div>
-  <router-link to="/register">Pas encore inscrit ? cliquez ici !</router-link>
-</main>
+  <main>
+    <h1>Connexion</h1>
+    <div class="root">
+      <p>
+        <input type="text" placeholder="Email" v-model="state.email" />
+        <span v-if="v$.email.$error">
+          {{ v$.email.$errors[0].$message }}
+        </span>
+      </p>
+      <p>
+        <input type="password" placeholder="Password" v-model="state.password.value" />
+        <span v-if="v$.password.value.$error">
+          {{ v$.password.value.$errors[0].$message }}
+        </span>
+      </p>
+      <button @click="submitForm">Envoyer</button>
+    </div>
+    <router-link to="/register">Pas encore inscrit ? cliquez ici !</router-link>
+  </main>
   <!-- ici ta structure Html -->
 </template>
 
 <script>
 import useValidate from "@vuelidate/core";
 import { reactive, computed } from "vue";
-import { required, email, minLength, sameAs } from "@vuelidate/validators";
+import { required, email, minLength } from "@vuelidate/validators";
 import axios from "axios";
 export default {
   name: "LoginComponent",
@@ -44,21 +33,20 @@ export default {
       email: "",
       password: {
         value: "",
-        confirm: "",
       },
     });
     const rules = computed(() => {
       return {
-      email: { required, email },
-      password: {
-        value: { required, minLength: minLength(6) },
-        confirm: { required, sameAs: sameAs(state.password.value) },
-      }
-      }});
+        email: { required, email },
+        password: {
+          value: { required, minLength: minLength(6) },
+        },
+      };
+    });
 
-      const v$ = useValidate(rules, state)
-      
-      return { state, v$ };
+    const v$ = useValidate(rules, state);
+
+    return { state, v$ };
   },
   data() {
     return {};
@@ -68,26 +56,27 @@ export default {
       this.v$.$validate(); // vérifie les inputs
       if (!this.v$.$error) {
         try {
-
-        const httpResponse = await axios.post(
-          "http://127.0.0.1:3000/signup", 
-          {
-            email: this.state.email, 
-            password: this.state.password.value
-          })
+          const httpResponse = await axios.post("http://127.0.0.1:3000/login", {
+            email: this.state.email,
+            password: this.state.password.value,
+          });
           console.log(httpResponse.status);
+          console.log(httpResponse.data);
           if (httpResponse.status === 200) {
-            alert("vous avez bien ete enregistre.\nVous allez etre redirige vers la page de login")
-            this.$router.push("/login");
-          } 
+            localStorage.setItem("token", httpResponse.data.access_token);
+            alert(
+              "vous avez bien ete loggue\nVous allez etre redirige vers la page de gestion des citations"
+            );
+            this.$router.push("/quotes-management");
+          }
         } catch (error) {
           console.error(error);
-          alert ("does not compute, Error, Error, ERRR.&%^&$");
+          alert("does not compute, Error, Error, ERRR.&%^&$");
         }
       } else {
         console.info("password: ", this.state.password.value);
         console.info("confirm : ", this.state.password.confirm);
-        this.v$.$errors.forEach(error => console.warn(error.$message));
+        this.v$.$errors.forEach((error) => console.warn(error.$message));
         console.error("Form failed validation");
       }
     },
@@ -132,4 +121,3 @@ button {
   color: white;
 }
 </style>
-
