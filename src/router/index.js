@@ -21,6 +21,7 @@ import Error404Component from '../components/Error404Component.vue';
 import MentionsLegalesComponent from '../components/MentionsLegalesComponent.vue';
 import LoginComponent from '../components/Login.vue';
 import RegisterComponent from '../components/RegisterComponent.vue';
+import QuotesComponent from "../components/QuotesComponent.vue"
 
 const routes = [
   {
@@ -133,6 +134,11 @@ const routes = [
      name: "Register",
      component: RegisterComponent,
    },
+   {
+     path: "/quotes-management",
+     name: "Quotes Management",
+     component: QuotesComponent,
+   }
 ];
 
 const Router = createRouter({
@@ -140,7 +146,6 @@ const Router = createRouter({
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
-      console.log('saved pos', savedPosition);
       return savedPosition
     } else {
       return { top: 0 }
