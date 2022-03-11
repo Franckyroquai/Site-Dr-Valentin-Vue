@@ -60,18 +60,18 @@ export default {
             email: this.state.email,
             password: this.state.password.value,
           });
-          console.log(httpResponse.status);
-          console.log(httpResponse.data);
+          // console.log(httpResponse);
+          console.log("response data: ",httpResponse.data);
           if (httpResponse.status === 200) {
             localStorage.setItem("token", httpResponse.data.access_token);
-            alert(
+            alert(//TODO: changer por methode confirm
               "vous avez bien ete loggue\nVous allez etre redirige vers la page de gestion des citations"
             );
             this.$router.push("/quotes-management");
           }
         } catch (error) {
           console.error(error);
-          alert("does not compute, Error, Error, ERRR.&%^&$");
+          alert("Machia pa");//TODO: changer por methode confirm
         }
       } else {
         console.info("password: ", this.state.password.value);
