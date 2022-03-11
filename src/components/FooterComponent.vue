@@ -27,11 +27,12 @@
               <h5>A propos</h5>
               <br>
               <!-- Footer Menu-->
-              <div class="footer_menu">
-                <ul>
-                  <li><router-link to="/mentions-legales">Mentions Légales</router-link></li>
-                  <li><router-link to="/login">Espace administrateur</router-link></li>
-                </ul>
+              <div class="footer_menu mb-3">
+                
+                  <p class="mb-0"><router-link to="/mentions-legales">Mentions Légales</router-link></p>
+                  <br>
+                  <p class="mb-0"><router-link to="/login">Espace administrateur</router-link></p>
+                
               </div>
             </div>
           </div>
@@ -61,10 +62,14 @@ export default {
     footer{
         margin-top:auto;
     }
+    .footer_menu{
+        color: #747794;
+    }
   
     .footer_area {
     position: relative;
     margin-top:auto;
+    margin-bottom: 0px;
     z-index: 1;
     overflow: hidden;
 webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
