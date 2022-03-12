@@ -48,9 +48,7 @@ export default {
 
     return { state, v$ };
   },
-  data() {
-    return {};
-  },
+
   methods: {
     async submitForm() {
       this.v$.$validate(); // vérifie les inputs
@@ -61,17 +59,23 @@ export default {
             password: this.state.password.value,
           });
           // console.log(httpResponse);
-          console.log("response data: ",httpResponse.data);
+          console.log("response data: ", httpResponse.data);
           if (httpResponse.status === 200) {
             localStorage.setItem("token", httpResponse.data.access_token);
-            alert(//TODO: changer por methode confirm
-              "vous avez bien ete loggue\nVous allez etre redirige vers la page de gestion des citations"
-            );
-            this.$router.push("/quotes-management");
+            if (
+              confirm(
+                "Vous avez bien ete loggue\nVoullez-vous acceder a l'interface d'administration?"
+              )
+            ) {
+              this.$router.push("/quotes-management");
+            } else {
+              this.$router.push("/");
+            }
           }
         } catch (error) {
-          console.error(error);
-          alert("Machia pa");//TODO: changer por methode confirm
+          console.warn({ error });
+          console.debug(error.response.data);
+          confirm(error.response.data.message);
         }
       } else {
         console.info("password: ", this.state.password.value);

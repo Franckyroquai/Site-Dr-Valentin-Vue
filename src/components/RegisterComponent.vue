@@ -80,9 +80,7 @@ export default {
       
       return { state, v$ };
   },
-  data() {
-    return {};
-  },
+  
   methods: {
     async submitForm() {
       this.v$.$validate(); // vérifie les inputs

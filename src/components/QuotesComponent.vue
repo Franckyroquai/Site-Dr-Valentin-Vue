@@ -16,7 +16,7 @@
           <p>
             {{ elem.text }}
           </p>
-          <button @click="deleteQuoteInList(elem._id)">del</button>
+          <button @click="deleteQuoteInList(elem._id, elem.author)">del</button>
         </div>
       </li>
     </ul>
@@ -46,48 +46,64 @@ export default {
   },
   methods: {
     async getListOfQuotes() {
-      const response = await securedRequest("/quote/all");
-      this.list = response.data.quotes;
-      this.count = this.list.length;
+      try {
+        const response = await securedRequest("/quote/all");
+        this.list = response.data.quotes;
+        this.count = this.list.length;
+      } catch (error) {
+        confirm("il y a eu une erreur serveur lors de l'aquisition des citations.");
+      }
     },
     async sendQuote() {
-      // TODO: security on values
-      const quote = { text: this.text, author: this.author };
-      const response = await securedRequest("/quote/create-one", "post", quote);
-
-      const retQuote = {author: response.data.quote.author, text: response.data.quote.text}
-      console.log(response.data);
-      if (quote.text === retQuote.text && (quote.author === retQuote.author || retQuote.author === "anonyme")) {
-        console.log("success");
-        this.getListOfQuotes();
-      } else {
-        // TODO: probleme
+      try {
+        const quote = { text: this.text, author: this.author };
+        const response = await securedRequest("/quote/create-one", "post", quote);
+        const retQuote = {
+          author: response.data.quote.author,
+          text: response.data.quote.text,
+        };
+        if (
+          quote.text === retQuote.text &&
+          (quote.author === retQuote.author || retQuote.author === "anonyme")
+        ) {
+          console.log("success");
+          this.getListOfQuotes();
+        }
+      } catch (error) {
+        confirm("il y a eu une erreur serveur lors de l'enregistrement de la citation.");
       }
     },
     disconnect() {
       localStorage.clear();
-      this.$router.push("/login"); //TODO: ou acceuil ?
+      this.$router.push("/");
     },
     async flushQuotes() {
-      const response = await securedRequest("/quote/flush", "delete");
-      console.log(response === response); //FIXME: utiliser la réponse
-      this.getListOfQuotes();
+      try {
+        await securedRequest("/quote/flush", "delete");
+        this.getListOfQuotes();
+      } catch (error) {
+        confirm("il y a eu une erreur serveur lors de l'effacement des citations.");
+      }
     },
     async countQuotes() {
       const response = await securedRequest("/quote/count");
       this.count = response.data.count;
     },
-    async deleteQuoteInList(id) {
+    async deleteQuoteInList(id, author) {
       if (confirm("Confirmer la suppression de la citation ?")) {
         try {
           const response = await securedRequest("/quote/id", "delete", { id });
           if (id === response.data._id) {
             this.getListOfQuotes();
           } else {
-            alert("there was an error");
+            confirm(
+              `il y a eu une erreur serveur lors de l'effacement de la citation de ${author}`
+            );
           }
         } catch (error) {
-          alert("backend error");
+          confirm(
+            `il y a eu une erreur serveur lors de l'effacement de la citation de ${author}`
+          );
         }
       }
     },
@@ -95,6 +111,4 @@ export default {
 };
 </script>
 
-<style>
-/* ici le css */
-</style>
+<style></style>

@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Accueil from "../components/AccueilComponent.vue";
-import CarouselComponent from "../components/CarouselComponent.vue";
 import About from '../components/Apropos.vue';
 import ApprocheSystemiqueComponent from '../components/ApprocheSystemique.vue';
 import ApprocheTherapeutiqueComponent from '../components/ApprocheTherapeutique.vue';
@@ -28,11 +27,6 @@ const routes = [
     path: "/",
     name: "Accueil",
     component: Accueil,
-  },
-  {
-    path: "/carou",
-    name: "Carousel",
-    component: CarouselComponent,
   },
   {
     path: "/about",
@@ -80,65 +74,70 @@ const routes = [
     component: TherapieFamilialeComponent,
   },
   {
-     path: "/therapie-de-couple",
-     name: "Thérapie de couple",
-     component: TherapieDeCoupleComponent,
-   },
+    path: "/therapie-de-couple",
+    name: "Thérapie de couple",
+    component: TherapieDeCoupleComponent,
+  },
   {
-     path: "/therapie-psychocorporelle",
-     name: "Thérapie PsychoCorporelle",
-     component: TherapiePsychoCorporelleComponent,
-   },
+    path: "/therapie-psychocorporelle",
+    name: "Thérapie PsychoCorporelle",
+    component: TherapiePsychoCorporelleComponent,
+  },
   {
-     path: "/liens-videos",
-     name: "Liens Videos",
-     component: LiensVideosComponent,
-   },
+    path: "/liens-videos",
+    name: "Liens Videos",
+    component: LiensVideosComponent,
+  },
   {
-     path: "/points-ethiques",
-     name: "Points Ethiques",
-     component: PointsEthiquesComponent,
-   },
+    path: "/points-ethiques",
+    name: "Points Ethiques",
+    component: PointsEthiquesComponent,
+  },
   {
-     path: "/diplomes",
-     name: "Diplômes",
-     component: DiplomesComponent,
-   },
+    path: "/diplomes",
+    name: "Diplômes",
+    component: DiplomesComponent,
+  },
   {
-     path: "/modalites-pratiques",
-     name: "Modalités Pratiques",
-     component: ModalitesPratiquesComponent,
-   },
+    path: "/modalites-pratiques",
+    name: "Modalités Pratiques",
+    component: ModalitesPratiquesComponent,
+  },
   {
-     path: "/contact",
-     name: "Contact",
-     component: ContactComponent,
-   },
+    path: "/contact",
+    name: "Contact",
+    component: ContactComponent,
+  },
   {
-     path: "/:pathMatch(.*)*",
-     name: "Error404",
-     component: Error404Component,
-   },
+    path: "/mentions-legales",
+    name: "Mentions Légales",
+    component: MentionsLegalesComponent,
+  },
   {
-     path: "/mentions-legales",
-     name: "Mentions Légales",
-     component: MentionsLegalesComponent,
-   },
+    path: "/login",
+    name: "Login",
+    component: LoginComponent,
+  },
   {
-     path: "/login",
-     name: "Login",
-     component: LoginComponent,
-   },
+    path: "/register",
+    name: "Register",
+    component: RegisterComponent,
+  },
   {
-     path: "/register",
-     name: "Register",
-     component: RegisterComponent,
-   },
-   {
-     path: "/quotes-management",
-     name: "Quotes Management",
-     component: QuotesComponent,
-   }
+    path: "/quotes-management",
+    name: "Quotes Management",
+    component: QuotesComponent,
+  },
+  {
+    path: "/404",
+    name: "Error404",
+    component: Error404Component,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "Error404",
+    component: Error404Component,
+  },
 ];
 
 const Router = createRouter({

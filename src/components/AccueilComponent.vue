@@ -1,7 +1,6 @@
 <template>
   <main>
-    <!-- <carousel-component></carousel-component> -->
-    <!-- <chance-component></chance-component> -->
+    <display-quote-component></display-quote-component>
 
     <article>
       <h1 class="i">Bienvenue</h1>
@@ -90,20 +89,12 @@
 </template>
 
 <script>
-// import CarouselComponent from './CarouselComponent.vue'
-// import ChanceComponent from "./ChanceComponent.vue";
+import DisplayQuoteComponent from "./DisplayQuoteComponent.vue";
 export default {
   components: {
-    // CarouselComponent,
-    // ChanceComponent,
+    DisplayQuoteComponent,
   },
-
-  name:
-    "AccueilComponent" /*
-  le nom du composant
-  dans le html du parent il se "source" de la maniere suivante : <default-component>
-  dans le scripting (JS) du parent il se declare avec DefaultComponent et doit etre importé
-  */,
+  name: "AccueilComponent",
 };
 </script>
 
@@ -136,12 +127,4 @@ main {
   font-weight: bold;
   text-decoration: underline;
 }
-
-/* body{
-    background-image: url("../assets/Images/PontBrume.jpg");
-    height:100vh;
-    background-position: center;
-    background-size: cover;
-
-} */
 </style>

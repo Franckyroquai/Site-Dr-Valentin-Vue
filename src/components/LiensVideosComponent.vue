@@ -1,12 +1,8 @@
 <template>
-  <h1 class="is">
-    Liens Vidéos
-  </h1>
-  <br>
-  <article>
-    Voici quelques vidéos qui vous aiderons à comprendre mon approche :
-  </article>
-  <br>
+  <h1 class="is">Liens Vidéos</h1>
+  <br />
+  <article>Voici quelques vidéos qui vous aiderons à comprendre mon approche :</article>
+  <br />
   <div v-for="video in videos" :key="video.id">
     <iframe
       :width="video.width || 560"
@@ -22,25 +18,18 @@
 
 <script>
 export default {
-  name: 'LiensVideosComponent', /*
-  le nom du composant
-  dans le html du parent il se "source" de la maniere suivante : <liensvideos-component>
-  dans le scripting (JS) du parent il se declare avec LiensVideosComponent et doit etre importé
-  */
-  
+  name: "LiensVideosComponent",
   setup() {
-      const videos = [
-          {url:"https://www.youtube.com/embed/87sNeRTYdPA"},
-          {url:"https://www.youtube.com/embed/omfpbqDMDN4"},
-          {url:"https://www.youtube.com/embed/weAQzjtxNPE"},
-          {url:"https://www.youtube.com/embed/PDIJb2emVDY"},
-          {url:"https://www.youtube.com/embed/EXtIEgOq4Xc"},
-          ]
-          return {videos};
+    const videos = [
+      { url: "https://www.youtube.com/embed/87sNeRTYdPA" },
+      { url: "https://www.youtube.com/embed/omfpbqDMDN4" },
+      { url: "https://www.youtube.com/embed/weAQzjtxNPE" },
+      { url: "https://www.youtube.com/embed/PDIJb2emVDY" },
+      { url: "https://www.youtube.com/embed/EXtIEgOq4Xc" },
+    ];
+    return { videos };
   },
-}
+};
 </script>
 
-<style>
-/* ici le css */
-</style>
+<style></style>
