@@ -4,7 +4,7 @@
   >
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand">V. Valentin</router-link>
-      <button v-if="isTokenPresent" @click="disconnect">deconnexion</button>
+      <button v-if="isTokenPresent" @click="delogUser">deconnexion</button>
       <button
         class="navbar-toggler"
         type="button"
@@ -150,10 +150,24 @@ export default {
       isTokenPresent: false,
     };
   },
+  created (){
+    this.emitter.on('user-logged', this.verifyPresenceOfToken);
+    this.verifyPresenceOfToken();
+  },
   methods: {
-    isThereAToken() {
-      localStorage.getItem("token");
+    verifyPresenceOfToken() {
+      const tokenFromLocalStorage = localStorage.getItem("token");
+      if (tokenFromLocalStorage === null) {
+        this.isTokenPresent = false;
+      } else if (typeof tokenFromLocalStorage === "string") {
+        this.isTokenPresent = true;
+      }
     },
+    delogUser() {
+      localStorage.removeItem("token");
+      this.verifyPresenceOfToken();
+      this.$router.push("/");
+    }
   },
 };
 </script>
