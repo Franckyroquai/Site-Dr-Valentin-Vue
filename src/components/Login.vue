@@ -25,7 +25,7 @@
 import useValidate from "@vuelidate/core";
 import { reactive, computed } from "vue";
 import { required, email, minLength } from "@vuelidate/validators";
-import axios from "axios";
+import { publicRequest } from '../services/requester';
 export default {
   name: "LoginComponent",
   setup() {
@@ -54,14 +54,16 @@ export default {
       this.v$.$validate(); // vérifie les inputs
       if (!this.v$.$error) {
         try {
-          const httpResponse = await axios.post("http://127.0.0.1:3000/login", {
+          // const httpResponse = await axios.post("http://127.0.0.1:3000/login", {
+          const httpResponse = await publicRequest("login", "post", {
             email: this.state.email,
             password: this.state.password.value,
           });
           // console.log(httpResponse);
-          console.log("response data: ", httpResponse.data);
+          // console.log("response data: ", httpResponse.data);
           if (httpResponse.status === 200) {
             localStorage.setItem("token", httpResponse.data.access_token);
+            this.emitLoggedEvent();
             if (
               confirm(
                 "Vous avez bien ete loggue\nVoullez-vous acceder a l'interface d'administration?"
@@ -83,6 +85,9 @@ export default {
         this.v$.$errors.forEach((error) => console.warn(error.$message));
         console.error("Form failed validation");
       }
+    },
+    emitLoggedEvent() {
+      this.emitter.emit("user-logged");
     },
   },
   validations() {
