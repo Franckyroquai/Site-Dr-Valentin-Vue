@@ -1,5 +1,5 @@
 <template>
-  <navbar-component></navbar-component>
+  <navbar-component @userLogged="verifyPresenceOfToken()"></navbar-component>
   <router-view></router-view>
   <footer-component></footer-component>
 </template>
