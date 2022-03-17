@@ -59,6 +59,7 @@ export default {
 <style>
 footer {
   margin-top: auto;
+  background-color: rgb(236, 240, 243);
 }
 .footer_menu {
   color: #747794;
