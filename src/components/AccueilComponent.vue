@@ -105,6 +105,13 @@ main {
   font-size: 17px;
   line-height: 1.6;
 }
+body{
+    background-image: url("../assets/Images/PontBrume.png");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+
+}
 .i {
   font-style: italic;
 }
