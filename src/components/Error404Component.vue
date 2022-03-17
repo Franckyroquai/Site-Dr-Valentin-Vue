@@ -1,4 +1,5 @@
 <template>
+<main>
   <h1>Cette page n'est pas attribuée...</h1>
   <div class="image-404">
     <img
@@ -8,6 +9,7 @@
     />
   </div>
   <h2>retour a la page d'accueil dans : {{ timeout }}s</h2>
+</main>
 </template>
 
 <script>
@@ -42,7 +44,7 @@ export default {
 
 <style>
 .image-404 {
-  height: 100vh;
+  /* height: 100vh; */
   background-position: center;
   background-size: cover;
 }
