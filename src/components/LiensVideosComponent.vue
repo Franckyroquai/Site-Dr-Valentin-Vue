@@ -1,7 +1,8 @@
 <template>
-  <h1 class="is">Liens Vidéos</h1>
+<main>
+  <h1 class="i">Liens Vidéos</h1>
   <br />
-  <article>Voici quelques vidéos qui vous aiderons à comprendre mon approche :</article>
+  <article class=is>Voici quelques vidéos qui vous aiderons à comprendre mon approche :</article>
   <br />
   <div v-for="video in videos" :key="video.id">
     <iframe
@@ -14,6 +15,7 @@
       allowfullscreen
     ></iframe>
   </div>
+</main>
 </template>
 
 <script>
