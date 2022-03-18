@@ -3,7 +3,7 @@
     <h1 class="i">La thérapie de l’adolescent</h1>
     <br />
     <img src="../assets/Images/Ado.jpg" alt="Adolescents qui regardent leur téléphones" />
-    <h2>
+    <h2 class="i">
       <br />
       « Si tout se prépare dans l’enfance, tout se joue à l’adolescence » <br />Kesemberg.
     </h2>
