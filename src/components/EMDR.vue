@@ -137,6 +137,11 @@
         Je vous invite à visiter le site EMDR france :
         <br />
         <a href="https://www.emdr-france.org/" target="_blank">
+      <img src="../assets/Images/EmdrFrance.png" alt="logo Emdr" />
+    </a>
+      </p>
+      <p>
+        <a href="https://www.emdr-france.org/" target="_blank">
           https://www.emdr-france.org/
         </a>
       </p>
