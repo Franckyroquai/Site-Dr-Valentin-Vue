@@ -18,9 +18,9 @@
         </p>
         <br>
         <br>
-        <h3 class="igs">
+        <h2 class="igs">
             Quelques éléments de notre code de déontologie 
-        </h3>
+        </h2>
         <br>
         <br>
         <ul>
@@ -28,7 +28,7 @@
           <span class="igs">Pratique d’accompagnement</span> : Le thérapeute s’autorise en conscience à exercer cette fonction à partir de son parcours de formation, d’une expérience professionnelle enrichie de sa  formation personnelle.
           </li>
           <li>
-          <span class="igs">Confidentialité</span> : Le thérapeute s’astreint au secret professionnel. 
+          <span class="igs">Confidentialité</span> : Le thérapeute s’astreint au <span class="ig">secret professionnel</span>. 
           </li>
           <li>
           <span class="igs">Supervision établie</span> : Il est   tenu  de disposer d’un lieu  de supervision par un pair ou un tiers compétent.
