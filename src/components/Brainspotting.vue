@@ -135,6 +135,11 @@
 <script>
 export default {
   name: "BrainspottingComponent",
+  data() {
+    return {
+      isMoreInfo: false,
+    };
+  }, 
 };
 </script>
 
