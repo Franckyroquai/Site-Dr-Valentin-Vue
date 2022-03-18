@@ -58,6 +58,8 @@ export default {
 
 <style>
 footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
   margin-top: auto;
   background-color: rgb(236, 240, 243);
 }
