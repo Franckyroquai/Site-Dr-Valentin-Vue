@@ -25,7 +25,7 @@
 import useValidate from "@vuelidate/core";
 import { reactive, computed } from "vue";
 import { required, email, minLength } from "@vuelidate/validators";
-import { publicRequest } from '../services/requester';
+import { publicRequest } from "../services/requester";
 export default {
   name: "LoginComponent",
   setup() {
@@ -59,8 +59,6 @@ export default {
             email: this.state.email,
             password: this.state.password.value,
           });
-          // console.log(httpResponse);
-          // console.log("response data: ", httpResponse.data);
           if (httpResponse.status === 200) {
             localStorage.setItem("token", httpResponse.data.access_token);
             this.emitLoggedEvent();
@@ -75,13 +73,10 @@ export default {
             }
           }
         } catch (error) {
-          console.warn({ error });
-          console.debug(error.response.data);
+          console.warn({ error }); //TODO: remove before prod
           confirm(error.response.data.message);
         }
       } else {
-        console.info("password: ", this.state.password.value);
-        console.info("confirm : ", this.state.password.confirm);
         this.v$.$errors.forEach((error) => console.warn(error.$message));
         console.error("Form failed validation");
       }

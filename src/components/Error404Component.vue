@@ -25,12 +25,9 @@ export default {
   },
   methods: {
     returnToHomePage() {
-      console.log("badumba");
       this.$router.push("/");
     },
     countdown() {
-      console.log("get into check flag");
-      console.log(this.timeout);
       if (this.timeout > 0) {
         this.timeout--;
         setTimeout(this.countdown, 1000);

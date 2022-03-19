@@ -66,7 +66,6 @@ export default {
           quote.text === retQuote.text &&
           (quote.author === retQuote.author || retQuote.author === "anonyme")
         ) {
-          console.log("success");
           this.getListOfQuotes();
         }
       } catch (error) {

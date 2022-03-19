@@ -1,25 +1,4 @@
 <template>
-  <!-- <h1>Inscription</h1>
-    <form>
-  <div class="form-group">
-    <label for="exampleInputName1">Nom</label>
-    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Votre nom">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Adresse Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
-    <small id="emailHelp" class="form-text text-muted">Nous ne communiquons pas votre adresse email à des tiers.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Mot de passe</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Votre mot de passe">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Confirmer le mot de passe</label>
-    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirmer votre mot de passe">
-  </div>
-  <button type="submit" class="btn btn-primary">Envoyer</button>
-</form> -->
   <main>
     <h2>Créez un compte</h2>
     <div class="root">
@@ -30,11 +9,7 @@
         </span>
       </p>
       <p>
-        <input
-          type="password"
-          placeholder="Password"
-          v-model="state.password.value"
-        />
+        <input type="password" placeholder="Password" v-model="state.password.value" />
         <span v-if="v$.password.value.$error">
           {{ v$.password.value.$errors[0].$message }}
         </span>
@@ -90,13 +65,10 @@ export default {
       this.v$.$validate(); // vérifie les inputs
       if (!this.v$.$error) {
         try {
-          console.log("hoy bobby");
           const httpResponse = await publicRequest("/register", "post", {
             email: this.state.email,
             password: this.state.password.value,
           });
-          console.log("-------------------------------------")
-          console.log(httpResponse.status);
           if (httpResponse.status === 200) {
             alert(
               "vous avez bien ete enregistre.\nVous allez etre redirige vers la page de login"
@@ -105,13 +77,11 @@ export default {
           }
         } catch (error) {
           console.error(error);
-          alert("does not compute, Error, Error, ERRR.&%^&$");
+          alert("Login failed");
         }
       } else {
-        console.info("password: ", this.state.password.value);
-        console.info("confirm : ", this.state.password.confirm);
+        // TODO: refaco before prod
         this.v$.$errors.forEach((error) => console.warn(error.$message));
-        console.error("Form failed validation");
       }
     },
   },

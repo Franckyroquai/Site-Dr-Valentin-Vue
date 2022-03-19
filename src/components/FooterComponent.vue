@@ -1,6 +1,4 @@
 <template>
-  <!-- ici ta structure Html -->
-
   <footer class="footer_area">
     <div class="container">
       <div class="row">
@@ -52,7 +50,6 @@
 <script>
 export default {
   name: "FooterComponent",
-  
 };
 </script>
 

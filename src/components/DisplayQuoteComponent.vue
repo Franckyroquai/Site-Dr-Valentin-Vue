@@ -29,7 +29,7 @@ export default {
         this.text = response.data.text;
         this.author = response.data.author;
       } catch (error) {
-        console.error(error);
+        console.error(error); //TODO: remove before Prod
       }
     },
   },
