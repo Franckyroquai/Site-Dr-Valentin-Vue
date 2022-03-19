@@ -13,7 +13,7 @@
       </p>
 
       <p>
-        En thérapie de couple et de famille, l’approche systémique met en avant l’idée que
+        En thérapie de <router-link to="/therapie-de-couple">couple</router-link> et de <router-link to="/therapie-familiale">famille</router-link>, l’approche systémique met en avant l’idée que
         le système concerné s’organise, fonctionne, se régule en fonction des interactions
         et à partir des règles, explicites et implicites, qui s’y créent.
       </p>

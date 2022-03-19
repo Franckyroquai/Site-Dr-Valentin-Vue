@@ -147,8 +147,8 @@ export default {
 <style>
 main {
   min-height: 75.9vh;
-  margin: 10px 50px;
-  padding: 0% 10vw;
+  margin: 10px 40px;
+  padding: 0% 8vw;
   font-size: 20px;
   line-height: 1.6;
 }
@@ -159,6 +159,11 @@ main {
     background-size: cover;*/
     background: linear-gradient(rgb(246, 246, 191), rgb(245, 222, 179));
 } 
+.bord{
+border: 2px solid grey;
+border-radius: 15px;
+list-style-type: disc;
+}
 .hero {
   width: 100%;
 }
@@ -223,7 +228,7 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 992px) {
   main{
     margin: 10px 10px;
     padding: 0% 2vw;
@@ -248,6 +253,10 @@ main {
   }
   .flex-item.img.w30 {
     width: 100%;
+  }
+  .map{
+    width: 325px;
+    height: 400px;
   }
 }
 </style>

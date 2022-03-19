@@ -29,7 +29,7 @@
         En effet, lorsqu’une personne se concentre sur une situation chargée
         émotionnellement, nous pouvons remarquer qu’elle est de manière reflexe, donc
         inconsciente, attirée par un endroit dans son champ de vision où elle sentira plus
-        particulièrement cette activation émotionnelle. On parle alors, de
+        particulièrement cette activation émotionnelle. On parle alors de
         <span class="g">brainspot.</span>
       </p>
       <p>
@@ -76,9 +76,13 @@
         </p>
         <h2 class="i">Et le thérapeute là-dedans ?</h2>
         <br />
+        <section class="premier">
+          
+        <article class="flex-item img w40">
         <img src="../assets/Images/theraBrain.jpg" class="border15" alt="Image de cerveau" />
+        </article>
+        <article class="flex-item w50">
         <p>
-          <br />
           Le thérapeute BRAINSPOTTING se met lui-même en pleine conscience, comme son
           patient. Assis face à lui, présent, concentré, silencieux, il se met dans une
           écoute profonde, suivant l’activation émotionnelle du patient et l’expérience
@@ -86,6 +90,8 @@
           » (pas plus que le patient d’ailleurs). Il doit veiller à laisser le cerveau
           trouver l’issue tout seul.
         </p>
+        </article>
+        </section>
         <p>
           Malgré sa dimension neurophysiologique, le BRAINSPOTTING est un processus
           hautement relationnel. Le thérapeute BRAINSPOTTING adopte une posture bien
@@ -97,7 +103,7 @@
           l’expérience vécue dans son corps par le patient sans le quitter du regard, son
           rôle étant de repérer l’activation.
         </p>
-        <p class="i">
+        <p class="ig">
           L’efficacité du BRAINSPOTTING reposerait ainsi sur trois processus qui se
           potentialisent : l’accès au cerveau émotionnel et au corps, combiné à la pleine
           conscience focalisée et à un accordage profond entre le thérapeute et le

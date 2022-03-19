@@ -81,9 +81,5 @@ export default {
 </script>
 
 <style>
-.bord{
-border: 2px solid grey;
-border-radius: 15px;
-list-style-type: disc;
-}
+
 </style>

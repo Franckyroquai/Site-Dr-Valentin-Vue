@@ -14,7 +14,7 @@
         <p>
           Un couple qui va bien n’est pas un couple sans problème, c’est un couple qui sait traverser les crises et parvient à les transmuter.
         </p>
-        <ul class="bord">
+        <ul class="bord i">
         <li>
           Si vous ressentez un déséquilibre dans votre vie à deux ou que vous avez le sentiment de ne plus parler la même langue, de ne plus être, l’un et l’autre, sur la même planète 
         </li>
@@ -27,14 +27,20 @@
         </ul>
         <section class="premier">
           <article class="flex-item w40">
-        <p>
+        <p class="ig">
           Il est temps de prendre du recul, car le problème au fond, ne vient pas nécessairement de l'autre...mais plutôt ce qui se passe dans la relation entre vous !
         </p>
         <p>
           L’approche systémique est là pour vous permettre de voir et vivre les choses autrement, de mieux vous comprendre et différemment surtout.
         </p>
+       
           </article>
           <article class="flex-item w50">
+             <img
+          src="../assets/Images/couple2.jpg"
+          class="hero border15" width="300px"
+          alt="couple qui fait du vélo"
+        />
         <p>
           Le thérapeute ne se place ni en juge, ni en arbitre mais en facilitateur, avec la mission de faire émerger les attentes de chacun, et vous aider à débloquer les situations-problème. 
         </p>
@@ -46,7 +52,17 @@
         </p>
           </article>
         </section>
-        <p>
+        <section class="premier">
+           <article class="flex-item img w40">
+        <img
+          src="../assets/Images/couple.jpg"
+          class="hero border15"
+          alt="couple qui marche au bord de la mer"
+        />
+        </article>
+
+      <article class="flex-item w50">
+        <p class="ig">
           L’aventure est certainement pleine de surprises et de rebondissements, j’en conviens.
         </p>
         <p>
@@ -60,26 +76,24 @@
           Un accompagnement systémique se déroule sur une moyenne de 6 à 15 séances de 1h 15 à 1h30 avec un espacement de 2 semaines entre les séances en fonction de la situation et des disponibilités de chacun.
         </p>
           </article>
-    
+        </section>
+        </article>
     
       </main>
 </template>
 
 <script>
 export default {
-  name: 'TherapieDeCoupleComponent', 
+  name: "TherapieDeCoupleComponent",
   props: {
-      variable1: String // type de variable (string,integer,...)
+    variable1: String, // type de variable (string,integer,...)
   },
   data() {
-      return {}
-  } 
-}
+    return {};
+  },
+};
 </script>
 
 <style>
-   main{
-margin: 10px 50px;
-}
 </style>
 

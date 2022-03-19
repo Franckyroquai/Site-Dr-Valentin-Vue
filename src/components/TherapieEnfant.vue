@@ -3,7 +3,7 @@
         
         <h1 class="i">La Thérapie de l’enfant</h1>
         <br>
-        <img src="../assets/Images/Enfant.jpg"  alt="Petite fille avec de la peinture sur les mains">
+        <img src="../assets/Images/enfant2.jpg"  class="border15" width="300" alt="Petite fille escaladant une montagne tend la main vers une main adulte">
         <h2 class="i">
           <br>
             « Vous lui demandez de se calmer mais cette crise est sa manière de se calmer » <br>Isabelle FILLIOSAT
@@ -59,8 +59,6 @@ export default {
 </script>
 
 <style>
-   main{
-margin: 10px 50px;
-}
+
 </style>
 

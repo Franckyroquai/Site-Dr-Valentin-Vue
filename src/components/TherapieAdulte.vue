@@ -9,6 +9,8 @@
             Vous vous sentez en difficulté dans votre vie personnelle, affective, au niveau professionnel, face à un challenge ? 
         </h2>
         <br>
+        <section class="premier">
+      <article class="flex-item w50">
         <h3>
             Vous subissez : 
         </h3>
@@ -24,6 +26,15 @@
             <li>Une addiction (drogue, alcool, jeux, achat, sexe…)</li>
             <li>Des difficultés relationnelles… </li>
         </ul>
+      </article>
+       <article class="flex-item img w40">
+        <img
+          src="../assets/Images/chemin.jpg"
+          class="hero border15"
+          alt="panneau autoroutier avec des problèmes à gauche et à droite, la psychothérapie au centre"
+        />
+      </article>
+        </section>
         <h3>
            Lors de votre préparation aux concours, examens, entretiens, challenges divers, vous aimeriez :
         </h3>
@@ -74,8 +85,6 @@ export default {
 </script>
 
 <style>
-   main{
-margin: 10px 50px;
-}
+
 </style>
 

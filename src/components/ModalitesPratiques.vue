@@ -14,15 +14,17 @@
           Honoraires
         </h2>
         <br>
-        <p>
+        <ul class="bord">
+        <li>
          Séance individuelle d’une heure environ (adulte) : 70 euros 
-        </p>
-        <p>
+        </li>
+        <li>
           Séance individuelle de 30 à 45 minutes (enfant) : 50 euros
-        </p>
-        <p>
+        </li>
+        <li>
           Séance d’une heure 15 ou 30 (couples / famille) : de 90 à 120 euros
-        </p>
+        </li>
+        </ul>
         <p>
          Le règlement des honoraires s’effectue <span class="g">à la fin de chaque séance</span>, par <span class="g">chèque</span> ou par <span class="g">espèces</span>, par <span class="g">virement</span> pour les consultations en ligne.
         </p>
@@ -38,10 +40,13 @@
         <p>
           Un rendez-vous non annulé <span class="g">48 heures avant, sera dû.</span>
         </p>
+        </article>
         <h2 class="s">
           Consultations à distance
         </h2>
         <br>
+        <section class="premier">
+      <article class="flex-item w50">
         <p>
           Les consultations peuvent également se faire en VISIO (en passant par Gmail, Zoom, Skype…)
         </p>
@@ -52,6 +57,15 @@
           Je vous invite à vous organiser pour ne pas être dérangé(e) pendant la séance (téléphone, visites) et prévoyez de vous installer dans un endroit où vous êtes à l'aise.
         </p>
           </article>
+           <article class="flex-item img w40">
+        <img
+          src="../assets/Images/teleconsultation.jpg"
+          class="hero border15"
+          alt="dessin de femmes communiquant au travers d'un écran"
+        />
+      </article>
+
+        </section>
     
     
       </main>
@@ -70,8 +84,6 @@ export default {
 </script>
 
 <style>
-   main{
-margin: 10px 50px;
-}
+  
 </style>
 

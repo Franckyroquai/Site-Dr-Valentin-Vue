@@ -78,19 +78,21 @@
         patient, une préparation est indispensable. Les entretiens préliminaires
         permettent de :
       </p>
-      <p>
-        – construire une relation thérapeutique de confiance avec son praticien.
-      </p>
-      <p>
-        – identifier avec lui une problématique actuelle susceptible d’être
+      <ul class="bord">
+      <li>
+        Construire une relation thérapeutique de confiance avec son praticien.
+      </li>
+      <li>
+        Identifier avec lui une problématique actuelle susceptible d’être
         traitée en <span class="i">EMDR</span>, puis les souvenirs traumatiques
         à l’origine de ces difficultés.
-      </p>
-      <p>
-        – et enfin de mettre en place des outils psychocorporels de
+      </li>
+      <li>
+        Et enfin de mettre en place des outils psychocorporels de
         stabilisation émotionnelle qui peuvent être utilisés en cours de séance
         mais aussi en pratique autonome entre les séances.
-      </p>
+      </li>
+      </ul>
       <br />
       <h3 class="g">Un processus de traitement conscient</h3>
       <p>

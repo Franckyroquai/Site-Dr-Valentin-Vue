@@ -8,7 +8,7 @@
       <br />
       <section class="premier">
         <article class="flex-item w50">
-          <ul class="bord">
+          <ul class="bord i">
       <li>
         Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats
         scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous
@@ -41,15 +41,15 @@
         Ces évènements qui viennent bousculer l’équilibre établi sont le signe qu'un
         changement dans les échanges au sein de la famille devient nécessaire.
       </p>
-      <p>
+      <h2 class="i">
         Vous ne trouvez pas la solution par vous-même ? Ne laissez pas votre famille
-        s’embourber dans les difficultés.
-      </p>
+        s’embourber dans les difficultés...
+      </h2>
       <p>
         Au contraire, le moment est venu de vous mettre tous ensemble au travail, pour
         changer un système relationnel inopérant voire nocif et trouver un mode de
-        communication plus satisfaisant pour l’ensemble du groupe et plus épanouissant
-        pour chacun.
+        communication plus satisfaisant pour l’ensemble du groupe et plus <span class="ig">épanouissant
+        pour chacun</span>.
       </p>
       <p>
         En place de thérapeute systémicienne, l'espace de parole qui vous sera proposé,
@@ -83,7 +83,5 @@ export default {
 </script>
 
 <style>
-main {
-  margin: 10px 50px;
-}
+
 </style>

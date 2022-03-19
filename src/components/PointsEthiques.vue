@@ -6,7 +6,15 @@
         </h1>
         <br>
         <br>
-        <article>
+        <section class="premier">
+          <article class="flex-item img w30">
+        <img
+          src="../assets/Images/deontologie.png"
+          class="hero border15"
+          alt="dossier avec inscription déontologie"
+        />
+      </article>
+      <article class="flex-item w60">
 
          <p>Un <span class="g">espace de créativité et de confiance,</span> où vous pouvez vous raconter et vous projeter, en y étant reconnu(e) pour vous-même et non jugé(e).</p> 
 
@@ -16,8 +24,12 @@
         <p>
           Une <span class="g">déontologie rigoureuse</span> garantissant la confidentialité et le respect de la personne.
         </p>
+      </article>
+       
+        </section>
         <br>
         <br>
+        <article>
         <h2 class="igs">
             Quelques éléments de notre code de déontologie 
         </h2>

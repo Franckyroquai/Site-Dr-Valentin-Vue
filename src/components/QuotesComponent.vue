@@ -1,14 +1,14 @@
 <template>
   <main>
-    <button @click="disconnect">deconnection</button>
+    <button @click="disconnect">déconnection</button>
     <h1>Nombre de citations: {{ count }}</h1>
     <button @click="flushQuotes">Effacer toutes les citations</button>
     <h3>Liste des Citation:</h3>
-    <p v-if="!list.length">non chargees</p>
+    <p v-if="!list.length">non chargées</p>
     <button v-if="!list.length" @click="getListOfQuotes">
       Charger la liste des citations
     </button>
-    <button v-if="list.length" @click="list = []">decharger</button>
+    <button v-if="list.length" @click="list = []">Masquer la liste</button>
     <ul>
       <li v-for="elem in list" :key="elem">
         <div id="quoteContainer">
@@ -20,7 +20,7 @@
         </div>
       </li>
     </ul>
-    <h3>Creer une nouvelle citation:</h3>
+    <h3>Créer une nouvelle citation:</h3>
     <form>
       <input v-model="author" placeholder="Auteur" />
       <textarea v-model="text" placeholder="Citation" />
