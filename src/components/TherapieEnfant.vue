@@ -21,7 +21,7 @@
         <p>
           Dès lors qu’une difficulté est ressentie par l’enfant et/ou les parents, tout peut être motif à consulter. Et ces comportements, sources d’inquiétude, sont des plus variés :
         </p>
-        <ul>
+        <ul class="bord">
             <li>Trouble du sommeil, réveils nocturnes</li>
             <li>Enurésie, encopresie</li>
             <li>Anxiété, angoisse de séparation</li>

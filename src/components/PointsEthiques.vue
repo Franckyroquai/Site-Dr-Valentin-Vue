@@ -23,7 +23,7 @@
         </h2>
         <br>
         <br>
-        <ul>
+        <ul class="bord">
           <li>
           <span class="igs">Pratique d’accompagnement</span> : Le thérapeute s’autorise en conscience à exercer cette fonction à partir de son parcours de formation, d’une expérience professionnelle enrichie de sa  formation personnelle.
           </li>

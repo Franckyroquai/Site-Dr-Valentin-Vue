@@ -4,7 +4,7 @@
 
     <article>
       <br />
-      <img src="../assets/Images/Brainspotting.jpg" alt="Image de cerveau" />
+      <img src="../assets/Images/Brainspotting.jpg" class="border15" alt="Image de cerveau" />
 
       <p>
         <br />
@@ -76,7 +76,7 @@
         </p>
         <h2 class="i">Et le thérapeute là-dedans ?</h2>
         <br />
-        <img src="../assets/Images/theraBrain.jpg" alt="Image de cerveau" />
+        <img src="../assets/Images/theraBrain.jpg" class="border15" alt="Image de cerveau" />
         <p>
           <br />
           Le thérapeute BRAINSPOTTING se met lui-même en pleine conscience, comme son
@@ -144,7 +144,5 @@ export default {
 </script>
 
 <style>
-main {
-  margin: 10px 50px;
-}
+
 </style>

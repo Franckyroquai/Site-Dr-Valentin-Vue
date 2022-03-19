@@ -132,10 +132,10 @@ footer {
     left: 100%;
   }
 }
-ol li,
+/* ol li,
 ul li {
   list-style: none;
-}
+} */
 
 ol,
 ul {

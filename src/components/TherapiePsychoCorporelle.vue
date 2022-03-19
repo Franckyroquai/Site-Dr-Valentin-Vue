@@ -7,7 +7,7 @@
             Une approche corporelle douce 
         </h2>
         <br>
-        <img src="../assets/Images/CorpsAccord.jpg" width="300" alt="Femme qui écarte les bras face au soleil">
+        <img src="../assets/Images/CorpsAccord.jpg" width="300" class="border15" alt="Femme qui écarte les bras face au soleil">
 
         <article>
 

@@ -2,29 +2,38 @@
   <main>
     <h1 class="i">La thérapie familiale</h1>
     <br />
-    <!-- <img src="../assets/Images/DisputeFamiliale.jpg"   alt="Adolescents qui regardent leur téléphones"> -->
+        <img src="../assets/Images/Famille1.jpg" class="border15" width="300" alt="Image de famille">
 
     <article>
       <br />
-      <p>
-        - Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats
+      <section class="premier">
+        <article class="flex-item w50">
+          <ul class="bord">
+      <li>
+        Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats
         scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous
         envoie balader ou au contraire devient inaccessible …
-      </p>
+      </li>
 
-      <p>
-        -Vos enfants se disputent, l’un d’eux est jaloux ou se montre violent et vous en
+      <li>
+        Vos enfants se disputent, l’un d’eux est jaloux ou se montre violent et vous en
         avez peut -être assez des conflits à répétition
-      </p>
-      <p>
-        - Vous ne vous sentez pas ou plus soutenu(e) par votre « moitié » dans votre rôle
+      </li>
+      <li>
+        Vous ne vous sentez pas ou plus soutenu(e) par votre « moitié » dans votre rôle
         de parent…
-      </p>
-      <p>- Votre famille est fragilisée par un deuil, une maladie, un handicap…</p>
-      <p>
-        - Vous vivez une période délicate de séparation… ou de recomposition familiale
-      </p>
-      <p>
+      </li>
+      <li>Votre famille est fragilisée par un deuil, une maladie, un handicap…</li>
+      <li>
+        Vous vivez une période délicate de séparation… ou de recomposition familiale
+      </li>
+          </ul>
+        </article>
+        <article class="flex-item img w30">
+        <img src="../assets/Images/Famille3.jpg" class="border15" width="300" alt="Image de famille devant un coucher de soleil">
+        </article>
+      </section>
+            <p>
         La famille est une entité qui vit, qui évolue et qui est amenée à rencontrer des
         situations d’inconfort et de souffrance comme celles-ci … ou d’autres encore.
       </p>

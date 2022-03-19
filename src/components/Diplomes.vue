@@ -57,7 +57,5 @@ export default {
 </script>
 
 <style>
-main {
-  margin: 10px 50px;
-}
+
 </style>

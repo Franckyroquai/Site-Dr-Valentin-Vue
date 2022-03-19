@@ -3,7 +3,7 @@
     <h1 class="i">Qu'est-ce que l'EMDR ?</h1>
     <br />
     <a href="https://www.emdr-france.org/" target="_blank">
-      <img src="../assets/Images/EMDR.jpg" alt="Image d'oeil" />
+      <img src="../assets/Images/EMDR.jpg" class="border15" alt="Image d'oeil" />
     </a>
 
     <article>
@@ -162,8 +162,6 @@ export default {
 </script>
 
 <style>
-main {
-  margin: 10px 50px;
-}
+
 </style>
 

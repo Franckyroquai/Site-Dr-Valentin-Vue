@@ -2,7 +2,7 @@
   <main>
     <h1 class="i">La thérapie de l’adolescent</h1>
     <br />
-    <img src="../assets/Images/Ado.jpg" alt="Adolescents qui regardent leur téléphones" />
+    <img src="../assets/Images/Ado.jpg" class="border15" alt="Adolescents qui regardent leur téléphones" />
     <h2 class="i">
       <br />
       « Si tout se prépare dans l’enfance, tout se joue à l’adolescence » <br />Kesemberg.
@@ -24,7 +24,7 @@
         maladie, un traumatisme doivent faire systématiquement l’objet d’une aide.
       </p>
       <p>Pour ne citer que quelques uns:</p>
-      <ul>
+      <ul class="bord">
         <li>Troubles alimentaires</li>
         <li>Addictions (drogues, alcool, écrans…)</li>
         <li>
@@ -39,7 +39,7 @@
         <li>Divorce ou conflit parental</li>
       </ul>
       <p>Le coaching thérapeutique auprès de l’adolescent offre un espace où :</p>
-      <ul>
+      <ul class="bord">
         <li>Déposer sa souffrance, exprimer ses émotions</li>
         <li>
           Bénéficier d’une écoute bienveillante et dépourvue de jugement concernant ses
@@ -81,7 +81,9 @@ export default {
 </script>
 
 <style>
-main {
-  margin: 10px 50px;
+.bord{
+border: 2px solid grey;
+border-radius: 15px;
+list-style-type: disc;
 }
 </style>

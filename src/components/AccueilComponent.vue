@@ -152,13 +152,13 @@ main {
   font-size: 20px;
   line-height: 1.6;
 }
-/* body{
-    background-image: url("../assets/Images/Pilat.png");
+ body{
+   /* background-image: url("../assets/Images/Pilat.png");
     height: auto;
     background-position: center;
-    background-size: cover;
-
-} */
+    background-size: cover;*/
+    background: linear-gradient(rgb(246, 246, 191), rgb(245, 222, 179));
+} 
 .hero {
   width: 100%;
 }
@@ -224,6 +224,10 @@ main {
   justify-content: space-between;
 }
 @media screen and (max-width: 878px) {
+  main{
+    margin: 10px 10px;
+    padding: 0% 2vw;
+  }
   .premier{
     flex-direction: column;
   }
