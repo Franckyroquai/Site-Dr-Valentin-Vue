@@ -3,7 +3,7 @@
     class="navbar sticky-top shadow-sm navbar-expand-lg navbar-light bg-light style=background-color: #e3f2fd;"
   >
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand">V. Valentin</router-link>
+      <router-link to="/" class="navbar-brand">V. Valentin <img src="../assets/Images/psy2.png" width="40" alt="logo psychologue" /></router-link>
       <button v-if="isTokenPresent" @click="delogUser">deconnexion</button>
       <button
         class="navbar-toggler"
