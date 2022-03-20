@@ -4,7 +4,7 @@
         <h1 class="i">La thérapie de couple</h1>
         <br>
         <article>
-                  <img src="../assets/Images/TherapieCouple.jpg" class="border15" width="300" alt="Image de couple">
+                  <img src="../assets/Images/TherapieCouple.jpg" class="border15" width="300" alt="Image de couple qui s'embrasse en riant">
 
         <h2 class="i">
           <br>
@@ -14,7 +14,7 @@
         <p>
           Un couple qui va bien n’est pas un couple sans problème, c’est un couple qui sait traverser les crises et parvient à les transmuter.
         </p>
-        <ul class="bord i">
+        <ul class="bord i list">
         <li>
           Si vous ressentez un déséquilibre dans votre vie à deux ou que vous avez le sentiment de ne plus parler la même langue, de ne plus être, l’un et l’autre, sur la même planète 
         </li>
@@ -37,9 +37,9 @@
           </article>
           <article class="flex-item w50">
              <img
-          src="../assets/Images/couple2.jpg"
+          src="../assets/Images/couple3.jpg"
           class="hero border15" width="300px"
-          alt="couple qui fait du vélo"
+          alt="couple qui marche avec un chien au bord de la mer"
         />
         <p>
           Le thérapeute ne se place ni en juge, ni en arbitre mais en facilitateur, avec la mission de faire émerger les attentes de chacun, et vous aider à débloquer les situations-problème. 
@@ -57,7 +57,7 @@
         <img
           src="../assets/Images/couple.jpg"
           class="hero border15"
-          alt="couple qui marche au bord de la mer"
+          alt="couple qui marche au bord de la meren se tenant la main"
         />
         </article>
 
