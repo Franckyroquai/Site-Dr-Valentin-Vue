@@ -1,6 +1,5 @@
 <template>
   <main>
-    <button @click="disconnect">déconnection</button>
     <h1>Nombre de citations: {{ count }}</h1>
     <button @click="flushQuotes">Effacer toutes les citations</button>
     <h3>Liste des Citation:</h3>
@@ -71,10 +70,6 @@ export default {
       } catch (error) {
         confirm("il y a eu une erreur serveur lors de l'enregistrement de la citation.");
       }
-    },
-    disconnect() {
-      localStorage.clear();
-      this.$router.push("/");
     },
     async flushQuotes() {
       try {
