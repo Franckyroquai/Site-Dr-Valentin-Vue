@@ -14,7 +14,7 @@
         <h3>
             Vous subissez : 
         </h3>
-        <ul class="bord">
+        <ul class="bord list">
             <li>Un évènement traumatique, une agression, un accident…</li>
             <li>Une maladie chronique, psychosomatique ...</li>
             <li>Une séparation, la perte d’un proche, un veuvage,  l’isolement de la retraite</li>
@@ -38,7 +38,7 @@
         <h3>
            Lors de votre préparation aux concours, examens, entretiens, challenges divers, vous aimeriez :
         </h3>
-        <ul class="bord">
+        <ul class="bord list">
             <li>Augmenter la confiance et l’estime de vous-même</li>
             <li>Apaiser le stress</li>
             <li>Développer votre concentration </li>
@@ -48,7 +48,7 @@
         <h3>
            En vous lançant dans ce voyage thérapeutique vous vous donnez l’opportunité de : 
         </h3>
-        <ul class="bord">
+        <ul class="bord list">
             <li>Prendre conscience de vos freins, blocages, conditionnements, croyances limitantes.</li>
             <li>Changer de regard sur les situations. </li>
             <li>Vous sentir de plus en plus aligné(e) avec ce que vous êtes profondément.</li>
