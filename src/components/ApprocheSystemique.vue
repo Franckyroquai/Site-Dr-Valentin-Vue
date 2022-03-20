@@ -11,12 +11,13 @@
         puissance de cette approche consiste à débusquer les blocages enfouis au sein du
         système et retisser les liens endommagés.
       </p>
-
       <p>
         En thérapie de <router-link to="/therapie-de-couple">couple</router-link> et de <router-link to="/therapie-familiale">famille</router-link>, l’approche systémique met en avant l’idée que
         le système concerné s’organise, fonctionne, se régule en fonction des interactions
         et à partir des règles, explicites et implicites, qui s’y créent.
       </p>
+      <section class="premier">
+      <article class="flex-item w50">
       <p>
         La thérapie systémique familiale ou de couple est très pragmatique et ancrée dans
         le présent, dans la mesure où elle étudie les actions et réactions de chacun des
@@ -36,7 +37,15 @@
         quelque sorte, le « porte-parole » d’un malaise au sein de la famille ou du couple
         et maintient de la sorte, la stabilité du système.
       </p>
-      <p>
+      </article>
+      <article class="flex-item img w40">
+        <img
+          src="../assets/Images/pontdune.webp"
+          class="hero border15"
+          alt="marches de la dune du pilat"/>
+      </article>
+      </section>
+      <p class="g">
         Le thérapeute devra donc identifier la fonction du symptôme dans le système : que
         permet-il, qu’empêche-t-il… ?
       </p>
@@ -45,7 +54,7 @@
       </p>
       <p>
         Au contraire de désigner un coupable ou interpréter le problème, il cherchera,
-        ensuite, à modifier le contexte qui le déclenche.
+        ensuite, à <span class="g">modifier le contexte qui le déclenche</span>.
       </p>
       <p>
         Il devra choisir, en fonction, les stratégies thérapeutiques les plus appropriées
@@ -67,7 +76,7 @@
         étouffé par son appartenance au système.
       </p>
       <p>
-        L’approche systémique familiale fait partie des thérapies brèves. La durée moyenne
+        L’approche systémique familiale fait partie des <span class="g">thérapies brèves</span>. La durée moyenne
         d’un traitement peut se situer entre 6 et quinze séances, même si, bien sûr, cela
         est difficile à estimer car adapté à la situation forcément singulière de chaque
         famille.
