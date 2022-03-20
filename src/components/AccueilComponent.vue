@@ -153,10 +153,10 @@ main {
   line-height: 1.6;
 }
  body{
-   /* background-image: url("../assets/Images/Pilat.png");
+   /* background-image: url("../assets/Images/ciel2.jpeg");
     height: auto;
     background-position: center;
-    background-size: cover;*/
+    background-size: cover; */
     background: linear-gradient(rgb(246, 246, 191), rgb(245, 222, 179));
 } 
 .bord{
@@ -227,6 +227,12 @@ list-style-type: disc;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 @media screen and (max-width: 992px) {
   main{
