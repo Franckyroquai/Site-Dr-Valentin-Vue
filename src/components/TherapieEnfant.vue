@@ -21,7 +21,9 @@
         <p>
           Dès lors qu’une difficulté est ressentie par l’enfant et/ou les parents, tout peut être motif à consulter. Et ces comportements, sources d’inquiétude, sont des plus variés :
         </p>
-        <ul class="bord">
+        <section class="premier">
+      <article class="flex-item w50">
+        <ul class="bord list">
             <li>Trouble du sommeil, réveils nocturnes</li>
             <li>Enurésie, encopresie</li>
             <li>Anxiété, angoisse de séparation</li>
@@ -37,6 +39,15 @@
             <li>Difficultés dans la relation parents/enfant</li>
             <li>Divorce, décès d’un parent, familles recomposées…</li>
         </ul>
+      </article>
+      <article class="flex-item img w40">
+        <img
+          src="../assets/Images/pierres-zen.jpg"
+          class="hero border15"
+          alt="fleur de lotus"
+        />
+      </article>
+        </section>
         <p>
           Après évaluation, les séances suivantes pourront déboucher (ou pas) sur un accompagnement familial, ou un coaching parental « step by step », selon l’évolution des séances avec l’enfant.
         </p>
