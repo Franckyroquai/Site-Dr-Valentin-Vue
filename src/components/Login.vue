@@ -61,7 +61,8 @@ export default {
           });
           if (httpResponse.status === 200) {
             localStorage.setItem("token", httpResponse.data.access_token);
-            this.emitLoggedEvent();
+            this.emitter.emit("user-logged");
+
             if (
               confirm(
                 "Vous avez bien ete loggue\nVoullez-vous acceder a l'interface d'administration?"
@@ -80,9 +81,6 @@ export default {
         this.v$.$errors.forEach((error) => console.warn(error.$message));
         console.error("Form failed validation");
       }
-    },
-    emitLoggedEvent() {
-      this.emitter.emit("user-logged");
     },
   },
   validations() {
