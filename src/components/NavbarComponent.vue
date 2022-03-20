@@ -151,7 +151,7 @@ export default {
     };
   },
   created (){
-    this.emitter.on('user-logged', this.verifyPresenceOfToken);
+    this.emitter.on("user-logged", this.verifyPresenceOfToken);
     this.verifyPresenceOfToken();
   },
   methods: {
@@ -166,6 +166,7 @@ export default {
     delogUser() {
       localStorage.removeItem("token");
       this.verifyPresenceOfToken();
+      this.emitter.emit("user-unlogged");
       this.$router.push("/");
     }
   },
