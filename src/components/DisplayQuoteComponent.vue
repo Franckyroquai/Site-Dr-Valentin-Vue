@@ -1,10 +1,6 @@
 <template>
-  <h1>Tentez votre chance</h1>
-  <button class="favorite styled btn btn-primary" type="button" v-on:click="getQuote">
-    Cliquez ici
-  </button>
-  <h3>auteur : {{ author }}</h3>
-  <p>citation : {{ text }}</p>
+  <h2>Citation : {{ text }}</h2>
+  <h3 v-if="author">Auteur : {{ author }}</h3>
 </template>
 
 <script>
@@ -15,21 +11,34 @@ export default {
 
   data() {
     return {
+      timeout: 15,
       text: "",
       author: "",
     };
   },
   mounted() {
     this.getQuote();
+    this.countdown();
   },
   methods: {
     async getQuote() {
       try {
         const response = await publicRequest("/quote/random-js");
         this.text = response.data.text;
-        this.author = response.data.author;
+        this.author = (response.data.author === "anonyme" ? null : response.data.author); //fonction ternaire
+        console.log("this author", this.author);
       } catch (error) {
         console.error(error); //TODO: remove before Prod
+      }
+    },
+    countdown() {
+      if (this.timeout > 0) {
+        this.timeout--;
+        setTimeout(this.countdown, 1000);
+      } else {
+        this.getQuote();
+        this.timeout = 15;
+        this.countdown();
       }
     },
   },
