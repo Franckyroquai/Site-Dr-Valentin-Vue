@@ -24,7 +24,9 @@
         maladie, un traumatisme doivent faire systématiquement l’objet d’une aide.
       </p>
       <p>Pour ne citer que quelques uns:</p>
-      <ul class="bord">
+      <section class="premier">
+      <article class="flex-item w50">
+      <ul class="bord list">
         <li>Troubles alimentaires</li>
         <li>Addictions (drogues, alcool, écrans…)</li>
         <li>
@@ -38,8 +40,17 @@
         <li>Phobie sociale, échec scolaire</li>
         <li>Divorce ou conflit parental</li>
       </ul>
+      </article>
+      <article class="flex-item img w40">
+        <img
+          src="../assets/Images/Phare3.jpeg"
+          class="hero border15"
+          alt="vague qui s'écrase sur un phare"
+        />
+      </article>
+      </section>
       <p>Le coaching thérapeutique auprès de l’adolescent offre un espace où :</p>
-      <ul class="bord">
+      <ul class="bord list">
         <li>Déposer sa souffrance, exprimer ses émotions</li>
         <li>
           Bénéficier d’une écoute bienveillante et dépourvue de jugement concernant ses
@@ -54,7 +65,7 @@
         </li>
       </ul>
       <p>
-        Il peut s’avérer judicieux de proposer de l’EMDR ou du Brainspotting à un
+        Il peut s’avérer judicieux de proposer de l’<router-link to="/emdr">EMDR</router-link> ou du <router-link to="/brainspotting">Brainspotting</router-link> à un
         adolescent, selon la situation bien sûr, car cela permet, souvent bien plus
         rapidement que chez l’adulte d’apaiser les tensions psychiques.
       </p>
