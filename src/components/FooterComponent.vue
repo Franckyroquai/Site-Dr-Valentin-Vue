@@ -37,7 +37,8 @@
               </p>
               <br />
               <p class="mb-0">
-                <router-link to="/login">Espace administrateur</router-link>
+                <router-link v-if="!isUserLogged" to="/login">Espace administrateur</router-link>
+                <router-link v-if="isUserLogged" to="/quotes-management">Espace administrateur</router-link>
               </p>
             </div>
           </div>
@@ -50,6 +51,25 @@
 <script>
 export default {
   name: "FooterComponent",
+  data() {
+    return {
+      isUserLogged: false
+    }
+  },
+  created() {
+    this.emitter.on("user-logged", () => {this.isUserLogged = true});
+    this.emitter.on("user-unlogged", () => {this.isUserLogged = false});
+    this.verifyPresenceOfToken();
+  },
+  methods: {
+    verifyPresenceOfToken() {
+      if (localStorage.getItem("token")) {
+        this.isUserLogged = true;
+      } else {
+        this.isUserLogged = false;
+      }
+    },
+  }
 };
 </script>
 
