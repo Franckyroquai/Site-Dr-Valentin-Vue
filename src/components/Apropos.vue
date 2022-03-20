@@ -74,7 +74,7 @@
         Sur ce parcours qui est le mien, j’ai rencontré bien sûr des personnes
         inspirantes :
       </h2>
-      <ul class="bord">
+      <ul class="bord list">
       <li>
         Ma psychanalyste, certes lacanienne, mais qui a su m’insuffler bien
         plus que du Lacan.
