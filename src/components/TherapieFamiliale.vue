@@ -2,13 +2,13 @@
   <main>
     <h1 class="i">La thérapie familiale</h1>
     <br />
-        <img src="../assets/Images/Famille1.jpg" class="border15" width="300" alt="Image de famille">
+        <img src="../assets/Images/famille6.jpg" class="border15" width="300" alt="Image de famille">
 
     <article>
       <br />
       <section class="premier">
         <article class="flex-item w50">
-          <ul class="bord i">
+          <ul class="bord i list">
       <li>
         Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats
         scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous
