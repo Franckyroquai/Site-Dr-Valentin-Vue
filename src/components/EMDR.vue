@@ -63,7 +63,7 @@
         maladies graves, incendies, catastrophes naturelles, les situations de
         guerre et attentats … Il peut s’agir aussi d’événements de vie
         difficiles, sources de fortes émotions ou de comportements inadaptés ou
-        excessifs dans la vie quotidienne, une enfance perturbée, les
+        excessifs dans la vie quotidienne (une enfance perturbée, les
         séparations, interruptions de grossesse, deuils, difficultés
         professionnelles ...) Des symptômes peuvent alors apparaitre tels que
         des troubles anxieux (angoisses), de l’humeur, des comportements
