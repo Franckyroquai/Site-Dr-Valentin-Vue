@@ -1,5 +1,6 @@
 <template>
-  <img src="../assets/Images/Pilat.png" class="hero" alt="Dune de sable" />
+  <!-- <img src="../assets/Images/Pilat.png" class="hero" alt="Dune de sable" /> -->
+  <div class="parallax"></div>
 
   <main>
     <display-quote-component></display-quote-component>
@@ -159,6 +160,14 @@ main {
     background-size: cover; */
     background: linear-gradient(rgb(246, 246, 191), rgb(245, 222, 179));
 } 
+.parallax{
+  background-image: url(../assets/Images/Pilat.png);
+  min-height: 40rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bord{
 border: 2px solid grey;
 border-radius: 15px;
