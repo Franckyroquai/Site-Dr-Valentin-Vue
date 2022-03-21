@@ -1,6 +1,9 @@
 <template>
   <!-- <img src="../assets/Images/Pilat.png" class="hero" alt="Dune de sable" /> -->
-  <div class="parallax"></div>
+  <div class="parallax">
+    <h1 class="titre i">Véronique Valentin</h1>
+    <h2 class="titre">Psychologue</h2>
+  </div>
 
   <main>
     <display-quote-component></display-quote-component>
@@ -167,6 +170,25 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-right: 10%;
+}
+.titre{
+  margin-right:-440px;
+  animation: slidein 2s forwards;
+  /* animation-timing-function: ease-in-out; */
+}
+@keyframes slidein {
+    0% { margin-right:-800px; }
+    20% { margin-right:-800px; }
+    /* 35% { margin-right:-600px; }
+    50% { margin-right:-400px; }
+    65% { margin-right:-200px; } 
+    80% { margin-right: 0px; }*/
+    100% { margin-right:0px; }
 }
 .bord{
 border: 2px solid grey;
