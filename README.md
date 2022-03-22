@@ -3,8 +3,14 @@
 	- Vue Bootstrapping OK
 ## Project setup
 ```
+git clone url(copiée de github)
 npm install
 ```
+## Project update
+```
+git push origin main (envoi des données)
+```
+git pull origin main (récuprérationdes données)
 
 ### Compiles and hot-reloads for development
 ```
