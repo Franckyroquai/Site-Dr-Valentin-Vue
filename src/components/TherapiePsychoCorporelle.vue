@@ -1,28 +1,27 @@
 <template>
   <main>
-    <h1 class="i">La thérapie psycho-corporelle</h1>
+    <h1 class="hero2 i">La thérapie psycho-corporelle</h1>
     <br />
     <h2>Une approche corporelle douce</h2>
     <br />
     <img
-      src="../assets/Images/CorpsAccord.jpg"
+      src="../../public/assets/Images/CorpsAccord.jpg"
       width="300"
-      class="border15"
       alt="Femme qui écarte les bras face au soleil"
     />
 
     <article>
       <p class="i">Pour un « CORPS ACCORD »</p>
 
-      <p>
+      <p class="bg1">
         Notre corps est une <span class="g">mémoire vivante</span> qui porte en
         lui les traces de notre vécu, de notre histoire émotionnelle et
         affective depuis notre conception, de notre héritage familial. C'est par
         et avec notre corps que nous sommes présents au monde et que nous
-        l'habitons. C’est par notre corps que nous agissons, c’est dans et par
-        notre corps que nous souffrons.
+        l'habitons. <span class="g">C’est par notre corps que nous agissons, c’est dans et par
+        notre corps que nous souffrons</span>.
       </p>
-      <ul class="bord">
+      <ul class="bg1 list">
         <li>
           Si vous vous posez des milliards de questions sur vous, votre vie et
           que le mental s’emballe…
@@ -36,7 +35,8 @@
           douleurs, tensions, angoisse, blocages…)
         </li>
       </ul>
-      <p>Il est certainement temps de vous mettre à son écoute.</p>
+      <p class="g">Il est certainement temps de vous mettre à son écoute.</p>
+      <br>
       <button
         class="i btn btn-primary btn-lg"
         @click="isMoreInfo = !isMoreInfo"
@@ -44,11 +44,13 @@
         Pour en Savoir plus
       </button>
       <section v-if="isMoreInfo">
-        <br />
-        <h3 class="i">
-          « L’inconscient est structuré comme un langage » <br />
-          (J. LACAN) … et le corps en est son creuset.
-        </h3>
+        <br>
+        <h2 class="i">
+          "L’inconscient est structuré comme un langage"</h2>
+        <h3 class="author">(J. LACAN)</h3>
+         <h2 class="i">… et le corps en est son creuset.</h2>
+         <br>
+        <article class="bg1">
         <p>
           Toute thérapie passant par le corps s’appuie sur un principe cher à
           Wilhelm Reich, selon lequel les souvenirs douloureux sont refoulés
@@ -62,21 +64,21 @@
           l’histoire de la personne et des défenses qu’elle a édifiées pour
           s’adapter à son environnement. Autrement dit, ce qui n’a pu s’exprimer
           émotionnellement, s’imprime dans le corps ou finit par s’exprimer par
-          des maux qu’il s’agisse de maux physiques, psychiques ou par un « mal
-          à l’âme » indéfinissable.
+          des maux qu’il s’agisse de maux physiques, psychiques ou par un <span class="g">"mal
+          à l’âme"</span> indéfinissable.
         </p>
         <p>
           Comprenons que, dès notre conception, notre organisme enregistre
           chaque expérience vécue. Il garde, au plus profond de ses tissus, les
           traces des épreuves non digérées qui entravent son développement
           naturel et ce sous forme de tensions qui deviennent chroniques. Tout
-          cela est inconscient. En dissolvant ces marques du passé, les schémas
-          sclérosés peuvent alors se dénouer en douceur. Le corps s’en trouve
+          cela est inconscient. <span class="g">En dissolvant ces marques du passé, les schémas
+          sclérosés peuvent alors se dénouer en douceur</span>. Le corps s’en trouve
           apaisé et ressourcé.
         </p>
         <p>
-          Permettre à la personne une réappropriation progressive de lui-même et
-          de ses potentialités afin de lui restituer sa pleine capacité à
+          <span class="g">Permettre à la personne une réappropriation progressive de lui-même et
+          de ses potentialités</span> afin de lui restituer sa pleine capacité à
           sentir, à éprouver, aimer et agir, telle paraît bien être la
           perspective thérapeutique première de cette reconnection intime
           Psyche-Soma.
@@ -111,6 +113,7 @@
           écologie de l’Etre, car synonymes de bien-être, de paix intérieure,
           d’un prendre soin de soi- donc de vous- <span class="g">"en corps"</span> et toujours .
         </p>
+        </article>
       </section>
     </article>
   </main>

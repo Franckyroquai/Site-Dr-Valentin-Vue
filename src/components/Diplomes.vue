@@ -1,18 +1,22 @@
 <template>
   <main>
-    <h1 class="is">Diplômes et Certifications</h1>
+    <h1 class="hero2 i">Diplômes et Certifications</h1>
     <br />
+    <h2 class="i">
+        "Je suis venu en ce monde sans rien,<br>et je le quitterai avec ma conscience."</h2>
+        <h3 class="author">Dr Garth Alfred Taylor</h3>
+        <br>
     <article>
       <section class="premier">
         <article class="flex-item img w40">
         <img
-          src="../assets/Images/diplome.jpg"
-          class="hero border15"
+          src="../../public/assets/Images/diplome.jpg"
+          class="hero"
           alt="image de diplome et chapeau d'étudiant"
         />
       </article>
       <article class="flex-item w50">
-        <ul class="bord list">
+        <ul class="list bg1">
       <li>Master2 -Psychologie Clinique et psychopathologie (Université Aix-Marseille)</li>
 
       <li>
@@ -37,10 +41,13 @@
         </ul>
       </article>
       </section>
-      <h2 class="s">Orientation</h2>
-      <p>• Approche humaniste, intégrative, systémique.</p>
-      <h2 class="s">Pour Quel public ?</h2>
-      <ul class="bord list">
+      <h2 class="i">Orientation</h2>
+      <br>
+      <p class="g">Approche humaniste, intégrative, systémique.</p>
+      <br>
+      <h2 class="i">Pour Quel public ?</h2>
+      <br>
+      <ul class="bg1 list">
       <li class="s">Enfants / Adolescents, Adultes / séniors, Couples / familles</li>
       <li><span class="s">Sportifs de haut niveau :</span> Préparation mentale</li>
       <li>
@@ -55,14 +62,12 @@
         services d’aide à domicile) :</span> Formatrice
       </li>
       </ul>
+      <article class="bg1">
       <p>Membre de l’ Association <a href="https://www.emdr-france.org/" target="_blank">
           EMDR-France
         </a></p>
       <p>Membre de l’ IETSP ( Institut Européen des Thérapies Somato-Psychiques)</p>
-      <h2 class="i">
-        « Je suis venu en ce monde sans rien, et je le quitterai avec ma conscience. »
-        <br />Dr Garth Alfred Taylor
-      </h2>
+      </article>
     </article>
   </main>
 </template>

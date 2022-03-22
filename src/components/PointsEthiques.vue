@@ -1,20 +1,20 @@
 <template>
     <main>
        
-        <h1 class="i">
+        <h1 class="hero2 i">
           Les points-clés de ma pratique
         </h1>
         <br>
         <br>
         <section class="premier">
-          <article class="flex-item img w30">
+          <article class="flex-item img w35">
         <img
-          src="../assets/Images/deontologie.png"
-          class="hero border15"
+          src="../../public/assets/Images/deontologie.png"
+          class="hero"
           alt="dossier avec inscription déontologie"
         />
       </article>
-      <article class="flex-item w60">
+      <article class="flex-item w60 bg1">
 
          <p>Un <span class="g">espace de créativité et de confiance,</span> où vous pouvez vous raconter et vous projeter, en y étant reconnu(e) pour vous-même et non jugé(e).</p> 
 
@@ -30,12 +30,12 @@
         <br>
         <br>
         <article>
-        <h2 class="igs">
-            Quelques éléments de notre code de déontologie 
+        <h2 class="ig">
+            Quelques éléments de notre code de déontologie : 
         </h2>
         <br>
         <br>
-        <ul class="bord list">
+        <ul class="list bg1">
           <li>
           <span class="igs">Pratique d’accompagnement</span> : Le thérapeute s’autorise en conscience à exercer cette fonction à partir de son parcours de formation, d’une expérience professionnelle enrichie de sa  formation personnelle.
           </li>
@@ -54,8 +54,8 @@
         </ul>
         <br>
         <h2 class="i">
-           « C’est sur soi même qu’il faut œuvrer, c’est en soi-même qu’il faut chercher » <br> Paracelse.
-        </h2>
+           "C’est sur soi même qu’il faut œuvrer,<br>c’est en soi-même qu’il faut chercher"</h2>
+           <h3 class="author">Paracelse</h3>
        
           </article>
     

@@ -1,13 +1,16 @@
 <template>
   <main>
-    <h1 class="i">Le Brainspotting</h1>
+    <h1 class="hero2 i">Le Brainspotting</h1>
 
     <article>
       <br />
-      <img src="../assets/Images/Brainspotting.jpg" class="border15" alt="Image de cerveau" />
-
       <p>
-        <br />
+      <img src="../../public/assets/Images/Brainspotting.jpg" alt="Image de cerveau" />
+      </p>
+      <br>
+
+      <section class="bg1">
+      <p>
         Le brainspotting est une nouvelle thérapie neurobiologique développée par David
         Grand en 2003.
       </p>
@@ -22,9 +25,10 @@
         >
       </p>
       <h2 class="i">
-        Le socle même de la méthode repose sur cette phrase : « La direction de notre
-        regard impacte notre ressenti ». <br />( David Grand)
-      </h2>
+        Le socle même de la méthode repose sur cette phrase : 
+       <br>"La direction de notre
+        regard impacte notre ressenti".</h2>
+        <h3 class="author">David Grand</h3>
       <p>
         En effet, lorsqu’une personne se concentre sur une situation chargée
         émotionnellement, nous pouvons remarquer qu’elle est de manière reflexe, donc
@@ -39,11 +43,13 @@
         corporelles ou des images peuvent alors se présenter au patient et lui permettre
         de libérer des ressources auto-thérapeutiques.
       </p>
+      </section>
       <button class="i btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">
         Pour en Savoir plus
       </button>
       <section v-if="isMoreInfo">
         <br />
+        <article class="bg1">
         <p>
           Il s’agit là d’une Méthode puissante et pointue, son action est directe, tout en
           restant contenante.
@@ -56,7 +62,11 @@
           Le BRAINSPOTTING est par conséquent une approche physiologique avec des
           conséquences psychologiques.
         </p>
+        </article>
+        <br>
         <h2 class="i">Déroulement d’une séance</h2>
+        <br>
+        <article class="bg1">
         <p>
           Le patient est invité à décrire son problème, en étant présent à ce qui se passe
           dans son corps. Puis, aidé du thérapeute, il recherche le « spot » visuel où il
@@ -74,14 +84,16 @@
           la séance, le patient se sent plus calme et a pris de la distance par rapport à
           son problème.
         </p>
+        </article>
+        <br>
         <h2 class="i">Et le thérapeute là-dedans ?</h2>
         <br />
         <section class="premier">
           
         <article class="flex-item img w40">
-        <img src="../assets/Images/theraBrain.jpg" class="border15" alt="Image de cerveau" />
+        <img src="../../public/assets/Images/theraBrain.jpg" alt="Image de cerveau" />
         </article>
-        <article class="flex-item w50">
+        <article class="flex-item w50 bg1">
         <p>
           Le thérapeute BRAINSPOTTING se met lui-même en pleine conscience, comme son
           patient. Assis face à lui, présent, concentré, silencieux, il se met dans une
@@ -92,6 +104,7 @@
         </p>
         </article>
         </section>
+        <article class="bg1">
         <p>
           Malgré sa dimension neurophysiologique, le BRAINSPOTTING est un processus
           hautement relationnel. Le thérapeute BRAINSPOTTING adopte une posture bien
@@ -133,6 +146,7 @@
           guérison rapide dans le cas des dépressions en lien avec des traumatismes. Dans
           d’autres cas, il peut accompagner un traitement médicamenteux.
         </p>
+        </article>
       </section>
     </article>
   </main>

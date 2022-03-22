@@ -1,13 +1,17 @@
 <template>
   <main>
-    <h1 class="i">
-      Bonjour et bienvenue à vous,</h1>
+
+      <h1 class="hero2 i">Bonjour et bienvenue à vous,</h1>
+
+
+    <!-- <img src="../../public/assets/Images/Pilatbandeau.png" width="100%" height="100%" alt="dune du pilat"> -->
+      <br>
       <h2 class="i">qui pouvez légitimement avoir quelques
       interrogations sur mon parcours et ma pratique...</h2>
     
     <br />
    <section class="premier">
-      <article class="flex-item w50">
+      <article class="flex-item w50 bg1">
       <p>
         <span class="g">Psychologue clinicienne</span> depuis bientôt 30 ans, j’ai goûté à mes débuts,
         à la profession de psychomotricienne. Cette formation initiale, déjà
@@ -27,15 +31,15 @@
         bien des méthodes psychocorporelles y compris en relaxation.
       </p>
       </article>
-      <article class="flex-item img w40">
+      <article class="flex-item img w35">
         <img
-          src="../assets/Images/Jung.jpg"
-          class="hero border15"
+          src="../../public/assets/Images/Jung.jpg"
+          class="hero"
           alt="Karl Jung fumant sa pipe"
         />
       </article>
     </section>
-      <article>
+      <article class="bg1">
       <p>
         Elle n’a fait que s’agrandir depuis, avec de nouvelles pratiques
         psycho-neurophysiologiques soutenues par les progrès de l’imagerie
@@ -70,10 +74,11 @@
         même à se sentir légitime dans la réussite, le <router-link to="/brainspotting">Brainspotting</router-link> est un
         outil des plus appropriés pour switcher sur ces situations-là.
       </p>
-      <h2 class="is">
-        Sur ce parcours qui est le mien, j’ai rencontré bien sûr des personnes
+      <h2 class="i">
+        Sur ce parcours qui est le mien,<br>j’ai rencontré bien sûr des personnes
         inspirantes :
       </h2>
+      <br>
       <ul class="bord list">
       <li>
         Ma psychanalyste, certes lacanienne, mais qui a su m’insuffler bien
@@ -95,17 +100,19 @@
         me pousse vers tous les champs du possible.
       </li>
       </ul>
+      <br>
       <p>
         Où trouvons-vous une limite à notre Etre, puisque tout est en nous ? Et
         si nous acceptons de plonger dans ce vaste Océan de la conscience, nous
         ne pouvons que vivre un élargissement de notre être.
       </p>
-      <h2 class="i">
-        <span class="g">Djalâl Al-Dîn Rûmi</span> ne disait-il pas : " Vous
-        n'êtes pas une goutte dans l'océan. Vous êtes l'océan tout entier dans
+    </article>
+    <h2 class="i">"Vous n'êtes pas une goutte dans l'océan.<br>Vous êtes l'océan tout entier dans
         une goutte d'eau."
       </h2>
-    </article>
+      <h3 class="author">
+       Djalâl Al-Dîn Rûmi
+      </h3>
   </main>
 </template>
 

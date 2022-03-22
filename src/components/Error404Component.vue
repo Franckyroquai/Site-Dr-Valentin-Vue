@@ -3,7 +3,7 @@
   <h1>Cette page n'est pas attribuée...</h1>
   <div class="image-404">
     <img
-      src="../assets/Images/404ariane1.jpg"
+      src="../../public/assets/Images/404ariane1.jpg"
       class="d-block w-100"
       alt="Erreur 404 image de fil d'ariane coupé"
     />

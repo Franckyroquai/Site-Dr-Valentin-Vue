@@ -1,8 +1,8 @@
 <template>
 <main>
-  <h1 class="i">Liens Vidéos</h1>
+  <h1 class="hero2 i">Liens Vidéos</h1>
   <br />
-  <article class=is>Voici quelques vidéos qui vous aiderons à comprendre mon approche :</article>
+  <h2 class=i>Voici quelques vidéos qui vous aiderons à comprendre mon approche :</h2>
   <br />
   <div v-for="video in videos" :key="video.id">
     <iframe

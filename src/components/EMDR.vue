@@ -1,13 +1,14 @@
 <template>
   <main>
-    <h1 class="i">Qu'est-ce que l'EMDR ?</h1>
+    <h1 class="hero2 i">Qu'est-ce que l'EMDR ?</h1>
     <br />
     <a href="https://www.emdr-france.org/" target="_blank">
-      <img src="../assets/Images/EMDR.jpg" class="border15" alt="Image d'oeil" />
+      <img src="../../public/assets/Images/EMDR.jpg" alt="Image d'oeil" />
     </a>
 
     <article>
       <br />
+      <section class="bg1">
       <p>
         Les initiales
         <a href="https://www.emdr-france.org/" target="_blank"
@@ -36,10 +37,12 @@
           l’origine de divers symptômes, parfois très invalidants.</span
         >
       </p>
+      </section>
       
       <button class="i btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">Pour en Savoir plus</button>
       <section v-if="isMoreInfo">
         <br>
+        <article class="bg1">
       <p>
         Le processus psychique de traitement activé par cette méthode est un
         processus conscient qui diminue la charge émotionnelle associée à un
@@ -70,6 +73,7 @@
         alimentaires (TCA), troubles sexuels, addictions, phobies, maladies
         chroniques, TOC, douleurs, états dissociatifs …
       </p>
+      </article>
       <h2 class="ig">Comment se passe une séance de traitement EMDR ?</h2>
       <br />
       <h3 class="g">Des séances de préparation préalables</h3>
@@ -78,7 +82,7 @@
         patient, une préparation est indispensable. Les entretiens préliminaires
         permettent de :
       </p>
-      <ul class="bord">
+      <ul class="bg1">
       <li>
         Construire une relation thérapeutique de confiance avec son praticien.
       </li>
@@ -94,6 +98,7 @@
       </li>
       </ul>
       <br />
+      <article class="bg1">
       <h3 class="g">Un processus de traitement conscient</h3>
       <p>
         Les souvenirs perturbants identifiés sont ensuite retraités, un à un,
@@ -135,11 +140,12 @@
         scientifique internationale. Elle est pratiquée dans le monde entier
         auprès de personnes de tous âges et de toutes conditions.
       </p>
+      </article>
       <p>
         Je vous invite à visiter le site EMDR france :
         <br />
         <a href="https://www.emdr-france.org/" target="_blank">
-      <img src="../assets/Images/EmdrFrance.png" alt="logo Emdr" />
+      <img src="../../public/assets/Images/EmdrFrance.png" alt="logo Emdr" />
     </a>
       </p>
       <p>

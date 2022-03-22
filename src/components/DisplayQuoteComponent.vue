@@ -1,6 +1,6 @@
 <template>
-  <h2>Citation : {{ text }}</h2>
-  <h3 v-if="author">Auteur : {{ author }}</h3>
+  <h2 class="i"> "{{ text }}" </h2>
+  <h3 v-if="author" class="author"> {{ author }}</h3>
 </template>
 
 <script>

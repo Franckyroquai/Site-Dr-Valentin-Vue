@@ -78,7 +78,7 @@ footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   margin-top: auto;
-  background-color: rgb(236, 240, 243);
+  background-color: rgb(128, 128, 128, 0.15);
 }
 .footer_menu {
   color: #747794;
@@ -90,7 +90,7 @@ footer {
   margin-bottom: 0px;
   z-index: 1;
   overflow: hidden;
-  box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+  /* box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175); */
   padding: 10px;
 }
 .footer_area .row {

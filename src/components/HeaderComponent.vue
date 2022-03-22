@@ -34,7 +34,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(../assets/Images/5591317.jpg);
+  background-image: url(../../public/assets/Images/5591317.jpg);
   color: gray;
 }
 </style>

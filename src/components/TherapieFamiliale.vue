@@ -1,14 +1,14 @@
 <template>
   <main>
-    <h1 class="i">La thérapie familiale</h1>
+    <h1 class="hero2 i">La thérapie familiale</h1>
     <br />
-        <img src="../assets/Images/famille6.jpg" class="border15" width="300" alt="Image de famille">
+        <img src="../../public/assets/Images/famille6.jpg" width="300" alt="Image de famille">
 
     <article>
       <br />
       <section class="premier">
         <article class="flex-item w50">
-          <ul class="bord i list">
+          <ul class="bg1 i list">
       <li>
         Votre enfant fait des cauchemars, votre adolescent a de mauvais résultats
         scolaires ou décroche, se perd dans les écrans ou se noie dans une addiction, vous
@@ -30,9 +30,10 @@
           </ul>
         </article>
         <article class="flex-item img w30">
-        <img src="../assets/Images/Famille3.jpg" class="border15" width="300" alt="Image de famille devant un coucher de soleil">
+        <img src="../../public/assets/Images/Famille3.jpg" width="300" alt="Image de famille devant un coucher de soleil">
         </article>
       </section>
+      <section class="bg1">
             <p>
         La famille est une entité qui vit, qui évolue et qui est amenée à rencontrer des
         situations d’inconfort et de souffrance comme celles-ci … ou d’autres encore.
@@ -41,14 +42,18 @@
         Ces évènements qui viennent bousculer l’équilibre établi sont le signe qu'un
         changement dans les échanges au sein de la famille devient nécessaire.
       </p>
+      </section>
+      <br>
       <h2 class="i">
-        Vous ne trouvez pas la solution par vous-même ? Ne laissez pas votre famille
-        s’embourber dans les difficultés...
+        Vous ne trouvez pas la solution par vous-même ? <br>
+        Ne laissez pas votre famille s’embourber dans les difficultés...
       </h2>
+      <br>
+      <section class="bg1">
       <p>
         Au contraire, le moment est venu de vous mettre tous ensemble au travail, pour
         changer un système relationnel inopérant voire nocif et trouver un mode de
-        communication plus satisfaisant pour l’ensemble du groupe et plus <span class="ig">épanouissant
+        communication plus satisfaisant pour l’ensemble du groupe et <span class="ig">plus épanouissant
         pour chacun</span>.
       </p>
       <p>
@@ -71,6 +76,7 @@
         familial se déroule sur une moyenne de 6 à 12 séances de 1h 15 à 1h30 avec un
         espacement de 2 à 3 semaines entre les séances.
       </p>
+      </section>
     </article>
   </main>
 </template>

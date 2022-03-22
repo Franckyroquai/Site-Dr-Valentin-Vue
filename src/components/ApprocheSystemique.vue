@@ -1,8 +1,9 @@
 <template>
   <main>
-    <h1 class="i">L'approche systémique</h1>
+    <h1 class="hero2 i">L'approche systémique</h1>
     <br />
     <article>
+      <section class="bg1">
       <p>
         <span class="ig">L’approche systémique</span> qui vient de
         <span class="g">l’école de Palo Alto</span>, s’appuie sur le postulat que
@@ -16,8 +17,9 @@
         le système concerné s’organise, fonctionne, se régule en fonction des interactions
         et à partir des règles, explicites et implicites, qui s’y créent.
       </p>
+      </section>
       <section class="premier">
-      <article class="flex-item w50">
+      <article class="flex-item w50 bg1">
       <p>
         La thérapie systémique familiale ou de couple est très pragmatique et ancrée dans
         le présent, dans la mesure où elle étudie les actions et réactions de chacun des
@@ -40,15 +42,17 @@
       </article>
       <article class="flex-item img w40">
         <img
-          src="../assets/Images/pontdune.webp"
-          class="hero border15"
+          src="../../public/assets/Images/pontdune.webp"
+          class="hero"
           alt="marches de la dune du pilat"/>
       </article>
       </section>
+      <br>
       <p class="g">
         Le thérapeute devra donc identifier la fonction du symptôme dans le système : que
         permet-il, qu’empêche-t-il… ?
       </p>
+      <section class="bg1">
       <p>
         Il aura ainsi pour rôle d’analyser la communication, d’en comprendre les rouages.
       </p>
@@ -81,6 +85,7 @@
         est difficile à estimer car adapté à la situation forcément singulière de chaque
         famille.
       </p>
+      </section>
     </article>
   </main>
 </template>

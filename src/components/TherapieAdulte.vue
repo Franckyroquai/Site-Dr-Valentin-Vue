@@ -1,7 +1,7 @@
 <template>
     <main>
         
-        <h1 class="i">La thérapie pour adultes / séniors</h1>
+        <h1 class="hero2 i">La thérapie pour adultes / séniors</h1>
         <br>
         
         <article>
@@ -10,11 +10,11 @@
         </h2>
         <br>
         <section class="premier">
-      <article class="flex-item w50">
+      <article class="flex-item w50 bg1">
         <h3>
             Vous subissez : 
         </h3>
-        <ul class="bord list">
+        <ul class="list i">
             <li>Un évènement traumatique, une agression, un accident…</li>
             <li>Une maladie chronique, psychosomatique ...</li>
             <li>Une séparation, la perte d’un proche, un veuvage,  l’isolement de la retraite</li>
@@ -29,35 +29,39 @@
       </article>
        <article class="flex-item img w40">
         <img
-          src="../assets/Images/chemin.jpg"
-          class="hero border15"
+          src="../../public/assets/Images/chemin.jpg"
+          class="hero"
           alt="panneau autoroutier avec des problèmes à gauche et à droite, la psychothérapie au centre"
         />
       </article>
         </section>
+        <br>
+        <section class="bg1">
         <h3>
            Lors de votre préparation aux concours, examens, entretiens, challenges divers, vous aimeriez :
         </h3>
-        <ul class="bord list">
+        <ul class="list">
             <li>Augmenter la confiance et l’estime de vous-même</li>
             <li>Apaiser le stress</li>
             <li>Développer votre concentration </li>
             <li>Retrouver vos pleines capacités après une blessure</li>
             <li>Dépasser la peur de gagner ou de perdre…</li>
         </ul>
+        </section>
+        <br>
+        <section class="bg1">
         <h3>
            En vous lançant dans ce voyage thérapeutique vous vous donnez l’opportunité de : 
         </h3>
-        <ul class="bord list">
+        <ul class="list">
             <li>Prendre conscience de vos freins, blocages, conditionnements, croyances limitantes.</li>
             <li>Changer de regard sur les situations. </li>
             <li>Vous sentir de plus en plus aligné(e) avec ce que vous êtes profondément.</li>
         </ul>
+        </section>
         <br>
-        <p>
-          Beau challenge en perspective car dans cette transformation, c’est à votre nature profonde que vous accédez et c’est votre place dans le monde que vous redessinez.
-        </p>
-        <p>
+        <section class="bg1">
+        <p class="g">
            Beau challenge en perspective car dans cette transformation, c’est à votre nature profonde que vous accédez et c’est votre place dans le monde que vous redessinez.
         </p>
         <p>
@@ -66,6 +70,7 @@
         <p>
            Votre voyage peut alors débuter, faisons un bout de chemin ensemble.
         </p>
+        </section>
         </article>
     
     

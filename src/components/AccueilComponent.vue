@@ -1,20 +1,23 @@
 <template>
-  <!-- <img src="../assets/Images/Pilat.png" class="hero" alt="Dune de sable" /> -->
+  <!-- <img src="../../public/assets/Images/Pilat.png" class="hero" alt="Dune de sable" /> -->
   <div class="parallax">
     <h1 class="titre i">Véronique Valentin</h1>
     <h2 class="titre">Psychologue</h2>
   </div>
 
   <main>
+    <br>
     <display-quote-component></display-quote-component>
+    <br>
     <h1 class="i">Bienvenue</h1>
     <br />
     <h2 class="i">
-      « J’ouvrirai une école de vie intérieure, et j’écrirai sur la porte :
-      école d’art. »<br />Max Jacob
-    </h2>
+      "J’ouvrirai une école de vie intérieure,<br>et j’écrirai sur la porte :
+      école d’art."</h2>
+      <h3 class="author">Max Jacob</h3>
+    <br>
     <section class="premier">
-      <article class="flex-item w50">
+      <article class="flex-item w50 bg1">
         <p>
           Nous sommes amenés dans notre vie, à traverser des périodes houleuses,
           des expériences compliquées, douloureuses. Nous pouvons, dans ces
@@ -31,28 +34,28 @@
           mieux, vers un plus d’Etre.
         </p>
       </article>
-      <article class="flex-item img w30">
+      <article class="flex-item img w25">
         <img
-          src="../assets/Images/Pierres.jpg"
-          class="hero border15"
+          src="../../public/assets/Images/Pierres.jpg"
+          class="hero"
           alt="Pierres empilées devant la mer"
         />
       </article>
     </section>
+    <br>
     <h2 class="i">
-      « Un voyage de mille lieux commence toujours par un premier pas »<br />Lao
-      Tseu
-    </h2>
-    <br />
+      "Un voyage de mille lieux commence<br>toujours par un premier pas"</h2>
+      <h3 class="author">Lao Tseu</h3>
+    <br>
     <section class="premier">
-      <article class="flex-item img w40">
+      <article class="flex-item img w30">
         <img
-          src="../assets/Images/lotus.jpg"
-          class="hero border15"
+          src="../../public/assets/Images/lotus.jpg"
+          class="hero"
           alt="fleur de lotus"
         />
       </article>
-      <article class="flex-item w50">
+      <article class="flex-item w50 bg1">
         <p>Aussi je vous propose de faire le point avec vous.</p>
         <p>
           Mes consultations sont ouvertes à tous, <router-link to="/therapie-enfant" class="g">enfants</router-link>, <router-link to="/therapie-adolescent" class="g">adolescents</router-link>, <router-link to="/therapie-adulte" class="g">adultes,
@@ -75,20 +78,21 @@
     </section>
     <br />
     <h2 class="i">
-      « Le possible est juste un tout petit peu après l’impossible, un seul pas
-      peut suffire pour le rencontrer »<br />J. Salomé
-    </h2>
+      "Le possible est juste un tout petit peu après l’impossible,<br>un seul pas
+      peut suffire pour le rencontrer"</h2>
+      <h3 class="author">J. Salomé</h3>
     <br />
-    <img
-      src="../assets/Images/balance.jpg"
-      class="hero border15"
+    <!-- <img
+      src="../../public/assets/Images/balance.jpg"
+      class="hero"
       alt="Pierres empilées devant coucher de soleil"
-    />
+    /> -->
+    <div class="parallax2"></div>
     <br />
     <h1 class="i">L'approche Thérapeutique</h1>
     <br />
     <section class="second">
-    <article class="flex-item w40">
+    <article class="flex-item w40 bg1">
       <p>
         Tout travail thérapeutique commence d’abord par une rencontre, la nôtre,
         celle qui vous permettra de sentir que dans cet « accordage » entre
@@ -108,7 +112,9 @@
         <router-link to="/brainspotting" class="g">Brainspotting</router-link>
         principalement.
       </p>
-      <p>
+      </article>
+      <article class="flex-item w40 bg1">
+        <p>
         Je m’appuie sur une approche humaniste avec l’assurance pour chacun de
         mes clients, petits et grands, en leur potentiel de croissance, de
         créativité, de réalisation. C’est dans ce cadre-là que j’intègre la
@@ -117,8 +123,6 @@
         >
         de la personne, son vécu émotionnel, ses ressentis.
       </p>
-      </article>
-      <article class="flex-item w40">
       <p>
         <router-link to="/approche-systemique" class="g"
           >La Thérapie Systémique</router-link
@@ -129,12 +133,13 @@
         l’accompagnement que je propose aux couples ou aux familles qui viennent
         vers moi.
       </p>
-      <p class="ig">
+    </article>
+    </section>
+    <br>
+    <p class="ig">
         Mes connaissances sont constamment actualisées, à la fois en clinique
         humaine et dans la recherche scientifique.
       </p>
-    </article>
-    </section>
   </main>
 </template>
 
@@ -157,19 +162,48 @@ main {
   line-height: 1.6;
 }
  body{
-   /* background-image: url("../assets/Images/ciel2.jpeg");
+   /* background-image: url("../../public/assets/Images/ciel2.jpeg");
     height: auto;
     background-position: center;
     background-size: cover; */
-    background: linear-gradient(rgb(246, 246, 191), rgb(245, 222, 179));
+   
 } 
+img{
+  margin-bottom: 15px;
+}
+h1{
+  padding-bottom: 0px;
+}
+h2{
+  padding-bottom: 0px;
+}
+.author{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  font-size: 1.2em;
+  font-style: italic;
+}
 .parallax{
-  background-image: url(../assets/Images/Pilat.png);
+  background-image: url(../../public/assets/Images/Pilat.png);
   min-height: 40rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-right: 10%;
+}
+.parallax2{
+  background-image: url(../../public/assets/Images/balance.jpg);
+  min-height: 40rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -190,13 +224,24 @@ main {
     80% { margin-right: 0px; }*/
     100% { margin-right:0px; }
 }
-.bord{
-border: 2px solid grey;
-border-radius: 15px;
+/* .bord{
+border: 2px solid rgb(246, 243, 243);
 list-style-type: disc;
-}
+} */
 .hero {
   width: 100%;
+  margin-bottom: 20px;
+}
+.hero2{
+  background-color: #ffffff;
+  background-image: url(../../public/assets/Images/Pilatbandeau.png);
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  text-align: center;
+}
+.bg1{
+  background-color: rgba(128, 128, 128, 0.05);
 }
 .i {
   font-style: italic;
@@ -224,15 +269,20 @@ list-style-type: disc;
   display: flex;
   flex-wrap: wrap;
 }
+.flex-item.img.w25 {
+  width: 25%;
+}
 .flex-item.img.w30 {
   width: 30%;
-  border-radius: 100%;
 }
-.flex-item.imgw40 {
+.flex-item.img.40 {
   width: 40%;
 }
 .flex-item.w30 {
   width: 30%;
+}
+.flex-item.w35 {
+  width: 35%;
 }
 .flex-item.w40 {
   width: 40%;
@@ -242,9 +292,6 @@ list-style-type: disc;
 }
 .flex-item.w60 {
   width: 60%;
-}
-.border3{
-  border-radius: 3%;
 }
 .border15{
   border-radius: 15px;
@@ -264,6 +311,7 @@ list-style-type: disc;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  margin-bottom: 30px;
 }
 @media screen and (max-width: 992px) {
   main{
@@ -291,6 +339,9 @@ list-style-type: disc;
   .flex-item.img.w30 {
     width: 100%;
   }
+  .flex-item.img.w25 {
+  width: 100%;
+}
   .map{
     width: 325px;
     height: 400px;
