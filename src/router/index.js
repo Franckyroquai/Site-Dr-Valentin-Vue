@@ -128,11 +128,11 @@ const routes = [
     name: "Quotes Management",
     component: QuotesComponent,
   },
-  {
-    path: "/404",
-    name: "Error404",
-    component: Error404Component,
-  },
+  // {
+  //   path: "/404",
+  //   name: "Error404",
+  //   component: Error404Component,
+  // },
   {
     path: "/:pathMatch(.*)*",
     name: "Error404",
