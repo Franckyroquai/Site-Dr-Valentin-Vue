@@ -140,6 +140,7 @@
         Mes connaissances sont constamment actualisées, à la fois en clinique
         humaine et dans la recherche scientifique.
       </p>
+      <br>
   </main>
 </template>
 
