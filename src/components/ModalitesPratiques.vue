@@ -16,17 +16,17 @@
           Honoraires
         </h2>
         <br>
-        <ul class="bg1">
-        <li>
+        <section class="bg1">
+        <p>
          Séance individuelle d’une heure environ (adulte) : 70 euros 
-        </li>
-        <li>
+        </p>
+        <p>
           Séance individuelle de 30 à 45 minutes (enfant) : 50 euros
-        </li>
-        <li>
+        </p>
+        <p>
           Séance d’une heure 15 ou 30 (couples / famille) : de 90 à 120 euros
-        </li>
-        </ul>
+        </p>
+        </section>
         <br>
           <section class="bg1">
         <p>
