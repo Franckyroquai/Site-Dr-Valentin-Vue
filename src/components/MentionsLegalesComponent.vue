@@ -1,4 +1,6 @@
 <template>
+  <h1 class="hero2 i">Mentions légales</h1>
+
   <main>
     <article>
       <p>

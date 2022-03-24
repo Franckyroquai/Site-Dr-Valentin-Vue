@@ -1,11 +1,10 @@
 <template>
+<h1 class="hero2 i">Qu'est-ce que l'EMDR ?</h1>
   <main>
-    <h1 class="hero2 i">Qu'est-ce que l'EMDR ?</h1>
     <br />
     <a href="https://www.emdr-france.org/" target="_blank">
       <img src="../../public/assets/Images/EMDR.jpg" alt="Image d'oeil" />
     </a>
-
     <article>
       <br />
       <section class="bg1">
@@ -18,7 +17,6 @@
         and Reprocessing qui signifie "Désensibilisation et Retraitement par les
         Mouvements Oculaires".
       </p>
-
       <p>
         La thérapie <span class="i">EMDR</span> utilise en effet, une
         stimulation sensorielle bilatérale alternée (droite-gauche) des lobes du

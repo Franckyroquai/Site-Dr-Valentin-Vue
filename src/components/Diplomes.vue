@@ -1,6 +1,7 @@
 <template>
+ <h1 class="hero2 i">Diplômes et Certifications</h1>
   <main>
-    <h1 class="hero2 i">Diplômes et Certifications</h1>
+   
     <br />
     <h2 class="i">
         "Je suis venu en ce monde sans rien,<br>et je le quitterai avec ma conscience."</h2>

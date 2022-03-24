@@ -1,35 +1,36 @@
 <template>
+  <h1 class="hero2 i">Bonjour et bienvenue à vous,</h1>
   <main>
-
-      <h1 class="hero2 i">Bonjour et bienvenue à vous,</h1>
-
-
     <!-- <img src="../../public/assets/Images/Pilatbandeau.png" width="100%" height="100%" alt="dune du pilat"> -->
-      <br>
-      <h2 class="i">qui pouvez légitimement avoir quelques
-      interrogations sur mon parcours et ma pratique...</h2>
-    
     <br />
-   <section class="premier">
-      <article class="flex-item w50 bg1">
-      <p>
-        <span class="g">Psychologue clinicienne</span> depuis bientôt 30 ans, j’ai goûté à mes débuts,
-        à la profession de psychomotricienne. Cette formation initiale, déjà
-        très engagée à l’époque dans la mouvance psychanalytique, fut un ancrage
-        précieux à ces premières racines qui m’ont attirées en terre freudienne
-        puis lacanienne, curiosité oblige, et enfin jungienne. L’apport des
-        notions d’Archétype et d’Inconscient collectif de <span class="g">Carl Gustav Jung</span>
-        furent, pour moi, une révélation. J’étais prête, dès lors, à m’ouvrir
-        aux apports de la Physique Quantique et avec elle, à un mode de pensée
-        révolutionnaire à l’époque.
-      </p>
+    <h2 class="i">
+      qui pouvez légitimement avoir quelques interrogations sur mon parcours et
+      ma pratique...
+    </h2>
 
-      <p>
-        Le corps en tant que creuset, révélateur et attracteur de l’Inconscient,
-        cette porte-là s’est grande ouverte avec une formation de thérapeute, en
-        parallèle à ma formation de psychologue clinicienne, me donnant accès à
-        bien des méthodes psychocorporelles y compris en relaxation.
-      </p>
+    <br />
+    <section class="premier">
+      <article class="flex-item w50 bg1">
+        <p>
+          <span class="g">Psychologue clinicienne</span> depuis bientôt 30 ans,
+          j’ai goûté à mes débuts, à la profession de psychomotricienne. Cette
+          formation initiale, déjà très engagée à l’époque dans la mouvance
+          psychanalytique, fut un ancrage précieux à ces premières racines qui
+          m’ont attirées en terre freudienne puis lacanienne, curiosité oblige,
+          et enfin jungienne. L’apport des notions d’Archétype et d’Inconscient
+          collectif de <span class="g">Carl Gustav Jung</span>
+          furent, pour moi, une révélation. J’étais prête, dès lors, à m’ouvrir
+          aux apports de la Physique Quantique et avec elle, à un mode de pensée
+          révolutionnaire à l’époque.
+        </p>
+
+        <p>
+          Le corps en tant que creuset, révélateur et attracteur de
+          l’Inconscient, cette porte-là s’est grande ouverte avec une formation
+          de thérapeute, en parallèle à ma formation de psychologue clinicienne,
+          me donnant accès à bien des méthodes psychocorporelles y compris en
+          relaxation.
+        </p>
       </article>
       <article class="flex-item img w35">
         <img
@@ -39,14 +40,16 @@
         />
       </article>
     </section>
-      <article class="bg1">
+    <article class="bg1">
       <p>
         Elle n’a fait que s’agrandir depuis, avec de nouvelles pratiques
         psycho-neurophysiologiques soutenues par les progrès de l’imagerie
-        cérébrale. L’<router-link to="/emdr">EMDR</router-link> et plus récemment le <router-link to="/brainspotting">Brainspotting</router-link>, toutes deux
-        abordant plus directement le lien cerveau-corps-esprit, m’ont plongé
-        radicalement dans les notions de programme de mémoires dysfonctionnelles
-        et d’Informations bloquées.
+        cérébrale. L’<router-link to="/emdr">EMDR</router-link> et plus
+        récemment le
+        <router-link to="/brainspotting">Brainspotting</router-link>, toutes
+        deux abordant plus directement le lien cerveau-corps-esprit, m’ont
+        plongé radicalement dans les notions de programme de mémoires
+        dysfonctionnelles et d’Informations bloquées.
       </p>
       <p>
         Bien sûr, la guérison guidée par cet Inconscient, je la conçois dans
@@ -60,9 +63,13 @@
         empêche d’aller de l’avant, permet de prendre de la hauteur, de
         renforcer ses points d’appuis et mobiliser ses ressources,son potentiel.
         Cette voie est celle de la psychologie positive qui donne une bouffée
-        d’air vivifiante à la thérapie en considérant <span class="ig">« qu’à côté des multiples
-        problèmes de dysfonctionnements individuels et collectifs s’exprime et
-        se développe toute une vie riche de sens et de potentialités. »</span> ✨
+        d’air vivifiante à la thérapie en considérant
+        <span class="ig"
+          >« qu’à côté des multiples problèmes de dysfonctionnements individuels
+          et collectifs s’exprime et se développe toute une vie riche de sens et
+          de potentialités. »</span
+        >
+        ✨
       </p>
       <p>
         D'ailleurs, une courte intrusion dans le monde du sport de haut niveau
@@ -71,48 +78,49 @@
         thérapeutique pour toute personne confrontée à un challenge (artiste,
         sportif…), en préparation de concours ou examen… Se sentir bloqué(e)
         dans des situations d’échec, en impossibilité d’assumer sa place voire
-        même à se sentir légitime dans la réussite, le <router-link to="/brainspotting">Brainspotting</router-link> est un
+        même à se sentir légitime dans la réussite, le
+        <router-link to="/brainspotting">Brainspotting</router-link> est un
         outil des plus appropriés pour switcher sur ces situations-là.
       </p>
       <h2 class="i">
-        Sur ce parcours qui est le mien,<br>j’ai rencontré bien sûr des personnes
-        inspirantes :
+        Sur ce parcours qui est le mien,<br />j’ai rencontré bien sûr des
+        personnes inspirantes :
       </h2>
-      <br>
+      <br />
       <ul class="bord list">
-      <li>
-        Ma psychanalyste, certes lacanienne, mais qui a su m’insuffler bien
-        plus que du Lacan.
-      </li>
-      <li>
-        Mon très cher collègue Jean-Louis, psychanalyste et bouddhiste jusqu’au
-        fond de l’âme, adepte d’un amour de l’autre inconditionnel.
-      </li>
-      <li>
-        Mes formateurs <router-link to="/emdr">EMDR</router-link> et <router-link to="/brainspotting">Brainspotting</router-link> , tous champions d’une pensée
-        intégrative qui concilie ce qui peut sembler parfois de l’ordre de
-        l’inconciliable.
-      </li>
-      <li>
-        et enfin mon formateur et Maître, à qui je dois d’en être où j’en suis
-        aujourd’hui et qui a su donner à ma pratique et surtout à ma Vie un
-        Souffle qui œuvre toujours en moi, souvent à mon insu et inlassablement
-        me pousse vers tous les champs du possible.
-      </li>
+        <li>
+          Ma psychanalyste, certes lacanienne, mais qui a su m’insuffler bien
+          plus que du Lacan.
+        </li>
+        <li>
+          Mon très cher collègue Jean-Louis, psychanalyste et bouddhiste
+          jusqu’au fond de l’âme, adepte d’un amour de l’autre inconditionnel.
+        </li>
+        <li>
+          Mes formateurs <router-link to="/emdr">EMDR</router-link> et
+          <router-link to="/brainspotting">Brainspotting</router-link> , tous
+          champions d’une pensée intégrative qui concilie ce qui peut sembler
+          parfois de l’ordre de l’inconciliable.
+        </li>
+        <li>
+          et enfin mon formateur et Maître, à qui je dois d’en être où j’en suis
+          aujourd’hui et qui a su donner à ma pratique et surtout à ma Vie un
+          Souffle qui œuvre toujours en moi, souvent à mon insu et
+          inlassablement me pousse vers tous les champs du possible.
+        </li>
       </ul>
-      <br>
+
       <p>
         Où trouvons-vous une limite à notre Etre, puisque tout est en nous ? Et
         si nous acceptons de plonger dans ce vaste Océan de la conscience, nous
         ne pouvons que vivre un élargissement de notre être.
       </p>
     </article>
-    <h2 class="i">"Vous n'êtes pas une goutte dans l'océan.<br>Vous êtes l'océan tout entier dans
-        une goutte d'eau."
-      </h2>
-      <h3 class="author">
-       Djalâl Al-Dîn Rûmi
-      </h3>
+    <h2 class="i">
+      "Vous n'êtes pas une goutte dans l'océan.<br />Vous êtes l'océan tout
+      entier dans une goutte d'eau."
+    </h2>
+    <h3 class="author">Djalâl Al-Dîn Rûmi</h3>
   </main>
 </template>
 

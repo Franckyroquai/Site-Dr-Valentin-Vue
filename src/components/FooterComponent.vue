@@ -10,17 +10,17 @@
             <h5>V. Valentin</h5>
             <!-- Adress Text-->
             <div class="adress-text mb-5">
-              <p class="mb-0">7 rue Alexandre Castueil</p>
-              <p class="mb-0">Rez rez-de-chaussée</p>
-              <p class="mb-0">
+              <div class="mb-0">7 rue Alexandre Castueil</div>
+              <div class="mb-0">Rez rez-de-chaussée</div>
+              <div class="mb-0">
                 <span style="font-family: arial, sans-serif">83400</span> Hyères
-              </p>
-              <p class="mb-0">
+              </div>
+              <div class="mb-0">
                 Tél :
                 <a href="tel:+33686978613" style="font-family: arial, sans-serif"
                   >06 86 97 86 13</a
                 >
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -32,14 +32,14 @@
             <br />
             <!-- Footer Menu-->
             <div class="footer_menu mb-3">
-              <p class="mb-0">
+              <div class="mb-0">
                 <router-link to="/mentions-legales">Mentions Légales</router-link>
-              </p>
+              </div>
               <br />
-              <p class="mb-0">
+              <div class="mb-0">
                 <router-link v-if="!isUserLogged" to="/login">Espace administrateur</router-link>
                 <router-link v-if="isUserLogged" to="/quotes-management">Espace administrateur</router-link>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -77,7 +77,6 @@ export default {
 footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
-  margin-top: auto;
   background-color: rgb(128, 128, 128, 0.15);
 }
 .footer_menu {
@@ -131,31 +130,31 @@ footer {
   margin-bottom: 0;
 }
 
-@-webkit-keyframes bi-cycle {
+/* @-webkit-keyframes bi-cycle {
   0% {
     left: 0;
   }
   100% {
     left: 100%;
   }
-}
+} */
 
-@keyframes bi-cycle {
+/* @keyframes bi-cycle {
   0% {
     left: 0;
   }
   100% {
     left: 100%;
   }
-}
+} */
 /* ol li,
 ul li {
   list-style: none;
 } */
 
-ol,
+/* ol,
 ul {
   margin: 0;
   padding: 0;
-}
+} */
 </style>

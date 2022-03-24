@@ -1,21 +1,23 @@
 <template>
-<main>
   <h1 class="hero2 i">Liens Vidéos</h1>
-  <br />
-  <h2 class=i>Voici quelques vidéos qui vous aiderons à comprendre mon approche :</h2>
-  <br />
-  <div v-for="video in videos" :key="video.id">
-    <iframe
-      :width="video.width || 560"
-      :height="video.height || 315"
-      :src="video.url"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </div>
-</main>
+  <main>
+    <br />
+    <h2 class="i">
+      Voici quelques vidéos qui vous aiderons à comprendre mon approche :
+    </h2>
+    <br />
+    <div v-for="video in videos" :key="video.id">
+      <iframe
+        :width="video.width || 560"
+        :height="video.height || 315"
+        :src="video.url"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </main>
 </template>
 
 <script>

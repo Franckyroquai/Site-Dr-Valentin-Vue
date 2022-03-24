@@ -1,7 +1,6 @@
 <template>
+<h1 class="hero2 i">Modalités pratiques</h1>
     <main>
-        
-        <h1 class="hero2 i">Modalités pratiques</h1>
         <br>
         <article>
         <h2 class="i">

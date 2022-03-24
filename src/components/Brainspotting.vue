@@ -1,7 +1,6 @@
 <template>
+<h1 class="hero2 i">Le Brainspotting</h1>
   <main>
-    <h1 class="hero2 i">Le Brainspotting</h1>
-
     <article>
       <br />
       <p>

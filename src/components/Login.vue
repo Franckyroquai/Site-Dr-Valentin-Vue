@@ -1,6 +1,7 @@
 <template>
+  <h1 class="hero2 i">Connexion</h1>
+
   <main>
-    <h1>Connexion</h1>
     <div class="root">
       <p>
         <input type="text" placeholder="Email" v-model="state.email" />
