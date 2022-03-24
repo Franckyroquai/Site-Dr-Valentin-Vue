@@ -17,7 +17,9 @@
               </div>
               <div class="mb-0">
                 Tél :
-                <a href="tel:+33686978613" style="font-family: arial, sans-serif"
+                <a
+                  href="tel:+33686978613"
+                  style="font-family: arial, sans-serif"
                   >06 86 97 86 13</a
                 >
               </div>
@@ -33,12 +35,18 @@
             <!-- Footer Menu-->
             <div class="footer_menu mb-3">
               <div class="mb-0">
-                <router-link to="/mentions-legales">Mentions Légales</router-link>
+                <router-link to="/mentions-legales"
+                  >Mentions Légales</router-link
+                >
               </div>
               <br />
               <div class="mb-0">
-                <router-link v-if="!isUserLogged" to="/login">Espace administrateur</router-link>
-                <router-link v-if="isUserLogged" to="/quotes-management">Espace administrateur</router-link>
+                <router-link v-if="!isUserLogged" to="/login"
+                  >Espace administrateur</router-link
+                >
+                <router-link v-if="isUserLogged" to="/quotes-management"
+                  >Espace administrateur</router-link
+                >
               </div>
             </div>
           </div>
@@ -53,12 +61,16 @@ export default {
   name: "FooterComponent",
   data() {
     return {
-      isUserLogged: false
-    }
+      isUserLogged: false,
+    };
   },
   created() {
-    this.emitter.on("user-logged", () => {this.isUserLogged = true});
-    this.emitter.on("user-unlogged", () => {this.isUserLogged = false});
+    this.emitter.on("user-logged", () => {
+      this.isUserLogged = true;
+    });
+    this.emitter.on("user-unlogged", () => {
+      this.isUserLogged = false;
+    });
     this.verifyPresenceOfToken();
   },
   methods: {
@@ -69,13 +81,13 @@ export default {
         this.isUserLogged = false;
       }
     },
-  }
+  },
 };
 </script>
 
 <style>
 footer {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   background-color: rgb(128, 128, 128, 0.15);
 }

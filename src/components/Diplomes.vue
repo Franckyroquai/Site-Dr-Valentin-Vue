@@ -1,73 +1,107 @@
 <template>
- <h1 class="hero2 i">Diplômes et Certifications</h1>
+  <h1 class="hero2 i">Diplômes et Certifications</h1>
   <main>
-   
     <br />
     <h2 class="i">
-        "Je suis venu en ce monde sans rien,<br>et je le quitterai avec ma conscience."</h2>
-        <h3 class="author">Dr Garth Alfred Taylor</h3>
-        <br>
+      "Je suis venu en ce monde sans rien,<br />et je le quitterai avec ma
+      conscience."
+    </h2>
+    <h3 class="author">Dr Garth Alfred Taylor</h3>
+    <br />
     <article>
       <section class="premier">
         <article class="flex-item img w40">
-        <img
-          src="../../public/assets/Images/diplome.jpg"
-          class="hero"
-          alt="image de diplome et chapeau d'étudiant"
-        />
-      </article>
-      <article class="flex-item w50">
-        <ul class="list bg1">
-      <li>Master2 -Psychologie Clinique et psychopathologie (Université Aix-Marseille)</li>
+          <img
+            src="../../public/assets/Images/diplome.jpg"
+            class="hero"
+            alt="image de diplome et chapeau d'étudiant"
+          />
+        </article>
+        <article class="flex-item w50">
+          <ul class="list bg1">
+            <li>
+              Master2 -Psychologie Clinique et psychopathologie (Université
+              Aix-Marseille)
+            </li>
 
-      <li>
-        Formation psychanalytique (Freud, Jung, Lacan ) et psychanalyse didactique de 9
-        ans (Avignon)
-      </li>
-      <li>CERTIFICAT de praticien en thérapie psychocorporelle et relaxation (INFIPP)</li>
-      <li>CERTIFICAT Européen de thérapeute familial (Réseau /Famille)</li>
-      <li>
-        CERTIFICAT Européen de praticien <router-link to="/emdr">EMDR</router-link> (EMDR France)<br />
-        + Dissociation et traumas complexes (H. Dellucci)<br />
-        + Traitement des phobies par l’<router-link to="/emdr">EMDR</router-link> (Ad. De Jong)
-      </li>
-      <li>CERTIFICATION <router-link to="/brainspotting">Brainspotting</router-link> niv 1-2-3 (Grand D.)</li>
-      <li>
-        CERTIFICATS : <br />
-        - Thérapie par l’image (IMTT)-IETSP Paris <br />
-        -TIPI ( Marseille) <br />
-        -Méthode des 2 points (R.Bartlett-F.Kinslow) <br />
-        - Langue des Signes (IVT Paris)
-      </li>
-        </ul>
-      </article>
+            <li>
+              Formation psychanalytique (Freud, Jung, Lacan ) et psychanalyse
+              didactique de 9 ans (Avignon)
+            </li>
+            <li>
+              CERTIFICAT de praticien en thérapie psychocorporelle et relaxation
+              (INFIPP)
+            </li>
+            <li>
+              CERTIFICAT Européen de thérapeute familial (Réseau /Famille)
+            </li>
+            <li>
+              CERTIFICAT Européen de praticien
+              <router-link to="/emdr">EMDR</router-link> (EMDR France)<br />
+              + Dissociation et traumas complexes (H. Dellucci)<br />
+              + Traitement des phobies par l’<router-link to="/emdr"
+                >EMDR</router-link
+              >
+              (Ad. De Jong)
+            </li>
+            <li>
+              CERTIFICATION
+              <router-link to="/brainspotting">Brainspotting</router-link> niv
+              1-2-3 (Grand D.)
+            </li>
+            <li>
+              CERTIFICATS : <br />
+              - Thérapie par l’image (IMTT)-IETSP Paris <br />
+              -TIPI ( Marseille) <br />
+              -Méthode des 2 points (R.Bartlett-F.Kinslow) <br />
+              - Langue des Signes (IVT Paris)
+            </li>
+          </ul>
+        </article>
       </section>
       <h2 class="i">Orientation</h2>
-      <br>
+      <br />
       <p class="g">Approche humaniste, intégrative, systémique.</p>
-      <br>
+      <br />
       <h2 class="i">Pour Quel public ?</h2>
-      <br>
+      <br />
       <ul class="bg1 list">
-      <li class="s">Enfants / Adolescents, Adultes / séniors, Couples / familles</li>
-      <li><span class="s">Sportifs de haut niveau :</span> Préparation mentale</li>
-      <li>
-        <span class="s">Etudiants, Professionnels :</span> Préparation de carrière, de concours, reconversion …
-      </li>
-      <li>
-        <span class="s">Associations médico-sociales, Mairies,
-        Services hospitaliers :</span> Supervision, analyse des pratiques
-      </li>
-      <li>
-        <span class="s">Professionnels auprès des séniors (maisons de retraite, EHPAD,
-        services d’aide à domicile) :</span> Formatrice
-      </li>
+        <li class="s">
+          Enfants / Adolescents, Adultes / séniors, Couples / familles
+        </li>
+        <li>
+          <span class="s">Sportifs de haut niveau :</span> Préparation mentale
+        </li>
+        <li>
+          <span class="s">Etudiants, Professionnels :</span> Préparation de
+          carrière, de concours, reconversion …
+        </li>
+        <li>
+          <span class="s"
+            >Associations médico-sociales, Mairies, Services hospitaliers
+            :</span
+          >
+          Supervision, analyse des pratiques
+        </li>
+        <li>
+          <span class="s"
+            >Professionnels auprès des séniors (maisons de retraite, EHPAD,
+            services d’aide à domicile) :</span
+          >
+          Formatrice
+        </li>
       </ul>
       <article class="bg1">
-      <p>Membre de l’ Association <a href="https://www.emdr-france.org/" target="_blank">
-          EMDR-France
-        </a></p>
-      <p>Membre de l’ IETSP ( Institut Européen des Thérapies Somato-Psychiques)</p>
+        <p>
+          Membre de l’ Association
+          <a href="https://www.emdr-france.org/" target="_blank">
+            EMDR-France
+          </a>
+        </p>
+        <p>
+          Membre de l’ IETSP ( Institut Européen des Thérapies
+          Somato-Psychiques)
+        </p>
       </article>
     </article>
   </main>
@@ -80,5 +114,4 @@ export default {
 </script>
 
 <style>
-
 </style>
