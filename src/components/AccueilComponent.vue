@@ -1,5 +1,5 @@
 <template>
-  <!-- <img src="../../public/assets/Images/Pilat.png" class="hero" alt="Dune de sable" /> -->
+  <!-- légende class : i= italique, g = gras, s= souligné -->
   <div class="parallax titre">
     <h1 class="i">Véronique Valentin</h1>
     <h2>Psychologue</h2>
@@ -167,7 +167,7 @@ export default {
 
 <style>
 main {
-  min-height: 75.9vh;
+  min-height: 50vh;
   padding: 0% 8vw;
   font-size: 20px;
   line-height: 1.6;
@@ -193,10 +193,13 @@ h1 {
 }
 h2 {
 }
+.logo{
+  margin-right: 10px;
+}
 .author {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
+  justify-content: center;
+  padding-left: 500px;
   font-size: 1.2em;
   font-style: italic;
 }
@@ -212,6 +215,7 @@ h2 {
   justify-content: center;
   text-align: right;
   padding-right: 10%;
+  filter: opacity(80%) ;
 }
 .parallax2 {
   background-image: url(../../public/assets/Images/balance.jpg);
@@ -341,8 +345,11 @@ list-style-type: disc;
   main {
     margin: 10px 10px;
   }
+  .author{
+    padding-left: 200px;
+  }
   .parallax2 {
-    min-height: 11rem;
+    min-height: 13rem;
     background-position: center;
   }
   .premier {
