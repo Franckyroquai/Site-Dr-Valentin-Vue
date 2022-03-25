@@ -53,7 +53,9 @@
         alt="Cabinet extérieur"
       />
 
-      <section class="bg1">
+      
+        <section class="premier">
+      <article class="flex-item w40 bg1">
         <h3 class="s">Stationnement et accès :</h3>
         <br />
         <p>- Parking Gambetta (à l’arrière du cabinet)</p>
@@ -63,7 +65,8 @@
         </p>
         <p>- Navette gratuite : arrêt Avenue Gambetta à 150 m du cabinet.</p>
         <p>- Arrêt de bus : face au cinéma OLBIA à 100 m du cabinet.</p>
-      </section>
+      </article>
+      <article class="flex-item w50 bg1">
       <iframe
         class="map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2912.326692127481!2d6.124891966058863!3d43.1186628791432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c923a3401e8c13%3A0x7d3ae3bee7177c69!2sValentin%20Veronique!5e0!3m2!1sfr!2sfr!4v1645557577409!5m2!1sfr!2sfr"
@@ -74,6 +77,9 @@
         loading="lazy"
       >
       </iframe>
+      </article>
+      </section>
+      <br>
     </article>
   </main>
 </template>
