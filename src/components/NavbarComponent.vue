@@ -4,7 +4,7 @@
   >
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand"><!-- V. Valentin --><img src="../../public/assets/Images/psy2.png" class="logo" width="40" alt="logo psychologue" /></router-link>
-      <button v-if="isTokenPresent" @click="delogUser">deconnexion</button>
+      <button class="btn btn-primary" v-if="isTokenPresent" @click="delogUser">déconnexion</button>
       <button
         class="navbar-toggler"
         type="button"
