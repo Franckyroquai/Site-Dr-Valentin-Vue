@@ -1,6 +1,6 @@
 <template>
   <footer class="footer_area">
-    <div class="container">
+    <div class="container2">
       <div class="row">
         <!-- Single Widget-->
         <div class="col-12 col-sm-6 col-lg">
