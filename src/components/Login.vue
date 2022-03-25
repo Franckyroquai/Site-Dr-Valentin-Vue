@@ -2,22 +2,31 @@
   <h1 class="hero2 i">Connexion</h1>
 
   <main>
-    <div class="root">
-      <p>
-        <input type="text" placeholder="Email" v-model="state.email" />
+    <div class="container">
+             <form>
+                 <div class="input-group mb-3">
+                     <div class="input-group-prepend"><span class="input-group-text" aria-label="arobase">@</span></div>
+                     <input type="email" class="form-control" placeholder="Email" id="email" v-model="state.email" />    
+                     <!-- <input type="text" placeholder="Email" v-model="state.email" /> -->
         <span v-if="v$.email.$error">
           {{ v$.email.$errors[0].$message }}
-        </span>
-      </p>
-      <p>
-        <input type="password" placeholder="Password" v-model="state.password.value" />
+        </span>              
+                 </div>
+                 <br>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend"><span class="input-group-text" aria-label="mot de pass">Mot de passe</span></div>
+        <input type="password" class="form-control" placeholder="Password" v-model="state.password.value" />
         <span v-if="v$.password.value.$error">
           {{ v$.password.value.$errors[0].$message }}
         </span>
-      </p>
-      <button @click="submitForm">Envoyer</button>
+      </div>
+      <br>
+      </form>
+      <button class="btn btn-primary" @click="submitForm">Envoyer</button>
     </div>
-    <router-link to="/register">Pas encore inscrit ? cliquez ici !</router-link>
+     <br>
+     <p>Pas encore inscrite ?</p>
+    <router-link to="/register"><span class="i">Cliquez ici !</span></router-link>
   </main>
   <!-- ici ta structure Html -->
 </template>
@@ -97,30 +106,19 @@ export default {
 </script>
 
 <style>
-.root {
-  width: 400px;
-  margin: 0 auto;
+.container {
   background-color: #fff;
-  padding: 30px;
-  margin-top: 100px;
-  border-radius: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form{
+  
+  width: 400px;
 }
 
-input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #ddd;
-  font-size: 1em;
-  padding: 5px 0;
-  margin: 10px 0 5px 0;
-  width: 100%;
-}
 
-button {
-  background-color: #3498db;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border: none;
-  color: white;
-}
+
+
 </style>
