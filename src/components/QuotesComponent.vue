@@ -1,5 +1,5 @@
 <template>
-  <h1 class="hero2 i">Gestion des citations</h1>
+  <h1 class="hero2 italic">Gestion des citations</h1>
   <main>
     <h1>Nombre : {{ count }}</h1>
     <br />
@@ -8,17 +8,17 @@
     </button>
     <br /><br />
     <h3 v-if="list.length">Liste :</h3>
-    <p class="i" v-if="!list.length">
+    <p class="italic" v-if="!list.length">
       Cliquez sur le bouton pour accéder à la liste
     </p>
-    <button class="btn btn-info i" v-if="!list.length" @click="getListOfQuotes">
+    <button class="btn btn-info italic" v-if="!list.length" @click="getListOfQuotes">
       Afficher les citations
     </button>
     <br />
     <ul class="list">
       <li v-for="elem in list" :key="elem" class="take-parent-width">
         <div class="take-parent-width">
-          <h5 class="g">Auteur : {{ elem.author }}</h5>
+          <h5 class="bold">Auteur : {{ elem.author }}</h5>
           <p class="font-italic" style="text-align:center">"{{ elem.text }}"</p>
           <div class="btn-container">
           <button
