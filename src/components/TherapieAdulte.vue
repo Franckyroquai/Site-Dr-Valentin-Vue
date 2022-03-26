@@ -1,9 +1,9 @@
 <template>
-  <h1 class="hero2 i">La thérapie pour adultes / séniors</h1>
+  <h1 class="hero2 italic">La thérapie pour adultes / séniors</h1>
   <main>
     <br />
     <article>
-      <h2 class="i">
+      <h2 class="italic">
         Vous vous sentez en difficulté dans votre vie personnelle, affective, au
         niveau professionnel, face à un challenge ?
       </h2>
@@ -11,7 +11,7 @@
       <section class="premier">
         <article class="flex-item w50 bg1">
           <h3>Vous subissez :</h3>
-          <ul class="list i">
+          <ul class="list italic">
             <li>Un évènement traumatique, une agression, un accident…</li>
             <li>Une maladie chronique, psychosomatique ...</li>
             <li>
@@ -75,7 +75,7 @@
       </section>
       <br />
       <section class="bg1">
-        <p class="g">
+        <p class="bold">
           Beau challenge en perspective car dans cette transformation, c’est à
           votre nature profonde que vous accédez et c’est votre place dans le
           monde que vous redessinez.
