@@ -1,8 +1,8 @@
 <template>
-  <h1 class="hero2 i">La Thérapie de l’enfant</h1>
+  <h1 class="hero2 italic">La Thérapie de l’enfant</h1>
   <main>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "Vous lui demandez de se calmer mais cette crise est sa manière de se
       calmer"
     </h2>
@@ -31,7 +31,7 @@
       </section>
       <section class="premier">
         <article class="flex-item w50">
-          <ul class="bg1 list i">
+          <ul class="bg1 list italic">
             <li>Trouble du sommeil, réveils nocturnes</li>
             <li>Enurésie, encopresie</li>
             <li>Anxiété, angoisse de séparation</li>
@@ -68,6 +68,7 @@
 <script>
 export default {
   name: "TherapieEnfantComponent",
+  
   data() {
     return {};
   },
