@@ -1,5 +1,5 @@
 <template>
-<h1 class="hero2 i">Créez un compte</h1>
+<h1 class="hero2 italic">Créez un compte</h1>
   <main>
     <div class="container">
       <form>
