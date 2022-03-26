@@ -1,9 +1,9 @@
 <template>
-  <h1 class="hero2 i">Bonjour et bienvenue à vous,</h1>
+  <h1 class="hero2 italic">Bonjour et bienvenue à vous,</h1>
   <main>
     <!-- <img src="../../public/assets/Images/Pilatbandeau.png" width="100%" height="100%" alt="dune du pilat"> -->
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       qui pouvez légitimement avoir quelques interrogations sur mon parcours et
       ma pratique...
     </h2>
@@ -12,13 +12,13 @@
     <section class="premier">
       <article class="flex-item w50 bg1">
         <p>
-          <span class="g">Psychologue clinicienne</span> depuis bientôt 30 ans,
+          <span class="bold">Psychologue clinicienne</span> depuis bientôt 30 ans,
           j’ai goûté à mes débuts, à la profession de psychomotricienne. Cette
           formation initiale, déjà très engagée à l’époque dans la mouvance
           psychanalytique, fut un ancrage précieux à ces premières racines qui
           m’ont attirées en terre freudienne puis lacanienne, curiosité oblige,
           et enfin jungienne. L’apport des notions d’Archétype et d’Inconscient
-          collectif de <span class="g">Carl Gustav Jung</span>
+          collectif de <span class="bold">Carl Gustav Jung</span>
           furent, pour moi, une révélation. J’étais prête, dès lors, à m’ouvrir
           aux apports de la Physique Quantique et avec elle, à un mode de pensée
           révolutionnaire à l’époque.
@@ -64,7 +64,7 @@
         renforcer ses points d’appuis et mobiliser ses ressources,son potentiel.
         Cette voie est celle de la psychologie positive qui donne une bouffée
         d’air vivifiante à la thérapie en considérant
-        <span class="ig"
+        <span class="italic bold"
           >« qu’à côté des multiples problèmes de dysfonctionnements individuels
           et collectifs s’exprime et se développe toute une vie riche de sens et
           de potentialités. »</span
@@ -82,7 +82,7 @@
         <router-link to="/brainspotting">Brainspotting</router-link> est un
         outil des plus appropriés pour switcher sur ces situations-là.
       </p>
-      <h2 class="i">
+      <h2 class="italic">
         Sur ce parcours qui est le mien,<br />j’ai rencontré bien sûr des
         personnes inspirantes :
       </h2>
@@ -116,7 +116,7 @@
         ne pouvons que vivre un élargissement de notre être.
       </p>
     </article>
-    <h2 class="i">
+    <h2 class="italic">
       "Vous n'êtes pas une goutte dans l'océan.<br />Vous êtes l'océan tout
       entier dans une goutte d'eau."
     </h2>
