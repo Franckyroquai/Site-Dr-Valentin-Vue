@@ -1,45 +1,69 @@
 <template>
-<h1 class="hero2 i">Gestion des citations</h1>
+  <h1 class="hero2 i">Gestion des citations</h1>
   <main>
     <h1>Nombre : {{ count }}</h1>
-    <br>
-    <h3>Liste :</h3>
-    <p class="i" v-if="!list.length">Cliquez sur le bouton pour accéder à la liste</p>
+    <br />
+    <button class="btn btn-info" v-if="list.length" @click="list = []">
+      Masquer la liste
+    </button>
+    <br /><br />
+    <h3 v-if="list.length">Liste :</h3>
+    <p class="i" v-if="!list.length">
+      Cliquez sur le bouton pour accéder à la liste
+    </p>
     <button class="btn btn-info i" v-if="!list.length" @click="getListOfQuotes">
       Afficher les citations
     </button>
-    <br>
-    <button class="btn btn-info" v-if="list.length" @click="list = []">Masquer la liste</button>
-    <br><br>
+    <br />
     <ul class="list">
-      <li v-for="elem in list" :key="elem">
-        <div id="quoteContainer">
-          <h5 class="g" >Auteur : {{ elem.author }}</h5>
-          <p class="i">"{{ elem.text }}"</p>
-          <button class="btn btn-success" @click="deleteQuoteInList(elem._id, elem.author)">Supprimer la citation</button>
-          <br><br>
+      <li v-for="elem in list" :key="elem" class="take-parent-width">
+        <div class="take-parent-width">
+          <h5 class="g">Auteur : {{ elem.author }}</h5>
+          <p class="font-italic" style="text-align:center">"{{ elem.text }}"</p>
+          <div class="btn-container">
+          <button
+            class="btn btn-success btn-lst-custom"
+            @click="deleteQuoteInList(elem._id, elem.author)"
+          >
+            Supprimer la citation
+          </button>
+
+          </div>
+          <br /><br />
         </div>
       </li>
     </ul>
-    <br>
+    <br />
     <h3>Enregistrer une nouvelle citation dans la liste :</h3>
     <div class="container">
-             <form>
-                 <div class="input-group mb-3">
-                           <div class="input-group-prepend"><span class="input-group-text" aria-label="autheur">Autheur</span></div>
-      <input type="text" class="form-control" v-model="author" placeholder="Auteur" />
-                 </div>
-                 <br>
-<div class="input-group mb-3">
-      <textarea class="form-control" v-model="text" placeholder="Citation" />
-</div>
-    </form>
+      <form>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" aria-label="autheur">Auteur</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            v-model="author"
+          />
+        </div>
+        <br />
+        <div class="input-group mb-3">
+          <textarea
+            class="form-control"
+            v-model="text"
+            placeholder="Ecrivez ici la citation"
+          />
+        </div>
+      </form>
     </div>
-    <br>
-    <button class="btn btn-primary" @click="sendQuote">Envoyer la citation</button>
-    <br><br><br>
+    <br />
+    <button class="btn btn-primary" @click="sendQuote">
+      Envoyer la citation
+    </button>
+    <br /><br /><br />
     <!-- <button class="btn btn-danger" @click="flushQuotes">Effacer toutes les citations</button> -->
-    <br><br>
+    <br /><br />
   </main>
 </template>
 
@@ -65,13 +89,19 @@ export default {
         this.list = response.data.quotes;
         this.count = this.list.length;
       } catch (error) {
-        confirm("il y a eu une erreur serveur lors de l'aquisition des citations.");
+        confirm(
+          "il y a eu une erreur serveur lors de l'aquisition des citations."
+        );
       }
     },
     async sendQuote() {
       try {
         const quote = { text: this.text, author: this.author };
-        const response = await securedRequest("/quote/create-one", "post", quote);
+        const response = await securedRequest(
+          "/quote/create-one",
+          "post",
+          quote
+        );
         const retQuote = {
           author: response.data.quote.author,
           text: response.data.quote.text,
@@ -83,7 +113,9 @@ export default {
           this.getListOfQuotes();
         }
       } catch (error) {
-        confirm("il y a eu une erreur serveur lors de l'enregistrement de la citation.");
+        confirm(
+          "il y a eu une erreur serveur lors de l'enregistrement de la citation."
+        );
       }
     },
     async flushQuotes() {
@@ -91,7 +123,9 @@ export default {
         await securedRequest("/quote/flush", "delete");
         this.getListOfQuotes();
       } catch (error) {
-        confirm("il y a eu une erreur serveur lors de l'effacement des citations.");
+        confirm(
+          "il y a eu une erreur serveur lors de l'effacement des citations."
+        );
       }
     },
     async countQuotes() {
@@ -120,4 +154,20 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.btn-lst-custom{
+  /* display: flex; */
+  /* align-self: right; */
+  /* float: right; */
+  /* justify-content: flex-end; */
+  /* flex-flow: row-reverse; */
+}
+.btn-container{
+  display: flex;
+  /* align-items: right; */
+  justify-content: flex-end;
+}
+.take-parent-width{
+  width: 100%;
+}
+</style>
