@@ -1,5 +1,5 @@
 <template>
-  <h1 class="hero2 i">Connexion</h1>
+  <h1 class="hero2 italic">Connexion</h1>
 
   <main>
     <div class="container">
@@ -26,7 +26,7 @@
     </div>
      <br>
      <p>Pas encore inscrite ?</p>
-    <router-link to="/register"><span class="i">Cliquez ici !</span></router-link>
+    <router-link to="/register"><span class="italic">Cliquez ici !</span></router-link>
   </main>
   <!-- ici ta structure Html -->
 </template>
