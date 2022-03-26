@@ -187,11 +187,6 @@ body {
 img {
   margin-bottom: 15px;
 }
-h1 {
- 
-}
-h2 {
-}
 .logo{
   margin-right: 10px;
 }
