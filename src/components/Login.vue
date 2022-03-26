@@ -5,7 +5,7 @@
     <div class="container">
              <form>
                  <div class="input-group mb-3">
-                     <div class="input-group-prepend"><span class="input-group-text" aria-label="arobase">@</span></div>
+                     <div class="input-group-prepend"><span class="input-group-text" aria-label="Email">Email</span></div>
                      <input type="email" class="form-control" placeholder="Email" id="email" v-model="state.email" />    
                      <!-- <input type="text" placeholder="Email" v-model="state.email" /> -->
         <span v-if="v$.email.$error">
