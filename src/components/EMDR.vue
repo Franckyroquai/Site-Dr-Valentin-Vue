@@ -30,7 +30,7 @@
         <p>
           Cette psychologue américaine a trouvé ce moyen très simple de stimuler
           un mécanisme neuropsychologique complexe, présent en chacun de nous
-          <span class="g"
+          <span class="bold"
             >qui permet de retraiter des vécus traumatiques non digérés à
             l’origine de divers symptômes, parfois très invalidants.</span
           >
@@ -58,7 +58,7 @@
           </p>
           <p>
             La thérapie <span class="italic">EMDR</span> s’adresse
-            <span class="g"
+            <span class="bold"
               >à toute personne (du bébé à l’adulte) souffrant de perturbations
               émotionnelles généralement liées à des situations perturbantes
               émotionnellement ou des traumatismes psychologiques.</span
@@ -76,9 +76,9 @@
             chroniques, TOC, douleurs, états dissociatifs …
           </p>
         </article>
-        <h2 class="italic g">Comment se passe une séance de traitement EMDR ?</h2>
+        <h2 class="italic bold">Comment se passe une séance de traitement EMDR ?</h2>
         <br />
-        <h3 class="g">Des séances de préparation préalables</h3>
+        <h3 class="bold">Des séances de préparation préalables</h3>
         <p>
           Du fait de l’effet puissant de cette thérapie sur le psychisme du
           patient, une préparation est indispensable. Les entretiens
@@ -102,7 +102,7 @@
         </ul>
         <br />
         <article class="bg1">
-          <h3 class="g">Un processus de traitement conscient</h3>
+          <h3 class="bold">Un processus de traitement conscient</h3>
           <p>
             Les souvenirs perturbants identifiés sont ensuite retraités, un à
             un, lors des séances, à l’aide des stimulations bilatérales
@@ -129,7 +129,7 @@
             associer à ce souvenir une pensée positive, constructive,
             pacifiante.
           </p>
-          <p>
+          <p>bold
             Une séance d’<span class="italic">EMDR</span> dure 60 minutes environ,
             parfois plus.
           </p>
