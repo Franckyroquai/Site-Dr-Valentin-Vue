@@ -1,8 +1,8 @@
 <template>
-  <h1 class="hero2 i">La thérapie de l’adolescent</h1>
+  <h1 class="hero2 italic">La thérapie de l’adolescent</h1>
   <main>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "Si tout se prépare dans l’enfance, tout se joue à l’adolescence"
     </h2>
     <h3 class="author">Kesemberg</h3>
@@ -22,7 +22,7 @@
           beaucoup d’intensité… et donnent parfois du fil à retordre aux
           parents!
         </p>
-        <h3 class="i">Les principaux motifs de consultation :</h3>
+        <h3 class="italic">Les principaux motifs de consultation :</h3>
         <p>
           Si une certaine forme de « vague à l’âme » à l’adolescence est
           normale, des signes plus alarmants, liés ou non à des évènements
@@ -32,7 +32,7 @@
       </section>
       <section class="premier">
         <article class="flex-item w50">
-          <ul class="bg1 list i">
+          <ul class="bg1 list italic">
             <li>Troubles alimentaires</li>
             <li>Addictions (drogues, alcool, écrans…)</li>
             <li>
@@ -58,7 +58,7 @@
       </section>
       <br />
       <section class="bg1">
-        <h3 class="i">
+        <h3 class="italic">
           Le coaching thérapeutique auprès de l’adolescent offre un espace où :
         </h3>
         <ul class="list">
@@ -95,7 +95,7 @@
           cas, avec l’accord de l’adolescent, je peux être amenée à proposer un
           travail collectif, parents et enfants, dans une approche systémique.
         </p>
-        <p class="g">
+        <p class="bold">
           Sachez que tout est réversible dans cette période bouillonnante…
         </p>
         <p>
