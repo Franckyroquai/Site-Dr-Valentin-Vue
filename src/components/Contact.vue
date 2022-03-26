@@ -1,9 +1,9 @@
 <template>
-  <h1 class="hero2 i">Me contacter</h1>
+  <h1 class="hero2 italic">Me contacter</h1>
   <main>
     <br />
     <article>
-      <h2 class="i">Les consultations se font sur rendez-vous.</h2>
+      <h2 class="italic">Les consultations se font sur rendez-vous.</h2>
       <br />
       <section class="bg1">
         <p>
@@ -15,7 +15,7 @@
         </p>
       </section>
       <br />
-      <h2 class="i">L'accès à mon cabinet</h2>
+      <h2 class="italic">L'accès à mon cabinet</h2>
       <br />
       <section class="premier">
         <article class="flex-item img w40">
@@ -35,7 +35,7 @@
       </section>
       <br />
       <section class="bg1">
-        <h2 class="s">Mes coordonnées :</h2>
+        <h2 class="italic">Mes coordonnées :</h2>
         <br />
         <p>
           Téléphone:
@@ -56,7 +56,7 @@
       
         <section class="premier">
       <article class="flex-item w40 bg1">
-        <h3 class="s">Stationnement et accès :</h3>
+        <h3 class="underline">Stationnement et accès :</h3>
         <br />
         <p>- Parking Gambetta (à l’arrière du cabinet)</p>
         <p>
