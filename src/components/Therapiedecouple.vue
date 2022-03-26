@@ -1,8 +1,8 @@
 <template>
-  <h1 class="hero2 i">La thérapie de couple</h1>
+  <h1 class="hero2 italic">La thérapie de couple</h1>
   <main>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "Dans un couple, l’important n'est pas de vouloir rendre l'autre heureux,
       mais c'est de se rendre heureux et d'offrir ce bonheur à l'autre."
     </h2>
@@ -19,7 +19,7 @@
           Un couple qui va bien n’est pas un couple sans problème, c’est un
           couple qui sait traverser les crises et parvient à les transmuter.
         </p>
-        <ul class="i list">
+        <ul class="italic list">
           <li>
             Si vous ressentez un déséquilibre dans votre vie à deux ou que vous
             avez le sentiment de ne plus parler la même langue, de ne plus être,
@@ -38,7 +38,7 @@
       </section>
       <section class="premier">
         <article class="flex-item w40 bg1">
-          <p class="ig">
+          <p class="italic bold">
             Il est temps de prendre du recul, car le problème au fond, ne vient
             pas nécessairement de l'autre...mais plutôt ce qui se passe dans la
             relation entre vous !
@@ -61,7 +61,7 @@
             width="300px"
             alt="couple qui marche avec un chien au bord de la mer"
           />
-          <p class="ig">
+          <p class="italic bold">
             La thérapie de couple ne s’adresse pas qu’aux couples qui sont au
             bord du gouffre mais à tous ceux qui veulent se donner les moyens de
             vivre une belle relation.
@@ -96,7 +96,7 @@
           <p>
             À partir de la
             <router-link to="/approche-systemique"
-              ><span class="g">thérapie systémique</span></router-link
+              ><span class="bold">thérapie systémique</span></router-link
             >, nous aurons, à disposition, des outils pour vous permettre de
             transformer l’essai.
           </p>
