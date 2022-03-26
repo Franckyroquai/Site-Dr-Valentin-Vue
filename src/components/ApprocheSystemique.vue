@@ -1,12 +1,12 @@
 <template>
-  <h1 class="hero2 i">L'approche systémique</h1>
+  <h1 class="hero2 italic">L'approche systémique</h1>
   <main>
     <br />
     <article>
       <section class="bg1">
         <p>
-          <span class="ig">L’approche systémique</span> qui vient de
-          <span class="g">l’école de Palo Alto</span>, s’appuie sur le postulat
+          <span class="italic bold">L’approche systémique</span> qui vient de
+          <span class="bold">l’école de Palo Alto</span>, s’appuie sur le postulat
           que l’individu est influencé dans sa façon d’être, par le contexte
           dans lequel il vit ,ce qui est vécu par l'un a forcément des
           répercussions sur les autres. Toute la puissance de cette approche
@@ -56,7 +56,7 @@
         </article>
       </section>
       <br />
-      <p class="g">
+      <p class="bold">
         Le thérapeute devra donc identifier la fonction du symptôme dans le
         système : que permet-il, qu’empêche-t-il… ?
       </p>
@@ -68,7 +68,7 @@
         <p>
           Au contraire de désigner un coupable ou interpréter le problème, il
           cherchera, ensuite, à
-          <span class="g">modifier le contexte qui le déclenche</span>.
+          <span class="bold">modifier le contexte qui le déclenche</span>.
         </p>
         <p>
           Il devra choisir, en fonction, les stratégies thérapeutiques les plus
@@ -92,7 +92,7 @@
         </p>
         <p>
           L’approche systémique familiale fait partie des
-          <span class="g">thérapies brèves</span>. La durée moyenne d’un
+          <span class="bold">thérapies brèves</span>. La durée moyenne d’un
           traitement peut se situer entre 6 et quinze séances, même si, bien
           sûr, cela est difficile à estimer car adapté à la situation forcément
           singulière de chaque famille.
