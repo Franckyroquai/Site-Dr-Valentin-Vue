@@ -1,5 +1,5 @@
 <template>
-  <h1 class="hero2 i">La thérapie familiale</h1>
+  <h1 class="hero2 italic">La thérapie familiale</h1>
   <main>
     <br />
     <img
@@ -12,12 +12,12 @@
       <br />
       <section class="premier">
         <article class="flex-item w50">
-          <ul class="bg1 i list">
+          <ul class="bg1 italic list">
             <li>
               Votre enfant fait des cauchemars, votre adolescent a de mauvais
               résultats scolaires ou décroche, se perd dans les écrans ou se
               noie dans une addiction, vous envoie balader ou au contraire
-              devient inaccessible …
+              devient inaccessible…
             </li>
 
             <li>
@@ -59,7 +59,7 @@
         </p>
       </section>
       <br />
-      <h2 class="i">
+      <h2 class="italic">
         Vous ne trouvez pas la solution par vous-même ? <br />
         Ne laissez pas votre famille s’embourber dans les difficultés...
       </h2>
@@ -69,7 +69,7 @@
           Au contraire, le moment est venu de vous mettre tous ensemble au
           travail, pour changer un système relationnel inopérant voire nocif et
           trouver un mode de communication plus satisfaisant pour l’ensemble du
-          groupe et <span class="ig">plus épanouissant pour chacun</span>.
+          groupe et <span class="italic bold">plus épanouissant pour chacun</span>.
         </p>
         <p>
           En place de thérapeute systémicienne, l'espace de parole qui vous sera
@@ -87,7 +87,7 @@
         <p>
           Un
           <router-link to="/approche-systemique"
-            ><span class="g">accompagnement systémique</span></router-link
+            ><span class="bold">accompagnement systémique</span></router-link
           >
           familial se déroule sur une moyenne de 6 à 12 séances de 1h 15 à 1h30
           avec un espacement de 2 à 3 semaines entre les séances.
