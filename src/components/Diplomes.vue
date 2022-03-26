@@ -1,8 +1,8 @@
 <template>
-  <h1 class="hero2 i">Diplômes et Certifications</h1>
+  <h1 class="hero2 italic">Diplômes et Certifications</h1>
   <main>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "Je suis venu en ce monde sans rien,<br />et je le quitterai avec ma
       conscience."
     </h2>
@@ -59,32 +59,32 @@
           </ul>
         </article>
       </section>
-      <h2 class="i">Orientation</h2>
+      <h2 class="italic">Orientation</h2>
       <br />
-      <p class="g">Approche humaniste, intégrative, systémique.</p>
+      <p class="bold">Approche humaniste, intégrative, systémique.</p>
       <br />
-      <h2 class="i">Pour Quel public ?</h2>
+      <h2 class="italic">Pour Quel public ?</h2>
       <br />
       <ul class="bg1 list">
-        <li class="s">
+        <li class="underline">
           Enfants / Adolescents, Adultes / séniors, Couples / familles
         </li>
         <li>
-          <span class="s">Sportifs de haut niveau :</span> Préparation mentale
+          <span class="underline">Sportifs de haut niveau :</span> Préparation mentale
         </li>
         <li>
-          <span class="s">Etudiants, Professionnels :</span> Préparation de
+          <span class="underline">Etudiants, Professionnels :</span> Préparation de
           carrière, de concours, reconversion …
         </li>
         <li>
-          <span class="s"
+          <span class="underline"
             >Associations médico-sociales, Mairies, Services hospitaliers
             :</span
           >
           Supervision, analyse des pratiques
         </li>
         <li>
-          <span class="s"
+          <span class="underline"
             >Professionnels auprès des séniors (maisons de retraite, EHPAD,
             services d’aide à domicile) :</span
           >
