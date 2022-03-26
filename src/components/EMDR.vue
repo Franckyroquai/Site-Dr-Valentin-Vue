@@ -1,5 +1,5 @@
 <template>
-  <h1 class="hero2 i">Qu'est-ce que l'EMDR ?</h1>
+  <h1 class="hero2 italic">Qu'est-ce que l'EMDR ?</h1>
   <main>
     <br />
     <a href="https://www.emdr-france.org/" target="_blank">
@@ -11,14 +11,14 @@
         <p>
           Les initiales
           <a href="https://www.emdr-france.org/" target="_blank"
-            ><span class="i">EMDR</span></a
+            ><span class="italic">EMDR</span></a
           >
           viennent de son appellation anglo-saxonne : Eye Movement
           Desensitization and Reprocessing qui signifie "Désensibilisation et
           Retraitement par les Mouvements Oculaires".
         </p>
         <p>
-          La thérapie <span class="i">EMDR</span> utilise en effet, une
+          La thérapie <span class="italic">EMDR</span> utilise en effet, une
           stimulation sensorielle bilatérale alternée (droite-gauche) des lobes
           du cerveau, par mouvements oculaires bi-alternés, tapotements ou sons
           alternatifs.
@@ -37,7 +37,7 @@
         </p>
       </section>
       <button
-        class="i btn btn-primary btn-lg"
+        class="italic btn btn-primary btn-lg"
         @click="isMoreInfo = !isMoreInfo"
       >
         Pour en Savoir plus
@@ -57,7 +57,7 @@
             émotionnelle associée au souvenir.
           </p>
           <p>
-            La thérapie <span class="i">EMDR</span> s’adresse
+            La thérapie <span class="italic">EMDR</span> s’adresse
             <span class="g"
               >à toute personne (du bébé à l’adulte) souffrant de perturbations
               émotionnelles généralement liées à des situations perturbantes
@@ -76,7 +76,7 @@
             chroniques, TOC, douleurs, états dissociatifs …
           </p>
         </article>
-        <h2 class="ig">Comment se passe une séance de traitement EMDR ?</h2>
+        <h2 class="italic g">Comment se passe une séance de traitement EMDR ?</h2>
         <br />
         <h3 class="g">Des séances de préparation préalables</h3>
         <p>
@@ -108,7 +108,7 @@
             un, lors des séances, à l’aide des stimulations bilatérales
             alternées. Il faut parfois plusieurs séances pour traiter un seul
             souvenir. Pour les enfants, selon leur âge, le traitement
-            <span class="i">EMDR</span> peut se faire en présence de leurs
+            <span class="italic">EMDR</span> peut se faire en présence de leurs
             parents.
           </p>
           <p>
@@ -130,11 +130,11 @@
             pacifiante.
           </p>
           <p>
-            Une séance d’<span class="i">EMDR</span> dure 60 minutes environ,
+            Une séance d’<span class="italic">EMDR</span> dure 60 minutes environ,
             parfois plus.
           </p>
           <p>
-            L’<span class="i">EMDR</span> est le traitement de choix du FBI pour
+            L’<span class="italic">EMDR</span> est le traitement de choix du FBI pour
             le traumatisme. Il est employé par tous les services des forces
             armées au Royaume-Uni. Il a été utilisé pour la première fois de
             manière organisée après le bombardement de la ville d’Oklahoma, et,
@@ -143,7 +143,7 @@
             événements du 11 septembre.
           </p>
           <p>
-            L'<span class="i">EMDR</span> est reconnue par la communauté
+            L'<span class="italic">EMDR</span> est reconnue par la communauté
             scientifique internationale. Elle est pratiquée dans le monde entier
             auprès de personnes de tous âges et de toutes conditions.
           </p>
