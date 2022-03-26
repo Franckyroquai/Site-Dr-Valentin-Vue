@@ -1,16 +1,15 @@
 <template>
-  <!-- légende class : i= italique, g = gras, s= souligné -->
   <div class="parallax titre">
-    <h1 class="i">Véronique Valentin</h1>
+    <h1 class="italic">Véronique Valentin</h1>
     <h2>Psychologue</h2>
   </div>
   <main>
     <br />
     <display-quote-component></display-quote-component>
     <br />
-    <h1 class="i">Bienvenue</h1>
+    <h1 class="italic">Bienvenue</h1>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "J’ouvrirai une école de vie intérieure,<br />et j’écrirai sur la porte :
       école d’art."
     </h2>
@@ -42,7 +41,7 @@
       </article>
     </section>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "Un voyage de mille lieux commence<br />toujours par un premier pas"
     </h2>
     <h3 class="author">Lao Tseu</h3>
@@ -87,7 +86,7 @@
       </article>
     </section>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       "Le possible est juste un tout petit peu après l’impossible,<br />un seul
       pas peut suffire pour le rencontrer"
     </h2>
@@ -100,7 +99,7 @@
     /> -->
     <div class="parallax2"></div>
     <br />
-    <h1 class="i">L'approche Thérapeutique</h1>
+    <h1 class="italic">L'approche Thérapeutique</h1>
     <br />
     <section class="second">
       <article class="flex-item w40 bg1">
@@ -112,7 +111,7 @@
         <p>
           Les méthodes que je vous proposerai alors, entrent dans le cadre d’une
           approche
-          <span class="g">intégrative</span>, un authentique cousu main, car
+          <span class="bold">intégrative</span>, un authentique cousu main, car
           cela revient à prendre appui sur les « outils » les mieux adaptés à
           vous, compte tenu de vos besoins, vos objectifs, votre personnalité.
         </p>
@@ -147,7 +146,7 @@
       </article>
     </section>
     <br />
-    <p class="ig">
+    <p class="italic bold">
       Mes connaissances sont constamment actualisées, à la fois en clinique
       humaine et dans la recherche scientifique.
     </p>
@@ -167,7 +166,7 @@ export default {
 
 <style>
 main {
-  min-height: 50vh;
+  min-height: 73vh;
   padding: 0% 8vw;
   font-size: 20px;
   line-height: 1.6;
@@ -270,27 +269,15 @@ list-style-type: disc;
 }
 .bg1 {
   background-color: rgba(128, 128, 128, 0.05);
+  padding-top: 5px;
 }
-.i {
+.italic {
   font-style: italic;
 }
-.g {
+.bold {
   font-weight: bold;
 }
-.s {
-  text-decoration: underline;
-}
-.is {
-  font-style: italic;
-  text-decoration: underline;
-}
-.ig {
-  font-style: italic;
-  font-weight: bold;
-}
-.igs {
-  font-style: italic;
-  font-weight: bold;
+.underline {
   text-decoration: underline;
 }
 .flex {
@@ -320,9 +307,6 @@ list-style-type: disc;
 }
 .flex-item.w60 {
   width: 60%;
-}
-.border15 {
-  border-radius: 15px;
 }
 .premier {
   display: flex;
