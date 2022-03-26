@@ -55,7 +55,7 @@ export default {
         confirm: "",
       },
     });
-    const rules = computed(() => {
+    const rules = computed(() => {   //
       return {
         email: { required, email },
         password: {
