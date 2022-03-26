@@ -1,5 +1,5 @@
 <template>
-  <navbar-component @userLogged="verifyPresenceOfToken()"></navbar-component>
+  <navbar-component></navbar-component>
   <router-view></router-view>
   <footer-component></footer-component>
 </template>
@@ -24,6 +24,6 @@ export default {
   font-family: Georgia;
   text-align: center;
   color: #000000;
-  margin-top: 0px;
+  /* margin-top: 0px; */
 }
 </style>
