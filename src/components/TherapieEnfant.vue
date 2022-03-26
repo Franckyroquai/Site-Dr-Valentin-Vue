@@ -68,9 +68,6 @@
 <script>
 export default {
   name: "TherapieEnfantComponent",
-  props: {
-    variable1: String, // type de variable (string,integer,...)
-  },
   data() {
     return {};
   },
