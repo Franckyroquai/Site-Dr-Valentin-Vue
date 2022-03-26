@@ -233,7 +233,7 @@ h2 {
 .titre {
   margin-top: -125px;
   margin-right: -440px;
-  animation: slidein 2s forwards;
+  animation: slidein 2000ms forwards;
   /* animation-timing-function: ease-in-out; */
 }
 @keyframes slidein {
