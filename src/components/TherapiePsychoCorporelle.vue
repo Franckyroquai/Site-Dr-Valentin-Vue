@@ -1,5 +1,5 @@
 <template>
-  <h1 class="hero2 i">La thérapie psycho-corporelle</h1>
+  <h1 class="hero2 italic">La thérapie psycho-corporelle</h1>
   <main>
     <br />
     <h2>Une approche corporelle douce</h2>
@@ -11,15 +11,15 @@
     />
 
     <article>
-      <p class="i">Pour un « CORPS ACCORD »</p>
+      <p class="italic">Pour un « CORPS ACCORD »</p>
 
       <p class="bg1">
-        Notre corps est une <span class="g">mémoire vivante</span> qui porte en
+        Notre corps est une <span class="bold">mémoire vivante</span> qui porte en
         lui les traces de notre vécu, de notre histoire émotionnelle et
         affective depuis notre conception, de notre héritage familial. C'est par
         et avec notre corps que nous sommes présents au monde et que nous
         l'habitons.
-        <span class="g"
+        <span class="bold"
           >C’est par notre corps que nous agissons, c’est dans et par notre
           corps que nous souffrons</span
         >.
@@ -38,19 +38,20 @@
           douleurs, tensions, angoisse, blocages…)
         </li>
       </ul>
-      <p class="g">Il est certainement temps de vous mettre à son écoute.</p>
+      <p class="bold">Il est certainement temps de vous mettre à son écoute.</p>
       <br />
       <button
-        class="i btn btn-primary btn-lg"
+        class="italic btn btn-primary btn-lg"
         @click="isMoreInfo = !isMoreInfo"
       >
         Pour en Savoir plus
       </button>
+      <br><br>
       <section v-if="isMoreInfo">
         <br />
-        <h2 class="i">"L’inconscient est structuré comme un langage"</h2>
+        <h2 class="italic">"L’inconscient est structuré comme un langage"</h2>
         <h3 class="author">(J. LACAN)</h3>
-        <h2 class="i">… et le corps en est son creuset.</h2>
+        <h2 class="italic">… et le corps en est son creuset.</h2>
         <br />
         <article class="bg1">
           <p>
@@ -68,7 +69,7 @@
             n’a pu s’exprimer émotionnellement, s’imprime dans le corps ou finit
             par s’exprimer par des maux qu’il s’agisse de maux physiques,
             psychiques ou par un
-            <span class="g">"mal à l’âme"</span> indéfinissable.
+            <span class="bold">"mal à l’âme"</span> indéfinissable.
           </p>
           <p>
             Comprenons que, dès notre conception, notre organisme enregistre
@@ -76,13 +77,13 @@
             les traces des épreuves non digérées qui entravent son développement
             naturel et ce sous forme de tensions qui deviennent chroniques. Tout
             cela est inconscient.
-            <span class="g"
+            <span class="bold"
               >En dissolvant ces marques du passé, les schémas sclérosés peuvent
               alors se dénouer en douceur</span
             >. Le corps s’en trouve apaisé et ressourcé.
           </p>
           <p>
-            <span class="g"
+            <span class="bold"
               >Permettre à la personne une réappropriation progressive de
               lui-même et de ses potentialités</span
             >
@@ -104,14 +105,14 @@
           </p>
           <p>
             Bien sûr, il n'est pas toujours nécessaire de toucher directement au
-            corps pour <span class="g">travailler avec le corps</span>.
-            L'accueil des <span class="g">ressentis</span> et des
-            <span class="g">émotions</span> ainsi que l’accès à leur contenu
+            corps pour <span class="bold">travailler avec le corps</span>.
+            L'accueil des <span class="bold">ressentis</span> et des
+            <span class="bold">émotions</span> ainsi que l’accès à leur contenu
             affectif permet cette reconnection et un « plus de conscience » sur
             l’expérience en cours afin de contacter votre réalité et votre
             vérité intérieure.
-            <router-link to="/emdr" class="g">EMDR</router-link> ou
-            <router-link to="/brainspotting" class="g"
+            <router-link to="/emdr" class="bold">EMDR</router-link> ou
+            <router-link to="/brainspotting" class="bold"
               >Brainspotting</router-link
             >
             entrent dans ce cadre-là, d’autres outils tels que TIPI ou NERTI
@@ -124,7 +125,7 @@
             cardiaque, L’EFT…, participant toutes, de ce que j’ai envie
             d’appeler une écologie de l’Etre, car synonymes de bien-être, de
             paix intérieure, d’un prendre soin de soi- donc de vous-
-            <span class="g">"en corps"</span> et toujours .
+            <span class="bold">"en corps"</span> et toujours .
           </p>
         </article>
       </section>
