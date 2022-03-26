@@ -20,8 +20,8 @@ export async function securedRequest (url, verb, payload) {
 
 export async function publicRequest (url, verb, payload) {
   let configObject = {};
-  if (payload && typeof payload === "object") {
-    configObject = Object.assign(configObject, {data: payload})
+  if (payload && typeof payload === "object") {                 //verifie presence payload puis son type si il existe
+    configObject = Object.assign(configObject, {data: payload})  //insère payload dans ConfigObject see:https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
   } else if (payload && typeof payload != "object") {
     throw new Error("request payload must be an object")
   }
