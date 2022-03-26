@@ -135,9 +135,6 @@
 <script>
 export default {
   name: "TherapiePsychoCorporelleComponent",
-  props: {
-    variable1: String, // type de variable (string,integer,...)
-  },
   data() {
     return {
       isMoreInfo: false,
