@@ -4,7 +4,7 @@
     <div class="container">
       <form>
         <div class="input-group mb-3">
-          <div class="input-group-prepend"><span class="input-group-text" aria-label="arobase">@</span></div>
+          <div class="input-group-prepend"><span class="input-group-text" aria-label="Email">Email</span></div>
         <input type="email" class="form-control" placeholder="Email" v-model="state.email" />
         <span v-if="v$.email.$error">
           {{ v$.email.$errors[0].$message }}
