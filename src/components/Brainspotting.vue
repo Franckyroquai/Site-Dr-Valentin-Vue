@@ -1,5 +1,5 @@
 <template>
-<h1 class="hero2 i">Le Brainspotting</h1>
+<h1 class="hero2 italic">Le Brainspotting</h1>
   <main>
     <article>
       <br />
@@ -18,12 +18,12 @@
         Grace à son accès direct aux systèmes autonomes et limbiques du Système Nerveux
         Central, elle permet de stimuler le cerveau profond où sont stockées les
         expériences très perturbantes voire traumatiques, permettant ainsi
-        <span class="g"
+        <span class="bold"
           >un retraitement et une libération de ces informations bloquées, hors d’atteinte
           de l’esprit conscient et des capacités verbales et cognitives.</span
         >
       </p>
-      <h2 class="i">
+      <h2 class="italic">
         Le socle même de la méthode repose sur cette phrase : 
        <br>"La direction de notre
         regard impacte notre ressenti".</h2>
@@ -33,7 +33,7 @@
         émotionnellement, nous pouvons remarquer qu’elle est de manière reflexe, donc
         inconsciente, attirée par un endroit dans son champ de vision où elle sentira plus
         particulièrement cette activation émotionnelle. On parle alors de
-        <span class="g">brainspot.</span>
+        <span class="bold">brainspot.</span>
       </p>
       <p>
         La thérapie BRAINSPOTTING consiste à soutenir ce point activateur (brainspot) et
@@ -43,9 +43,10 @@
         de libérer des ressources auto-thérapeutiques.
       </p>
       </section>
-      <button class="i btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">
+      <button class="italic btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">
         Pour en Savoir plus
       </button>
+      <br><br>
       <section v-if="isMoreInfo">
         <br />
         <article class="bg1">
@@ -63,7 +64,7 @@
         </p>
         </article>
         <br>
-        <h2 class="i">Déroulement d’une séance</h2>
+        <h2 class="italic">Déroulement d’une séance</h2>
         <br>
         <article class="bg1">
         <p>
@@ -85,7 +86,7 @@
         </p>
         </article>
         <br>
-        <h2 class="i">Et le thérapeute là-dedans ?</h2>
+        <h2 class="italic">Et le thérapeute là-dedans ?</h2>
         <br />
         <section class="premier">
           
@@ -115,7 +116,7 @@
           l’expérience vécue dans son corps par le patient sans le quitter du regard, son
           rôle étant de repérer l’activation.
         </p>
-        <p class="ig">
+        <p class="italic bold">
           L’efficacité du BRAINSPOTTING reposerait ainsi sur trois processus qui se
           potentialisent : l’accès au cerveau émotionnel et au corps, combiné à la pleine
           conscience focalisée et à un accordage profond entre le thérapeute et le
@@ -129,12 +130,12 @@
           de panique, mais aussi les deuils bloqués ou les troubles de l’attention, les
           questionnements existentiels …
         </p>
-        <p class="g">
+        <p class="bold">
           Elle permet également de renforcer les ressources, d’améliorer les performances
           sportives, artistiques et d’accompagner les situations où il faut donner le
           meilleur de soi-même (concours, examen ou tout autre challenge).
         </p>
-        <h2 class="i">En combien de séances ?</h2>
+        <h2 class="italic">En combien de séances ?</h2>
         <p>
           La durée de la thérapie peut aller de quelques séances à …quelques années, selon
           qu’on a affaire à un trauma simple ou à des traumas complexes répétés, sources
