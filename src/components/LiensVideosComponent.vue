@@ -1,8 +1,8 @@
 <template>
-  <h1 class="hero2 i">Liens Vidéos</h1>
+  <h1 class="hero2 italic">Liens Vidéos</h1>
   <main>
     <br />
-    <h2 class="i">
+    <h2 class="italic">
       Voici quelques vidéos qui vous aiderons à comprendre mon approche :
     </h2>
     <br />
