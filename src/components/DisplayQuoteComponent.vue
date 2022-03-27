@@ -1,6 +1,7 @@
 <template>
   <h2 class="i"> "{{ text }}" </h2>
   <h3 v-if="author" class="author"> {{ author }}</h3>
+  <!-- <h1>{{timeout}}</h1> -->
 </template>
 
 <script>
@@ -11,14 +12,19 @@ export default {
 
   data() {
     return {
-      timeout: 15,
+      timeout: 200,
       text: "",
       author: "",
+      fetchingQuotes: false,
     };
   },
   mounted() {
+    this.fetchingQuotes = true;
     this.getQuote();
-    this.countdown();
+    this.countdown(); //FIXME: bad implementation , when routing out countdown is still live
+  },
+  unmounted() {
+    this.fetchingQuotes = false
   },
   methods: {
     async getQuote() {
@@ -32,13 +38,16 @@ export default {
       }
     },
     countdown() {
-      if (this.timeout > 0) {
-        this.timeout--;
-        setTimeout(this.countdown, 1000);
-      } else {
-        this.getQuote();
-        this.timeout = 15;
-        this.countdown();
+      // console.log(this.fetchingQuotes);
+      if (this.fetchingQuotes) {
+        if (this.timeout > 0) {
+          this.timeout--;
+          setTimeout(this.countdown, 100);
+        } else {
+          this.getQuote();
+          this.timeout = 200;
+          this.countdown();
+        }
       }
     },
   },
