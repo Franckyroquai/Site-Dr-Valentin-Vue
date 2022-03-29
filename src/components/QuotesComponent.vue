@@ -11,7 +11,11 @@
     <p class="italic" v-if="!list.length">
       Cliquez sur le bouton pour accéder à la liste
     </p>
-    <button class="btn btn-info italic" v-if="!list.length" @click="getListOfQuotes">
+    <button
+      class="btn btn-info italic"
+      v-if="!list.length"
+      @click="getListOfQuotes"
+    >
       Afficher les citations
     </button>
     <br />
@@ -19,15 +23,16 @@
       <li v-for="elem in list" :key="elem" class="take-parent-width">
         <div class="take-parent-width">
           <h5 class="bold">Auteur : {{ elem.author }}</h5>
-          <p class="font-italic" style="text-align:center">"{{ elem.text }}"</p>
+          <p class="font-italic" style="text-align: center">
+            "{{ elem.text }}"
+          </p>
           <div class="btn-container">
-          <button
-            class="btn btn-success btn-lst-custom"
-            @click="deleteQuoteInList(elem._id, elem.author)"
-          >
-            Supprimer la citation
-          </button>
-
+            <button
+              class="btn btn-success btn-lst-custom"
+              @click="deleteQuoteInList(elem._id, elem.author)"
+            >
+              Supprimer la citation
+            </button>
           </div>
           <br /><br />
         </div>
@@ -41,11 +46,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text" aria-label="autheur">Auteur</span>
           </div>
-          <input
-            type="text"
-            class="form-control"
-            v-model="author"
-          />
+          <input type="text" class="form-control" v-model="author" />
         </div>
         <br />
         <div class="input-group mb-3">
@@ -97,24 +98,21 @@ export default {
     async sendQuote() {
       try {
         const quote = { text: this.text, author: this.author };
-        const response = await securedRequest(
-          "/quote/create-one",
-          "post",
-          quote
-        );
-        const retQuote = {
-          author: response.data.quote.author,
-          text: response.data.quote.text,
-        };
-        if (
-          quote.text === retQuote.text &&
-          (quote.author === retQuote.author || retQuote.author === "anonyme")
-        ) {
-          this.getListOfQuotes();
-        }
+        await securedRequest("/quote/create-one", "post", quote);
+        this.getListOfQuotes();
       } catch (error) {
+        // console.error(error);
+        console.info("info: ", error.response.data);
+        let msg = error.response.data;
+        if (msg.includes("text field is required")) {
+          msg = "le champ texte de la citation ne peut pas etre vide";
+        } else if (msg.includes("duplicated quote text")) {
+          msg = "le texte de la citation existe deja";
+        } else if (error.response.status === 500) {
+          msg = "le serveur a rencontre une erreur inconue";
+        }
         confirm(
-          "il y a eu une erreur serveur lors de l'enregistrement de la citation."
+          `il y a eu une erreur serveur lors de l'enregistrement de la citation.\n\t${msg}`
         );
       }
     },
@@ -155,19 +153,19 @@ export default {
 </script>
 
 <style>
-.btn-lst-custom{
+.btn-lst-custom {
   /* display: flex; */
   /* align-self: right; */
   /* float: right; */
   /* justify-content: flex-end; */
   /* flex-flow: row-reverse; */
 }
-.btn-container{
+.btn-container {
   display: flex;
   /* align-items: right; */
   justify-content: flex-end;
 }
-.take-parent-width{
+.take-parent-width {
   width: 100%;
 }
 </style>
