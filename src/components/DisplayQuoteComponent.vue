@@ -1,7 +1,8 @@
 <template>
-  <h2 class="i"> "{{ text }}" </h2>
+  <h2 class="italic"> "{{ text }}" </h2>
   <h3 v-if="author" class="author"> {{ author }}</h3>
-  <!-- <h1>{{timeout}}</h1> -->
+  <!-- permet d'afficher le compte à rebours -->
+  <!-- <h1>{{timeout}}</h1> -->   
 </template>
 
 <script>
@@ -12,7 +13,7 @@ export default {
 
   data() {
     return {
-      timeout: 200,
+      timeout: 15,
       text: "",
       author: "",
       fetchingQuotes: false,
@@ -42,10 +43,10 @@ export default {
       if (this.fetchingQuotes) {
         if (this.timeout > 0) {
           this.timeout--;
-          setTimeout(this.countdown, 100);
+          setTimeout(this.countdown, 1000);
         } else {
           this.getQuote();
-          this.timeout = 200;
+          this.timeout = 15;
           this.countdown();
         }
       }
