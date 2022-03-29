@@ -40,7 +40,7 @@
         class="italic btn btn-primary btn-lg"
         @click="isMoreInfo = !isMoreInfo"
       >
-        Pour en Savoir plus
+        Pour en savoir plus
       </button>
       <section v-if="isMoreInfo">
         <br />
