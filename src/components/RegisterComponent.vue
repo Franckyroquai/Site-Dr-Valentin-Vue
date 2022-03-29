@@ -1,38 +1,58 @@
 <template>
-<h1 class="hero2 italic">Créez un compte</h1>
+  <h1 class="hero2 italic">Créez un compte</h1>
   <main>
     <div class="container">
       <form>
         <div class="input-group mb-3">
-          <div class="input-group-prepend"><span class="input-group-text" aria-label="Email">Email</span></div>
-        <input type="email" class="form-control" placeholder="Email" v-model="state.email" />
-        <span v-if="v$.email.$error">
-          {{ v$.email.$errors[0].$message }}
-        </span>
-      </div>
-                 <br>
-      <div class="input-group mb-3">
-              <div class="input-group-prepend"><span class="input-group-text" aria-label="mot de passe">Mot de passe</span></div>
-        <input type="password" class="form-control" placeholder="Mot de passe" v-model="state.password.value" />
-        <span v-if="v$.password.value.$error">
-          {{ v$.password.value.$errors[0].$message }}
-        </span>
-      </div>
-       <br>
-      <div class="input-group mb-3">
-                    <div class="input-group-prepend"><span class="input-group-text" aria-label="mot de passe">Mot de passe</span></div>
+          <div class="input-group-prepend">
+            <span class="input-group-text" aria-label="Email">Email</span>
+          </div>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email"
+            v-model="state.email"
+          />
+          <span v-if="v$.email.$error">
+            {{ v$.email.$errors[0].$message }}
+          </span>
+        </div>
+        <br />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" aria-label="mot de passe"
+              >Mot de passe</span
+            >
+          </div>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Mot de passe"
+            v-model="state.password.value"
+          />
+          <span v-if="v$.password.value.$error">
+            {{ v$.password.value.$errors[0].$message }}
+          </span>
+        </div>
+        <br />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" aria-label="mot de passe"
+              >Mot de passe</span
+            >
+          </div>
 
-        <input
-          type="password"
-          class="form-control"
-          placeholder="Confirmez le mot de passe"
-          v-model="state.password.confirm"
-        />
-        <span v-if="v$.password.confirm.$error">
-          {{ v$.password.confirm.$errors[0].$message }}
-        </span>
-      </div>
-      <br>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Confirmez le mot de passe"
+            v-model="state.password.confirm"
+          />
+          <span v-if="v$.password.confirm.$error">
+            {{ v$.password.confirm.$errors[0].$message }}
+          </span>
+        </div>
+        <br />
       </form>
       <button class="btn btn-primary" @click="submitForm">Envoyer</button>
     </div>
@@ -55,7 +75,8 @@ export default {
         confirm: "",
       },
     });
-    const rules = computed(() => {   //
+    const rules = computed(() => {
+      //
       return {
         email: { required, email },
         password: {
