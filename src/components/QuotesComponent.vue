@@ -97,12 +97,9 @@ export default {
     },
     async sendQuote() {
       try {
-        const quote = { text: this.text, author: this.author };
-        await securedRequest("/quote/create-one", "post", quote);
+        await securedRequest("/quote/create-one", "post", { text: this.text, author: this.author });
         this.getListOfQuotes();
       } catch (error) {
-        // console.error(error);
-        console.info("info: ", error.response.data);
         let msg = error.response.data;
         if (msg.includes("text field is required")) {
           msg = "le champ texte de la citation ne peut pas etre vide";
