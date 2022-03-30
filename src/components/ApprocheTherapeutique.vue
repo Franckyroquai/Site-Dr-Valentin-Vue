@@ -1,4 +1,5 @@
 <template>
+<div>
   <main>
     <h1 class="i">L'approche Thérapeutique</h1>
     <br />
@@ -38,6 +39,7 @@
       </p>
     </article>
   </main>
+</div>
 </template>
 
 <script>
