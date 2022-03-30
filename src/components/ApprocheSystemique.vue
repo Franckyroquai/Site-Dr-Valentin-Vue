@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">L'approche systémique</h1>
   <main>
     <br />
@@ -100,6 +101,7 @@
       </section>
     </article>
   </main>
+</div>
 </template>
 
 <script>
