@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Diplômes et Certifications</h1>
   <main>
     <br />
@@ -105,6 +106,7 @@
       </article>
     </article>
   </main>
+</div>
 </template>
 
 <script>
