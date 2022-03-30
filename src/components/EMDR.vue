@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Qu'est-ce que l'EMDR ?</h1>
   <main>
     <br />
@@ -166,6 +167,7 @@
       </section>
     </article>
   </main>
+</div>
 </template>
 
 <script>
