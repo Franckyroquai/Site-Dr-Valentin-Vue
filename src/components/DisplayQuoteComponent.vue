@@ -1,10 +1,9 @@
 <template>
-<div class="bg1">
-  <h2 class="italic"> "{{ text }}" </h2>
-  <h3 v-if="author" class="author"> {{ author }}</h3>
-  <!-- permet d'afficher le compte à rebours -->
-  <!-- <h1>{{timeout}}</h1> -->  
-</div> 
+  <div class="bg1">
+    <h2 class="italic">"{{ text }}"</h2>
+    <h3 v-if="author" class="author">{{ author }}</h3>
+    <!-- permet d'afficher le compte à rebours -->
+  </div>
 </template>
 
 <script>
@@ -15,40 +14,43 @@ export default {
 
   data() {
     return {
-      timeout: 15,
+      baseTimeout: 3,
+      timeout: 0,
       text: "",
       author: "",
-      fetchingQuotes: false,
+      isQuotesCountdownActive: false,
+      ifCounter: 0,
+      elseCounter: 0,
     };
   },
   mounted() {
-    this.fetchingQuotes = true;
+    this.isQuotesCountdownActive = true;
+    this.timeout = this.baseTimeout;
     this.getQuote();
-    this.countdown(); //FIXME: bad implementation , when routing out countdown is still live
+    this.countdown();
   },
   unmounted() {
-    this.fetchingQuotes = false
+    this.isQuotesCountdownActive = false;
   },
   methods: {
     async getQuote() {
       try {
-        const response = await publicRequest("/quote/random-js");
+        const response = await publicRequest("/quote/random-js-bis");
         this.text = response.data.text;
-        this.author = (response.data.author === "anonyme" ? null : response.data.author); //fonction ternaire
+        this.author = response.data.author === "anonyme" ? null : response.data.author; //fonction ternaire
         console.log("this author", this.author);
       } catch (error) {
-        console.error(error); //TODO: remove before Prod
+        console.error(error.data.message);
       }
     },
     countdown() {
-      // console.log(this.fetchingQuotes);
-      if (this.fetchingQuotes) {
+      if (this.isQuotesCountdownActive) {
         if (this.timeout > 0) {
           this.timeout--;
           setTimeout(this.countdown, 1000);
         } else {
+          this.timeout = this.baseTimeout;
           this.getQuote();
-          this.timeout = 15;
           this.countdown();
         }
       }
