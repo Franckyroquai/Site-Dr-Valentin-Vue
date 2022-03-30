@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Créez un compte</h1>
   <main>
     <div class="container">
@@ -57,6 +58,7 @@
       <button class="btn btn-primary" @click="submitForm">Envoyer</button>
     </div>
   </main>
+</div>
 </template>
 
 <script>
