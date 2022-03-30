@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Modalités pratiques</h1>
   <main>
     <br />
@@ -72,6 +73,7 @@
       </article>
     </section>
   </main>
+</div>
 </template>
 
 <script>
