@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Bonjour et bienvenue à vous,</h1>
   <main>
     <!-- <img src="../../public/assets/Images/Pilatbandeau.png" width="100%" height="100%" alt="dune du pilat"> -->
@@ -122,6 +123,7 @@
     </h2>
     <h3 class="author">Djalâl Al-Dîn Rûmi</h3>
   </main>
+</div>
 </template>
 
 <script>
