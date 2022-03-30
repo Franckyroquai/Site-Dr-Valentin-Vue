@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">La thérapie psycho-corporelle</h1>
   <main>
     <br />
@@ -131,6 +132,7 @@
       </section>
     </article>
   </main>
+</div>
 </template>
 
 <script>
