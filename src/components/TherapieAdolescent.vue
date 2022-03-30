@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">La thérapie de l’adolescent</h1>
   <main>
     <br />
@@ -105,6 +106,7 @@
       </section>
     </article>
   </main>
+</div>
 </template>
 
 <script>
