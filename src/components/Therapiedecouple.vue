@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">La thérapie de couple</h1>
   <main>
     <br />
@@ -109,6 +110,7 @@
       </section>
     </article>
   </main>
+</div>
 </template>
 
 <script>
