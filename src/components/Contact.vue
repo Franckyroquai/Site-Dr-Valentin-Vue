@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Me contacter</h1>
   <main>
     <br />
@@ -81,6 +82,7 @@
       <br />
     </article>
   </main>
+</div>
 </template>
 
 <script>
