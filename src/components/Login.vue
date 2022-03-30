@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Connexion</h1>
 
   <main>
@@ -28,7 +29,7 @@
      <p>Pas encore inscrite ?</p>
     <router-link to="/register"><span class="italic">Cliquez ici !</span></router-link>
   </main>
-  <!-- ici ta structure Html -->
+</div>
 </template>
 
 <script>
