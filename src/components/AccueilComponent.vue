@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="parallax titre">
     <h1 class="italic">Véronique Valentin</h1>
     <h2>Psychologue</h2>
@@ -152,6 +153,7 @@
     </p>
     <br />
   </main>
+</div>
 </template>
 
 <script>
