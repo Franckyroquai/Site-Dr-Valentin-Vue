@@ -1,7 +1,7 @@
 <template>
   <h1 class="hero2 italic">Gestion des citations</h1>
   <main>
-    <h1>Nombre : <span style="font-family: arial">{{ count }}</span></h1>
+    <h1>Nombre : {{ count }}</h1>
     <br />
     <button class="btn btn-info" v-if="list.length" @click="list = []">
       Masquer la liste
@@ -150,16 +150,8 @@ export default {
 </script>
 
 <style>
-.btn-lst-custom {
-  /* display: flex; */
-  /* align-self: right; */
-  /* float: right; */
-  /* justify-content: flex-end; */
-  /* flex-flow: row-reverse; */
-}
 .btn-container {
   display: flex;
-  /* align-items: right; */
   justify-content: flex-end;
 }
 .take-parent-width {
