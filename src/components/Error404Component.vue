@@ -1,4 +1,5 @@
 <template>
+<div>
 <main>
   <h1>Cette page n'est pas attribuée...</h1>
   <div class="image-404">
@@ -10,6 +11,7 @@
   </div>
   <h2>retour a la page d'accueil dans : {{ timeout }}s</h2>
 </main>
+</div>
 </template>
 
 <script>
