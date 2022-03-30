@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 i">Mentions légales</h1>
 
   <main>
@@ -91,6 +92,7 @@
       </p>
     </article>
   </main>
+</div>
 </template>
 
 <script>
