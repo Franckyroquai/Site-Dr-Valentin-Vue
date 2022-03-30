@@ -1,4 +1,5 @@
 <template>
+<div>
 <h1 class="hero2 italic">Le Brainspotting</h1>
   <main>
     <article>
@@ -150,6 +151,7 @@
       </section>
     </article>
   </main>
+</div>
 </template>
 
 <script>
