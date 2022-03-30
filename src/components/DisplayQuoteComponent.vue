@@ -1,8 +1,10 @@
 <template>
+<div class="bg1">
   <h2 class="italic"> "{{ text }}" </h2>
   <h3 v-if="author" class="author"> {{ author }}</h3>
   <!-- permet d'afficher le compte à rebours -->
-  <!-- <h1>{{timeout}}</h1> -->   
+  <!-- <h1>{{timeout}}</h1> -->  
+</div> 
 </template>
 
 <script>
