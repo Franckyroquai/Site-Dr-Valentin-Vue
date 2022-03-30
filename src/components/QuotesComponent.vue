@@ -1,7 +1,7 @@
 <template>
   <h1 class="hero2 italic">Gestion des citations</h1>
   <main>
-    <h1>Nombre : {{ count }}</h1>
+    <h1>Nombre : <span style="font-family: arial">{{ count }}</span></h1>
     <br />
     <button class="btn btn-info" v-if="list.length" @click="list = []">
       Masquer la liste
