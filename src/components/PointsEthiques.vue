@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Les points-clés de ma pratique</h1>
   <main>
     <br />
@@ -71,6 +72,7 @@
     </article>
     <br>
   </main>
+</div>
 </template>
 
 <script>
