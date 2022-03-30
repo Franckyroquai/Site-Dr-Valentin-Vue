@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Liens Vidéos</h1>
   <main>
     <br />
@@ -18,6 +19,7 @@
       ></iframe>
     </div>
   </main>
+</div>
 </template>
 
 <script>
