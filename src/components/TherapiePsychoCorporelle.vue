@@ -43,7 +43,7 @@
       <br />
       <button
         class="italic btn btn-primary btn-lg"
-        @click="isMoreInfo = !isMoreInfo"
+        @click="toggleVisibility"
       >
         Pour en savoir plus
       </button>
@@ -143,6 +143,11 @@ export default {
       isMoreInfo: false,
     };
   },
+   methods: {
+      toggleVisibility() {
+        this.isMoreInfo = !this.isMoreInfo;
+      }
+    }
 };
 </script>
 
