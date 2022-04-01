@@ -1,35 +1,53 @@
 <template>
-<div>
-  <h1 class="hero2 italic">Connexion</h1>
+  <div>
+    <h1 class="hero2 italic">Connexion</h1>
 
-  <main>
-    <div class="container">
-             <form>
-                 <div class="input-group mb-3">
-                     <div class="input-group-prepend"><span class="input-group-text" aria-label="Email">Email</span></div>
-                     <input type="email" class="form-control" placeholder="Email" id="email" v-model="state.email" />    
-                     <!-- <input type="text" placeholder="Email" v-model="state.email" /> -->
-        <span v-if="v$.email.$error">
-          {{ v$.email.$errors[0].$message }}
-        </span>              
-                 </div>
-                 <br>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend"><span class="input-group-text" aria-label="mot de pass">Mot de passe</span></div>
-        <input type="password" class="form-control" placeholder="Password" v-model="state.password.value" />
-        <span v-if="v$.password.value.$error">
-          {{ v$.password.value.$errors[0].$message }}
-        </span>
+    <main>
+      <div class="container">
+        <form>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" aria-label="Email">Email</span>
+            </div>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              id="email"
+              v-model="state.email"
+            />
+          </div>
+            <span v-if="v$.email.$error">
+              {{ v$.email.$errors[0].$message }}
+            </span>
+          <br />
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" aria-label="mot de pass"
+                >Mot de passe</span
+              >
+            </div>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Password"
+              v-model="state.password.value"
+            />
+            <span v-if="v$.password.value.$error">
+              {{ v$.password.value.$errors[0].$message }}
+            </span>
+          </div>
+          <br />
+        </form>
+        <button class="btn btn-primary" @click="submitForm">Envoyer</button>
       </div>
-      <br>
-      </form>
-      <button class="btn btn-primary" @click="submitForm">Envoyer</button>
-    </div>
-     <br>
-     <p>Pas encore inscrite ?</p>
-    <router-link to="/register"><span class="italic">Cliquez ici !</span></router-link>
-  </main>
-</div>
+      <br />
+      <p>Pas encore inscrite ?</p>
+      <router-link to="/register"
+        ><span class="italic">Cliquez ici !</span></router-link
+      >
+    </main>
+  </div>
 </template>
 
 <script>
@@ -54,9 +72,7 @@ export default {
         },
       };
     });
-
     const v$ = useValidate(rules, state);
-
     return { state, v$ };
   },
 
@@ -65,7 +81,6 @@ export default {
       this.v$.$validate(); // vérifie les inputs
       if (!this.v$.$error) {
         try {
-          // const httpResponse = await axios.post("http://127.0.0.1:3000/login", {
           const httpResponse = await publicRequest("login", "post", {
             email: this.state.email,
             password: this.state.password.value,
@@ -73,10 +88,9 @@ export default {
           if (httpResponse.status === 200) {
             localStorage.setItem("token", httpResponse.data.access_token);
             this.emitter.emit("user-logged");
-
             if (
               confirm(
-                "Vous avez bien ete loggue\nVoullez-vous acceder a l'interface d'administration?"
+                "Vous avez bien ete loggue\nVoulez-vous acceder a l'interface d'administration?"
               )
             ) {
               this.$router.push("/quotes-management");
@@ -94,15 +108,6 @@ export default {
       }
     },
   },
-  validations() {
-    return {
-      email: { required },
-      password: {
-        value: { required },
-        confirm: { required },
-      },
-    };
-  },
 };
 </script>
 
@@ -114,12 +119,7 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-form{
-  
+form {
   width: 400px;
 }
-
-
-
-
 </style>
