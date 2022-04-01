@@ -1,4 +1,5 @@
 <template>
+<div>
   <h1 class="hero2 italic">Gestion des citations</h1>
   <main>
     <h1>Nombre : {{ count }}</h1>
@@ -23,7 +24,7 @@
       <li v-for="elem in list" :key="elem" class="take-parent-width">
         <div class="take-parent-width">
           <h5 class="bold">Auteur : {{ elem.author }}</h5>
-          <p class="font-italic" style="text-align: center">
+          <p class="italic text-center">
             "{{ elem.text }}"
           </p>
           <div class="btn-container">
@@ -66,6 +67,7 @@
     <!-- <button class="btn btn-danger" @click="flushQuotes">Effacer toutes les citations</button> -->
     <br /><br />
   </main>
+</div>
 </template>
 
 <script>
