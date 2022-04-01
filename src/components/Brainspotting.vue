@@ -44,7 +44,7 @@
         de libérer des ressources auto-thérapeutiques.
       </p>
       </section>
-      <button class="italic btn btn-primary btn-lg" @click="isMoreInfo = !isMoreInfo">
+      <button class="italic btn btn-primary btn-lg" @click="toggleVisibility">
         Pour en savoir plus
       </button>
       <br><br>
@@ -161,7 +161,12 @@ export default {
     return {
       isMoreInfo: false,
     };
-  }, 
+  },
+    methods: {
+      toggleVisibility() {
+        this.isMoreInfo = !this.isMoreInfo;
+      }
+    }
 };
 </script>
 
