@@ -30,13 +30,13 @@
             <input
               type="password"
               class="form-control"
-              placeholder="Password"
+              placeholder="Mot de passe"
               v-model="state.password.value"
             />
+            </div>
             <span v-if="v$.password.value.$error">
               {{ v$.password.value.$errors[0].$message }}
             </span>
-          </div>
           <br />
         </form>
         <button class="btn btn-primary" @click="submitForm">Envoyer</button>
