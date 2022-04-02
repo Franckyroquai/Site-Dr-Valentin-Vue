@@ -181,10 +181,10 @@ li {
   text-align: left;
 }
 body {
-  /* background-image: url("../../public/assets/Images/ciel2.jpeg");
-    height: auto;
-    background-position: center;
-    background-size: cover; */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
 }
 img {
   margin-bottom: 15px;
@@ -230,7 +230,6 @@ img {
   margin-top: -125px;
   margin-right: -440px;
   animation: slidein 2000ms forwards;
-  /* animation-timing-function: ease-in-out; */
 }
 @keyframes slidein {
   0% {
@@ -247,10 +246,6 @@ img {
     margin-right: 0px;
   }
 }
-/* .bord{
-border: 2px solid rgb(246, 243, 243);
-list-style-type: disc;
-} */
 .hero {
   width: 100%;
   margin-bottom: 20px;
