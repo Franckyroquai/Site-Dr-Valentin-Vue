@@ -44,6 +44,7 @@
         de libérer des ressources auto-thérapeutiques.
       </p>
       </section>
+      <br>
       <button class="italic btn btn-primary btn-lg" @click="toggleVisibility">
         Pour en savoir plus
       </button>
@@ -103,9 +104,6 @@
           » (pas plus que le patient d’ailleurs). Il doit veiller à laisser le cerveau
           trouver l’issue tout seul.
         </p>
-        </article>
-        </section>
-        <article class="bg1">
         <p>
           Malgré sa dimension neurophysiologique, le BRAINSPOTTING est un processus
           hautement relationnel. Le thérapeute BRAINSPOTTING adopte une posture bien
@@ -117,12 +115,19 @@
           l’expérience vécue dans son corps par le patient sans le quitter du regard, son
           rôle étant de repérer l’activation.
         </p>
+        </article>
+        </section>
+        <br>
+        <article class="bg1">
         <p class="italic bold">
           L’efficacité du BRAINSPOTTING reposerait ainsi sur trois processus qui se
           potentialisent : l’accès au cerveau émotionnel et au corps, combiné à la pleine
           conscience focalisée et à un accordage profond entre le thérapeute et le
           patient. D’où l’importance de se sentir en confiance avec son thérapeute…
         </p>
+        </article>
+        <section class="premier">
+        <article class="flex-item w50 bg1">
         <p>
           Comme pour l’EMDR, cette méthode est efficace pour traiter non seulement des
           traumatismes graves, récents ou anciens, mais au-delà, bien d’autres
@@ -136,6 +141,13 @@
           sportives, artistiques et d’accompagner les situations où il faut donner le
           meilleur de soi-même (concours, examen ou tout autre challenge).
         </p>
+        </article>
+        <article class="flex-item img w40">
+        <img src="../../public/assets/Images/brainspotting2.jpeg" alt="Image de cerveau" />
+        </article>
+        </section>
+        <br>
+        <article class="bg1">
         <h2 class="italic">En combien de séances ?</h2>
         <p>
           La durée de la thérapie peut aller de quelques séances à …quelques années, selon
@@ -150,6 +162,7 @@
         </article>
       </section>
     </article>
+    <br>
   </main>
 </div>
 </template>
