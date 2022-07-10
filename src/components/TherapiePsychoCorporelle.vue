@@ -54,7 +54,9 @@
         <h3 class="author">(J. LACAN)</h3>
         <h2 class="italic">… et le corps en est son creuset.</h2>
         <br />
-        <article class="bg1">
+        <article class="premier">
+          <section class="flex-item w50 bg1">
+        
           <p>
             Toute thérapie passant par le corps s’appuie sur un principe cher à
             Wilhelm Reich, selon lequel les souvenirs douloureux sont refoulés
@@ -83,6 +85,25 @@
               alors se dénouer en douceur</span
             >. Le corps s’en trouve apaisé et ressourcé.
           </p>
+          </section>
+          <section class="flex-item img w50">
+        <img
+          src="../../public/assets/Images/belles-fleurs.jpg"
+          class="hero"
+          alt="Pierres empilées devant la mer"
+        />
+      </section>
+    </article>
+    <br>
+    <article class="premier">
+      <section class="flex-item img w40">
+        <img
+          src="../../public/assets/Images/zen.jpg"
+          class="hero"
+          alt="Pierres empilées devant la mer"
+        />
+      </section>
+      <section class="flex-item w50 bg1">
           <p>
             <span class="bold"
               >Permettre à la personne une réappropriation progressive de
@@ -125,13 +146,16 @@
             simples telles que la respiration consciente, la cohérence
             cardiaque, L’EFT…, participant toutes, de ce que j’ai envie
             d’appeler une écologie de l’Etre, car synonymes de bien-être, de
-            paix intérieure, d’un prendre soin de soi- donc de vous-
+            paix intérieure, d’un prendre soin de soi -donc de vous-
             <span class="bold">"en corps"</span> et toujours .
           </p>
+          </section>
+          </article>
+          </section>
         </article>
-      </section>
-    </article>
+      
   </main>
+  <br>
 </div>
 </template>
 
