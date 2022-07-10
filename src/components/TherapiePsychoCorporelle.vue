@@ -90,7 +90,7 @@
         <img
           src="../../public/assets/Images/belles-fleurs.jpg"
           class="hero"
-          alt="Pierres empilées devant la mer"
+          alt="Fleurs roses posées sur des galets gris"
         />
       </section>
     </article>
@@ -100,7 +100,7 @@
         <img
           src="../../public/assets/Images/zen.jpg"
           class="hero"
-          alt="Pierres empilées devant la mer"
+          alt="Logo yin yang"
         />
       </section>
       <section class="flex-item w50 bg1">
