@@ -72,6 +72,7 @@
         />
       </article>
     </section>
+    <br>
   </main>
 </div>
 </template>
