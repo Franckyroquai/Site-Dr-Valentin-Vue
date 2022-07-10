@@ -61,7 +61,8 @@
         Le thérapeute devra donc identifier la fonction du symptôme dans le
         système : que permet-il, qu’empêche-t-il… ?
       </p>
-      <section class="bg1">
+      <section class="premier">
+        <article class="flex-item w40 bg1">
         <p>
           Il aura ainsi pour rôle d’analyser la communication, d’en comprendre
           les rouages.
@@ -77,6 +78,8 @@
           réguler ses dysfonctionnements adaptatifs afin de susciter de
           nouvelles ressources et d’ouvrir de nouvelles perspectives.
         </p>
+        </article>
+        <article class="flex-item w50 bg1">
         <p>
           Favoriser les échanges, l’expression des émotions, accompagner
           l’évolution de la communication entre chacun des membres, donnera
@@ -91,6 +94,10 @@
           de se (ré)approprier une forme d’autonomie psychique, le sentiment
           d’exister sans être étouffé par son appartenance au système.
         </p>
+        </article>
+        </section>
+        <br>
+        <section class="bg1">
         <p>
           L’approche systémique familiale fait partie des
           <span class="bold">thérapies brèves</span>. La durée moyenne d’un
@@ -98,8 +105,9 @@
           sûr, cela est difficile à estimer car adapté à la situation forcément
           singulière de chaque famille.
         </p>
-      </section>
+        </section>
     </article>
+    <br>
   </main>
 </div>
 </template>
