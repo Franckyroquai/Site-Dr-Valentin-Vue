@@ -37,14 +37,16 @@
           >
         </p>
       </section>
+      <br>
       <button
         class="italic btn btn-primary btn-lg"
         @click="toggleVisibility"
       >
         Pour en savoir plus
       </button>
+      <br><br>
       <section v-if="isMoreInfo">
-        <br />
+        <br>
         <article class="bg1">
           <p>
             Le processus psychique de traitement activé par cette méthode est un
