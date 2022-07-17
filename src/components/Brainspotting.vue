@@ -68,7 +68,8 @@
         <br>
         <h2 class="italic">Déroulement d’une séance</h2>
         <br>
-        <article class="bg1">
+        <section class="premier">
+        <article class="flex-item w50 bg1">
         <p>
           Le patient est invité à décrire son problème, en étant présent à ce qui se passe
           dans son corps. Puis, aidé du thérapeute, il recherche le « spot » visuel où il
@@ -78,15 +79,23 @@
           focalisée. Il lui est demandé de vivre l’expérience sans rien chercher, sans
           essayer d’établir des liens, simplement dans l’observation du processus. Une
           musique, associée à des sons bi-latéraux, crée une sorte de cocon rassurant et
-          vient soutenir le traitement. Certains patients voient alors des images,
-          voyagent dans des souvenirs ou des pensées.
+          vient soutenir le traitement.
         </p>
+        </article>
+        <article class="flex-item w40 bg1">
+          <p>
+            Certains patients voient alors des images,
+          voyagent dans des souvenirs ou des pensées.
+          </p>
         <p>
-          D’autres ont principalement des sensations corporelles. En général, à la fin de
+          D’autres ont principalement des sensations corporelles.
+          </p>
+          <p>En général, à la fin de
           la séance, le patient se sent plus calme et a pris de la distance par rapport à
           son problème.
         </p>
         </article>
+        </section>
         <br>
         <h2 class="italic">Et le thérapeute là-dedans ?</h2>
         <br />
