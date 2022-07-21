@@ -3,92 +3,82 @@
   <h1 class="hero2 i">Mentions légales</h1>
 
   <main>
+    <br>
     <article>
-      <p>
-        Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21
-        juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., nous portons
-        à la connaissance des utilisateurs et visiteurs du site : www.vvalentin.com les
-        informations suivantes :
-      </p>
+      
       <h1>Mentions Légales</h1>
-      <p>Statut du propriétaire : <span class="g">Profession Libérale</span></p>
+      <br>
+      <h2 class="underline">
+        Edition du site 
+      </h2>
       <p>
-        Le Propriétaire est :
-        <span class="g"
-          >Véronique Valentin, Psychologue, Psychothérapeute et Coach à Hyères</span
-        >
-      </p>
-      <p>N° Adéli :</p>
-      <p>N° Siret :</p>
-      <p>Adresse postale du propriétaire :</p>
-      <p>Le Responsable de la publication est : Véronique Valentin.</p>
-      <p>Le responsable de la publication est une personne physique.</p>
-      <p>L’hébergeur du site est :</p>
-      <h2>Présentation et principe :</h2>
-      <p>
-        Est désigné ci-après : Utilisateur, tout internaute se connectant et utilisant le
-        site susnommé : www.vvalentin.com.
+        En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet <span class="bold">https://www.veroniquevalentin.fr</span> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi:
       </p>
       <p>
-        Véronique Valentin s’efforce de fournir sur le site www.vvalentin.com des
-        informations les plus précises possibles (sous réserve de modifications apportées
-        depuis leur mise en ligne), mais ne saurait garantir l’exactitude, la complétude
-        et l’actualité des informations diffusées sur son site, qu’elles soient de son
-        fait ou du fait des tiers partenaires qui lui fournissent ces informations. En
-        conséquence, l’utilisateur reconnaît utiliser ces informations données (à titre
-        indicatif, non exhaustives et susceptibles d’évoluer) sous sa responsabilité
-        exclusive.
-      </p>
-      <h2>Accessibilité</h2>
-      <p>
-        Le site www.vvalentin.com est par principe accessible aux utilisateurs 24/24h,
-        7/7j, sauf interruption, programmée ou non, pour les besoins de sa maintenance ou
-        en cas de force majeure. En cas d’impossibilité d’accès au service,
-        www.vvalentin.com s’engage à faire son maximum afin de rétablir l’accès au service
-        et s’efforcera alors de communiquer préalablement aux utilisateurs les dates et
-        heures de l’intervention. N’étant soumis qu’à une obligation de moyen,
-        www.vvalentin.com ne saurait être tenu pour responsable de tout dommage, quelle
-        qu’en soit la nature, résultant d’une indisponibilité du service.
-      </p>
-      <h2>Propriété intellectuelle :</h2>
-      <p>
-        Véronique Valentin est propriétaire exclusif de tous les droits de propriété
-        intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur
-        le site, tant sur la structure que sur les textes, images, graphismes, logo,
-        icônes, sons, logiciels. Toute reproduction totale ou partielle du site
-        www.vvalentin.com, représentation, modification, publication, adaptation totale ou
-        partielle de l’un quelconque de ces éléments, quel que soit le moyen ou le procédé
-        utilisé, est interdite, sauf autorisation écrite préalable de Véronique Valentin,
-        à défaut elle sera considérée comme constitutive d’une contrefaçon et passible de
-        poursuite conformément aux dispositions des articles L.335-2 et suivants du Code
-        de Propriété Intellectuelle.
-      </p>
-      <h2>Liens hypertexte et cookies</h2>
-      <p>
-        Le site www.vvalentin.com contient un certain nombre de liens hypertextes vers
-        d’autres sites (partenaires, informations …) mis en place avec l’autorisation de
-        Véronique Valentin. Cependant, Véronique Valentin n’a pas la possibilité de
-        vérifier l’ensemble du contenu des sites ainsi visités et décline donc toute
-        responsabilité de ce fait quand aux risques éventuels de contenus illicites.
+        <span class="bold">Propriétaire du site :</span> V.Valentin PSY CONSEIL - Contact : VValentin.pro@gmail.com - <span style="font-family: arial, sans-serif"> 06 86 97 86 13</span> - Adresse : 7 rue Castueil 83400 Hyères.
       </p>
       <p>
-        L’utilisateur est informé que lors de ses visites sur le site www.vvalentin.com,
-        un ou des cookies sont susceptibles de s’installer automatiquement sur son
-        ordinateur par l’intermédiaire de son logiciel de navigation. Un cookie est un
-        bloc de données qui ne permet pas d’identifier l’utilisateur, mais qui enregistre
-        des informations relatives à la navigation de celui-ci sur le site.
+        <span class="bold">Identification de l'entreprise : </span>SASU V.Valentin PSY CONSEIL au capital social de 3000€ - SIREN : 801836248 - RCS : Toulon B 801 836 248 - Numéro Individuel TVA : FR 33 801836248 - Adresse postale : 7 rue Castueil 83400 Hyères
       </p>
       <p>
-        Le paramétrage du logiciel de navigation permet d’informer de la présence de
-        cookie et éventuellement, de la refuser de la manière décrite à l’adresse suivante
-        :
-        <a href="http://www.cnil.fr" target="_blank">www.cnil.fr.</a> L’utilisateur peut
-        toutefois configurer le navigateur de son ordinateur pour refuser l’installation
-        des cookies, sachant que le refus d’installation d’un cookie peut entraîner
-        l’impossibilité d’accéder à certains services. Pour tout blocage des cookies,
-        tapez dans votre moteur de recherche : blocage des cookies sous le nom de votre
-        navigateur (Internet Explorer, Firefox, Chrome, Safari, Opéra, etc..) et suivez
-        les instructions en fonction de votre version.
+        <span class="bold">Directeur de la publication :</span> Véronique Valentin - Contact: 06 86 97 86 13
+      </p>
+      <p>
+        <span class="bold">Hébergeur :</span> OVH SAS - 2 rue Kellermann - BP 80157 - 59053 Roubaix Cedex 1 - Téléphone : 1007 
+      </p>
+      <h2 class="underline">
+        Propriété intellectuelle et contrefaçons
+      </h2>
+      <p>
+       <span class="bold">V.Valentin PSY CONSEIL</span> est propriétaire des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, notamment : les textes, les images, les graphismes, le logo, les icônes, …
+      </p>
+      <p>
+        Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de l’entreprise <span class="bold">V.Valentin PSY CONSEIL</span>.
+      </p>
+      <p>
+        Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.
+      </p>
+       <h2 class="underline">
+        Limitations de responsabilité 
+      </h2>
+      <p>
+        <span class="bold">V.Valentin PSY CONSEIL</span> ne pourra être tenu pour responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site <span class="bold">https://www.veroniquevalentin.fr</span>.
+      </p>
+      <p>
+        <span class="bold">V.Valentin PSY CONSEIL</span> décline toute responsabilité quant à l’utilisation qui pourrait être faite des informations et contenus présents sur <span class="bold">https://www.veroniquevalentin.fr</span>.
+      </p>
+      <p>
+        <span class="bold">V.Valentin PSY CONSEIL</span> s’engage à sécuriser au mieux le site <span class="bold">https://www.veroniquevalentin.fr</span>, cependant sa responsabilité ne pourra être mise en cause si des données indésirables sont importées et installées sur son site à son insu.
+      </p>
+      <h2 class="underline">
+        Liens hypertextes et cookies
+      </h2>
+      <p>
+        Le site <span class="bold">https://www.veroniquevalentin.fr</span> contient des liens hypertextes vers d’autres sites et dégage toute responsabilité à propos de ces liens externes ou des liens créés par d’autres sites vers <span class="bold">https://www.veroniquevalentin.fr</span>.
+      </p>
+      <p>
+        La navigation sur le site <span class="bold">https://www.veroniquevalentin.fr</span> est susceptible de provoquer l’installation de cookie(s) sur l’ordinateur de l’utilisateur.
+      </p>
+      <p>
+        Un "cookie" est un fichier de petite taille qui enregistre des informations relatives à la navigation d’un utilisateur sur un site. Les données ainsi obtenues permettent d'obtenir des mesures de fréquentation, par exemple.
+      </p>
+      <p>
+        Vous avez la possibilité <span class="bold">d’accepter ou de refuser les cookies</span> en modifiant les paramètres de votre navigateur. Aucun cookie ne sera déposé sans votre consentement.
+      </p>
+      <p>
+        Les cookies sont enregistrés pour une durée maximale de 1 mois.
+      </p>
+      <h2 class="underline">
+        Flux RSS
+      </h2>
+      <p>
+        Les flux RSS sont exclusivement destinés aux visiteurs du site pour une utilisation personnelle et ne sauraient en aucun cas servir à alimenter d’autres sites, sauf autorisation écrite préalable de <span class="bold">www.veroniquevalentin.fr</span>.
+      </p>
+      <h2 class="underline">
+        Droit applicable et attribution de juridiction
+      </h2>
+      <p>
+        Tout litige en relation avec l’utilisation du site <span class="bold">https://www.veroniquevalentin.fr</span> est soumis au droit français. En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de <span class="bold">Toulon</span>.
       </p>
     </article>
   </main>
