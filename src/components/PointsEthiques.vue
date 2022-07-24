@@ -5,14 +5,14 @@
     <br />
     <br />
     <section class="premier">
-      <article class="flex-item img w35">
+      <article class="flex-item img w40">
         <img
-          src="../../public/assets/Images/deontologie.png"
+          src="../../public/assets/Images/arbre.jpg"
           class="hero"
           alt="dossier avec inscription déontologie"
         />
       </article>
-      <article class="flex-item w60 bg1">
+      <article class="flex-item w50 bg1">
         <p>
           Un <span class="bold">espace de créativité et de confiance,</span> où
           vous pouvez vous raconter et vous projeter, en y étant reconnu(e) pour
