@@ -6,8 +6,8 @@
     <h2>Une approche corporelle douce</h2>
     <br />
     <img
-      src="../../public/assets/Images/CorpsAccord2.jpg"
-      width="300"
+      src="../../public/assets/Images/corpsAccord.jpg"
+      width="400"
       alt="Femme qui écarte les bras face au soleil"
     />
 
@@ -86,11 +86,11 @@
             >. Le corps s’en trouve apaisé et ressourcé.
           </p>
           </section>
-          <section class="flex-item img w50">
+          <section class="flex-item img w40">
         <img
-          src="../../public/assets/Images/belles-fleurs.jpg"
+          src="../../public/assets/Images/jardinZen.jpg"
           class="hero"
-          alt="Fleurs roses posées sur des galets gris"
+          alt="mini bac à sable avec galets gris et mini rateau"
         />
       </section>
     </article>
@@ -98,7 +98,7 @@
     <article class="premier">
       <section class="flex-item img w40">
         <img
-          src="../../public/assets/Images/zen.jpg"
+          src="../../public/assets/Images/yin-yang.png"
           class="hero"
           alt="Logo yin yang"
         />
