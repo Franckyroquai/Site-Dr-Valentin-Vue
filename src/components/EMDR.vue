@@ -4,7 +4,7 @@
   <main>
     <br />
     <a href="https://www.emdr-france.org/" target="_blank">
-      <img src="../../public/assets/Images/EMDR.jpg" alt="Image d'oeil" />
+      <img src="../../public/assets/Images/EMDR.jpg" width="400" alt="Image d'oeil" />
     </a>
     <article>
       <br />
@@ -94,6 +94,7 @@
             </p> 
         </section>
         </article>
+        <br>
         <h2 class="italic bold">Comment se passe une séance de traitement EMDR ?</h2>
         <br />
         <h3 class="bold">Des séances de préparation préalables</h3>
