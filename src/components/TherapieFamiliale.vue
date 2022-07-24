@@ -3,12 +3,6 @@
   <h1 class="hero2 italic">La thérapie familiale</h1>
   <main>
     <br />
-    <img
-      src="../../public/assets/Images/famille6.jpg"
-      width="300"
-      alt="Image de famille"
-    />
-
     <article>
       <br />
       <section class="premier">
@@ -41,7 +35,7 @@
         </article>
         <article class="flex-item img w30">
           <img
-            src="../../public/assets/Images/Famille3.jpg"
+            src="../../public/assets/Images/famille.jpg"
             width="300"
             alt="Image de famille devant un coucher de soleil"
           />
@@ -65,7 +59,15 @@
         Ne laissez pas votre famille s’embourber dans les difficultés...
       </h2>
       <br />
-      <section class="bg1">
+      <article class="premier">
+        <section class="flex-item img w40">
+          <img
+            src="../../public/assets/Images/famille6.jpg"
+            width="300"
+            alt="Image de famille devant un coucher de soleil"
+          />
+        </section>
+      <section class="flex-item w50 bg1">
         <p>
           Au contraire, le moment est venu de vous mettre tous ensemble au
           travail, pour changer un système relationnel inopérant voire nocif et
@@ -94,6 +96,8 @@
           avec un espacement de 2 à 3 semaines entre les séances.
         </p>
       </section>
+      </article>
+      <br>
     </article>
   </main>
 </div>
