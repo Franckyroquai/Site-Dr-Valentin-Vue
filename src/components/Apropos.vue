@@ -33,14 +33,15 @@
           relaxation.
         </p>
       </article>
-      <article class="flex-item img w35">
+      <article class="flex-item img w40">
         <img
-          src="../../public/assets/Images/Jung.jpg"
+          src="../../public/assets/Images/etudes.jpg"
           class="hero"
           alt="Karl Jung fumant sa pipe"
         />
       </article>
     </section>
+    <br>
     <article class="bg1">
       <p>
         Elle n’a fait que s’agrandir depuis, avec de nouvelles pratiques
