@@ -38,7 +38,7 @@
           <img
             src="../../public/assets/Images/chemin.jpg"
             class="hero"
-            alt="panneau autoroutier avec des problèmes à gauche et à droite, la psychothérapie au centre"
+            alt="panneau avec stress à gauche et relax à droite"
           />
         </article>
       </section>
@@ -57,7 +57,15 @@
         </ul>
       </section>
       <br />
-      <section class="bg1">
+      <article class="premier">
+        <section class="flex-item w40">
+          <img
+            src="../../public/assets/Images/femme.jpg"
+            class="hero"
+            alt="panneau avec stress à gauche et relax à droite"
+          />
+        </section>
+      <section class="flex-item w50 bg1">
         <h3>
           En vous lançant dans ce voyage thérapeutique vous vous donnez
           l’opportunité de :
@@ -74,6 +82,7 @@
           </li>
         </ul>
       </section>
+      </article>
       <br />
       <section class="bg1">
         <p class="bold">
