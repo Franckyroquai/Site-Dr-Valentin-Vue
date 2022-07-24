@@ -33,11 +33,11 @@
           mieux, vers un plus d’Etre.
         </p>
       </article>
-      <article class="flex-item img w25">
+      <article class="flex-item img w40">
         <img
-          src="../../public/assets/Images/Pierres.jpg"
+          src="../../public/assets/Images/coeurs.jpg"
           class="hero"
-          alt="Pierres empilées devant la mer"
+          alt="signe du Yin et du Yang"
         />
       </article>
     </section>
@@ -48,7 +48,7 @@
     <h3 class="author">Lao Tseu</h3>
     <br />
     <section class="premier">
-      <article class="flex-item img w30">
+      <article class="flex-item img w40">
         <img
           src="../../public/assets/Images/lotus.jpg"
           class="hero"
@@ -200,7 +200,7 @@ img {
   font-style: italic;
 }
 .parallax {
-  background-image: url(../../public/assets/Images/Pilat.png);
+  background-image: url(../../public/assets/Images/Pilat.jpg);
   min-height: 40rem;
   background-attachment: fixed;
   background-position: center;
