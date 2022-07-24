@@ -5,14 +5,14 @@
     <br />
     <h2 class="italic">
       "Dans un couple, l’important n'est pas de vouloir rendre l'autre heureux,
-      mais c'est de se rendre heureux et d'offrir ce bonheur à l'autre."
+      mais de se rendre heureux et d'offrir ce bonheur à l'autre."
     </h2>
     <br />
     <article>
       <img
-        src="../../public/assets/Images/TherapieCouple.jpg"
-        width="300"
-        alt="Image de couple qui s'embrasse en riant"
+        src="../../public/assets/Images/couple2.jpg"
+        width="400"
+        alt="Image de couple qui se tient la main"
       />
       <br /><br />
       <section class="bg1">
@@ -60,7 +60,7 @@
             src="../../public/assets/Images/couple3.jpg"
             class="hero"
             width="300px"
-            alt="couple qui marche avec un chien au bord de la mer"
+            alt="couple assis devant un canyon"
           />
           <p class="italic bold">
             La thérapie de couple ne s’adresse pas qu’aux couples qui sont au
@@ -79,7 +79,7 @@
           <img
             src="../../public/assets/Images/couple.jpg"
             class="hero"
-            alt="couple qui marche au bord de la meren se tenant la main"
+            alt="couple qui marche au bord de la mer en se tenant la main"
           />
         </article>
 
