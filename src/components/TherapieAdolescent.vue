@@ -9,7 +9,8 @@
     <h3 class="author">Kesemberg</h3>
     <br />
     <img
-      src="../../public/assets/Images/Ado.jpg"
+      src="../../public/assets/Images/ado.jpg"
+       width="400"
       alt="Adolescents qui regardent leur téléphones"
     />
     <article>
@@ -51,7 +52,7 @@
         </article>
         <article class="flex-item img w40">
           <img
-            src="../../public/assets/Images/Phare3.jpeg"
+            src="../../public/assets/Images/skate.jpg"
             class="hero"
             alt="vague qui s'écrase sur un phare"
           />
