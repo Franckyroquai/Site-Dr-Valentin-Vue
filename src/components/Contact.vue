@@ -22,14 +22,14 @@
         <article class="flex-item img w40">
           <img
             src="../../public/assets/Images/SalleAttente.jpg"
-            width="300"
+            width="400"
             alt="Accueil salle s'attente"
           />
         </article>
         <article class="flex-item img w40">
           <img
             src="../../public/assets/Images/CabinetInterieur.jpg"
-            width="300"
+            width="400"
             alt="Salle de thérapie du cabinet"
           />
         </article>
@@ -50,7 +50,7 @@
       </section>
       <img
         src="../../public/assets/Images/CabinetExterieur.jpg"
-        width="300"
+        width="400"
         alt="Cabinet extérieur"
       />
 
