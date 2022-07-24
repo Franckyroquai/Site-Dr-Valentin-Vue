@@ -10,9 +10,9 @@
       <h3 class="author">Isabelle FILLIOSAT</h3>
       <br />
       <img
-        src="../../public/assets/Images/enfant2.jpg"
-        width="300"
-        alt="Petite fille escaladant une montagne tend la main vers une main adulte"
+        src="../../public/assets/Images/enfants.jpg"
+        width="400"
+        alt="enfants de dos tendant les mains vers le coucher du soleil"
       />
       <article>
         <br />
@@ -51,9 +51,9 @@
           </article>
           <article class="flex-item img w40">
             <img
-              src="../../public/assets/Images/pierres-zen.jpg"
+              src="../../public/assets/Images/enfant.jpg"
               class="hero"
-              alt="galets empliés sur du sable"
+              alt="enfant qui fait des gribouillis sur un cahier avec un sourire espiègle"
             />
           </article>
         </section>
