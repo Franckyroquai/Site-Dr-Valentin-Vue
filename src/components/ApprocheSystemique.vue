@@ -50,7 +50,7 @@
         </article>
         <article class="flex-item img w40">
           <img
-            src="../../public/assets/Images/pontdune.webp"
+            src="../../public/assets/Images/teddy.jpg"
             class="hero"
             alt="marches de la dune du pilat"
           />
