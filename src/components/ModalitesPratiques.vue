@@ -66,9 +66,10 @@
       </article>
       <article class="flex-item img w40">
         <img
-          src="../../public/assets/Images/teleconsultation.jpg"
+          src="../../public/assets/Images/teleconsultation.png"
           class="hero"
-          alt="dessin de femmes communiquant au travers d'un écran"
+          width=100px
+          alt="femme avec un ordinateur portable"
         />
       </article>
     </section>
