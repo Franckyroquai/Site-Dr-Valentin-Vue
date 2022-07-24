@@ -13,7 +13,7 @@
       <section class="premier">
         <article class="flex-item img w40">
           <img
-            src="../../public/assets/Images/diplome.jpg"
+            src="../../public/assets/Images/diplome.png"
             class="hero"
             alt="image de diplome et chapeau d'étudiant"
           />
