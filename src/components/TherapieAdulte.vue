@@ -62,7 +62,7 @@
           <img
             src="../../public/assets/Images/femme.jpg"
             class="hero"
-            alt="panneau avec stress à gauche et relax à droite"
+            alt="femme assise sur un ponton regardant l'horizon"
           />
         </section>
       <section class="flex-item w50 bg1">
