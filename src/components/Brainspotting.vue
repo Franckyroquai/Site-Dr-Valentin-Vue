@@ -102,7 +102,7 @@
         <section class="premier">
           
         <article class="flex-item img w40">
-        <img src="../../public/assets/Images/theraBrain.jpg" alt="Image de cerveau" />
+        <img src="../../public/assets/Images/theraBrain.jpg" alt="Image de deux êtres s'envoyant des ondes cérébrales" />
         </article>
         <article class="flex-item w50 bg1">
         <p>
@@ -152,7 +152,7 @@
         </p>
         </article>
         <article class="flex-item img w40">
-        <img src="../../public/assets/Images/brainspotting2.jpeg" alt="Image de cerveau" />
+        <img src="../../public/assets/Images/brainspotting2.jpeg" alt="Image de cerveau à travers un homme qui fixe un point vert avec ses yeux" />
         </article>
         </section>
         <br>
