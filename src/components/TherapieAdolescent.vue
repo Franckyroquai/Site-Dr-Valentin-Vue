@@ -11,7 +11,7 @@
     <img
       src="../../public/assets/Images/ado.jpg"
        width="400"
-      alt="Adolescents qui regardent leur téléphones"
+      alt="Adolescentes qui regardent leur téléphones"
     />
     <article>
       <br />
@@ -54,7 +54,7 @@
           <img
             src="../../public/assets/Images/skate.jpg"
             class="hero"
-            alt="vague qui s'écrase sur un phare"
+            alt="skateur de dos sur sa planche"
           />
         </article>
       </section>
