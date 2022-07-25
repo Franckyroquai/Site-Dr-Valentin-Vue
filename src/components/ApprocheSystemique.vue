@@ -52,7 +52,7 @@
           <img
             src="../../public/assets/Images/teddy.jpg"
             class="hero"
-            alt="marches de la dune du pilat"
+            alt="2 ours en peluche dans un fauteuil"
           />
         </article>
       </section>
