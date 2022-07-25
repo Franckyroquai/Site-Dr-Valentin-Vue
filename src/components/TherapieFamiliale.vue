@@ -37,7 +37,7 @@
           <img
             src="../../public/assets/Images/famille.jpg"
             width="300"
-            alt="Image de famille devant un coucher de soleil"
+            alt="Image de famille pêchant devant un coucher de soleil"
           />
         </article>
       </section>
@@ -64,7 +64,7 @@
           <img
             src="../../public/assets/Images/famille6.jpg"
             width="300"
-            alt="Image de famille devant un coucher de soleil"
+            alt="Image de famille au bord de la mer"
           />
         </section>
       <section class="flex-item w50 bg1">
