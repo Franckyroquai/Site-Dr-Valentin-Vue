@@ -9,7 +9,7 @@
         <img
           src="../../public/assets/Images/arbre.jpg"
           class="hero"
-          alt="dossier avec inscription déontologie"
+          alt="arbre devant un coucher de soleil dans la mer"
         />
       </article>
       <article class="flex-item w50 bg1">
