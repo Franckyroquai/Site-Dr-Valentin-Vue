@@ -37,7 +37,7 @@
         <img
           src="../../public/assets/Images/etudes.jpg"
           class="hero"
-          alt="Karl Jung fumant sa pipe"
+          alt="livre ouvert avec une tasse de café"
         />
       </article>
     </section>
