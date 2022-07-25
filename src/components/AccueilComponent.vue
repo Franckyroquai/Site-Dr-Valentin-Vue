@@ -37,7 +37,7 @@
         <img
           src="../../public/assets/Images/coeurs.jpg"
           class="hero"
-          alt="signe du Yin et du Yang"
+          alt="coeurs découpés dans du bois"
         />
       </article>
     </section>
@@ -201,7 +201,7 @@ img {
 }
 .parallax {
   background-image: url(../../public/assets/Images/Pilat.jpg);
-  min-height: 40rem;
+  min-height: 50rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
