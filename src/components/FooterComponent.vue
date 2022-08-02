@@ -11,7 +11,7 @@
             <!-- Adress Text-->
             <div class="adress-text mb-5">
               <div class="mb-0">7 rue Alexandre Castueil</div>
-              <div class="mb-0">Rez rez-de-chaussée</div>
+              <div class="mb-0">Rez-de-chaussée</div>
               <div class="mb-0">
                 <span style="font-family: arial, sans-serif">83400</span> Hyères
               </div>
@@ -40,14 +40,14 @@
                 >
               </div>
               <br />
-              <div class="mb-0">
+            <!--  <div class="mb-0">
                 <router-link v-if="!isUserLogged" to="/login"
                   >Espace administrateur</router-link
                 >
                 <router-link v-if="isUserLogged" to="/quotes-management"
                   >Espace administrateur</router-link
                 >
-              </div>
+              </div>-->
             </div>
           </div>
         </div>

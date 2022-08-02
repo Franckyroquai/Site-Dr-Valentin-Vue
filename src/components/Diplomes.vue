@@ -53,8 +53,8 @@
             <li>
               CERTIFICATS : <br />
               - Thérapie par l’image (IMTT)-IETSP Paris <br />
-              -TIPI ( Marseille) <br />
-              -Méthode des 2 points (R.Bartlett-F.Kinslow) <br />
+              - TIPI ( Marseille) <br />
+              - Méthode des 2 points (R.Bartlett-F.Kinslow) <br />
               - Langue des Signes (IVT Paris)
             </li>
           </ul>
@@ -64,11 +64,11 @@
       <br />
       <p class="bold">Approche humaniste, intégrative, systémique.</p>
       <br />
-      <h2 class="italic">Pour Quel public ?</h2>
+      <h2 class="italic">Pour quel public ?</h2>
       <br />
       <ul class="bg1 list">
         <li class="underline">
-          Enfants / Adolescents, Adultes / séniors, Couples / familles
+          Enfants / Adolescents, Adultes / Séniors, Couples / Familles
         </li>
         <li>
           <span class="underline">Sportifs de haut niveau :</span> Préparation mentale
@@ -93,12 +93,7 @@
         </li>
       </ul>
       <article class="bg1">
-        <p>
-          Membre de l’ Association
-          <a href="https://www.emdr-france.org/" target="_blank">
-            EMDR-France
-          </a>
-        </p>
+       
         <p>
           Membre de l’ IETSP ( Institut Européen des Thérapies
           Somato-Psychiques)
