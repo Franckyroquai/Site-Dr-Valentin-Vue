@@ -117,7 +117,7 @@
               </li>
               <li>
                 <router-link to="/therapie-de-couple" class="dropdown-item"
-                  >Thérapie de couple</router-link
+                  >Thérapie de Couple</router-link
                 >
               </li>
               <li>
