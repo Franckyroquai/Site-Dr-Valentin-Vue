@@ -2,20 +2,24 @@
 <div>
   <div class="parallax titre">
     <h1 class="italic">Véronique Valentin</h1>
-    <h2>Psychologue</h2>
+    <h2>Psychologue / Coaching de vie</h2>
   </div>
   <main>
-    <br />
-    <display-quote-component></display-quote-component>
-    <br />
-    <h1 class="italic">Bienvenue</h1>
-    <br />
+    <br /> <br>
     <h2 class="italic">
-      "J’ouvrirai une école de vie intérieure,<br />et j’écrirai sur la porte :
-      école d’art."
+      "Il y a un spectacle plus grand que la mer, <br> c'est le ciel.<br> <br>
+      Il y a un spectacle plus grand que le ciel, <br> c'est l'intérieur de l'âme."
     </h2>
-    <h3 class="author">Max Jacob</h3>
+
+    <!--
+    <display-quote-component></display-quote-component>
+    -->
+    
     <br />
+   <!--  <h1 class="italic">Bienvenue sur mon site</h1>
+   -->
+    <br />
+  
     <section class="premier">
       <article class="flex-item w50 bg1">
         <p>
@@ -43,7 +47,7 @@
     </section>
     <br />
     <h2 class="italic">
-      "Un voyage de mille lieux commence<br />toujours par un premier pas"
+      "Un voyage de mille lieux commence<br />toujours par un premier pas."
     </h2>
     <h3 class="author">Lao Tseu</h3>
     <br />
@@ -77,21 +81,21 @@
           <router-link to="/brainspotting" class="g">Brainspotting</router-link
           >, diverses approches en
           <router-link to="/therapie-psychocorporelle" class="g"
-            >thérapie PsychoCorporelle</router-link
+            >thérapie psycho-corporelle</router-link
           >
           et la
           <router-link to="/approche-systemique" class="g"
-            >pratique Systémique</router-link
+            >pratique systémique</router-link
           >.
         </p>
       </article>
     </section>
     <br />
-    <h2 class="italic">
-      "Le possible est juste un tout petit peu après l’impossible,<br />un seul
-      pas peut suffire pour le rencontrer"
+     <h2 class="italic">
+      "J’ouvrirai une école de vie intérieure,<br />et j’écrirai sur la porte :
+      école d’art."
     </h2>
-    <h3 class="author">J. Salomé</h3>
+    <h3 class="author">Max Jacob</h3>
     <br />
     <!-- <img
       src="../../public/assets/Images/balance.jpg"
@@ -130,7 +134,7 @@
           mes clients, petits et grands, en leur potentiel de croissance, de
           créativité, de réalisation. C’est dans ce cadre-là que j’intègre la
           <router-link to="/therapie-psychocorporelle" class="g"
-            >Dimension PsychoCorporelle</router-link
+            >dimension psycho-corporelle</router-link
           >
           de la personne, son vécu émotionnel, ses ressentis.
         </p>
@@ -156,7 +160,8 @@
 </div>
 </template>
 
-<script>
+<!--
+  <script>
 import DisplayQuoteComponent from "./DisplayQuoteComponent.vue";
 export default {
   components: {
@@ -165,6 +170,8 @@ export default {
   name: "AccueilComponent",
 };
 </script>
+-->
+
 
 <style>
 main {
@@ -211,7 +218,8 @@ img {
   justify-content: center;
   text-align: right;
   padding-right: 10%;
-  filter: opacity(80%) ;
+ filter: opacity(80%) ;
+  
 }
 .parallax2 {
   background-image: url(../../public/assets/Images/balance.jpg);
@@ -255,6 +263,7 @@ img {
   background-image: url(../../public/assets/Images/Pilatbandeau.png);
   background-position: center;
   background-size: cover;
+   filter: opacity(80%) ;
 
   padding: 2em;
   text-align: center;
