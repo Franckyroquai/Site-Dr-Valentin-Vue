@@ -11,6 +11,34 @@
         Brainspotting).
       </p>
       <br />
+       <h2 class="italic">Consultations à distance</h2>
+    <br />
+    <section class="premier">
+      <article class="flex-item w50 bg1">
+        <p>
+          Les consultations se font également en VISIO (en passant par
+          Gmail, Facetime, Zoom, Skype…).
+        </p>
+        <p>
+          La consultation à distance a l’avantage de rendre possible un travail
+          thérapeutique quelle que soit la situation.
+        </p>
+        <p>
+          Je vous invite à vous organiser pour ne pas être dérangé(e) pendant la
+          séance (téléphone, visites) et prévoyez de vous installer dans un
+          endroit où vous êtes à l'aise.
+        </p>
+      </article>
+      <article class="flex-item img w40">
+        <img
+          src="../../public/assets/Images/teleconsultation.png"
+          class="hero"
+          width=100px
+          alt="femme avec un ordinateur portable"
+        />
+      </article>
+    </section>
+    <br>
       <h2 class="italic">Honoraires</h2>
       <br />
       <section class="bg1">
@@ -46,34 +74,7 @@
       </section>
     </article>
     <br />
-    <h2 class="italic">Consultations à distance</h2>
-    <br />
-    <section class="premier">
-      <article class="flex-item w50 bg1">
-        <p>
-          Les consultations peuvent également se faire en VISIO (en passant par
-          Gmail, Zoom, Skype…).
-        </p>
-        <p>
-          La consultation à distance a l’avantage de rendre possible un travail
-          thérapeutique quelle que soit la situation.
-        </p>
-        <p>
-          Je vous invite à vous organiser pour ne pas être dérangé(e) pendant la
-          séance (téléphone, visites) et prévoyez de vous installer dans un
-          endroit où vous êtes à l'aise.
-        </p>
-      </article>
-      <article class="flex-item img w40">
-        <img
-          src="../../public/assets/Images/teleconsultation.png"
-          class="hero"
-          width=100px
-          alt="femme avec un ordinateur portable"
-        />
-      </article>
-    </section>
-    <br>
+    
   </main>
 </div>
 </template>
