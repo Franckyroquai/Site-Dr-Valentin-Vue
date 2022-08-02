@@ -101,7 +101,7 @@
         <p>
           L’approche systémique familiale fait partie des
           <span class="bold">thérapies brèves</span>. La durée moyenne d’un
-          traitement peut se situer entre 6 et quinze séances, même si, bien
+          traitement peut se situer entre <span style="font-family: arial, sans-serif">6</span> et <span style="font-family: arial, sans-serif">15</span> séances, même si, bien
           sûr, cela est difficile à estimer car adapté à la situation forcément
           singulière de chaque famille.
         </p>
