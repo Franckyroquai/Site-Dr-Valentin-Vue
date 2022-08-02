@@ -33,11 +33,11 @@
             </li>
           </ul>
         </article>
-        <article class="flex-item img w30">
+        <article class="flex-item img w40">
           <img
             src="../../public/assets/Images/famille.jpg"
-            width="300"
-            alt="Image de famille pêchant devant un coucher de soleil"
+            width="400"
+            alt="Image de famille dans un champ de blé devant un coucher de soleil"
           />
         </article>
       </section>
@@ -63,7 +63,7 @@
         <section class="flex-item img w40">
           <img
             src="../../public/assets/Images/famille6.jpg"
-            width="300"
+            width="400"
             alt="Image de famille au bord de la mer"
           />
         </section>
