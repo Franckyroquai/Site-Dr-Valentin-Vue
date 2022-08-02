@@ -69,7 +69,7 @@
         <span class="italic bold"
           >« qu’à côté des multiples problèmes de dysfonctionnements individuels
           et collectifs s’exprime et se développe toute une vie riche de sens et
-          de potentialités. »</span
+          de potentialités ».</span
         >
         ✨
       </p>
@@ -104,12 +104,13 @@
           champions d’une pensée intégrative qui concilie ce qui peut sembler
           parfois de l’ordre de l’inconciliable.
         </li>
-        <li>
+       <!--<li>
           et enfin mon formateur et Maître, à qui je dois d’en être où j’en suis
           aujourd’hui et qui a su donner à ma pratique et surtout à ma Vie un
           Souffle qui œuvre toujours en moi, souvent à mon insu et
           inlassablement me pousse vers tous les champs du possible.
         </li>
+       --> 
       </ul>
 
       <p>
