@@ -57,12 +57,6 @@
         Le site <span class="bold">https://www.veroniquevalentin.fr</span> contient des liens hypertextes vers d’autres sites et dégage toute responsabilité à propos de ces liens externes ou des liens créés par d’autres sites vers <span class="bold">https://www.veroniquevalentin.fr</span>.
       </p>
       <h2 class="underline">
-        Flux RSS
-      </h2>
-      <p>
-        Les flux RSS sont exclusivement destinés aux visiteurs du site pour une utilisation personnelle et ne sauraient en aucun cas servir à alimenter d’autres sites, sauf autorisation écrite préalable de <span class="bold">www.veroniquevalentin.fr</span>.
-      </p>
-      <h2 class="underline">
         Droit applicable et attribution de juridiction
       </h2>
       <p>
